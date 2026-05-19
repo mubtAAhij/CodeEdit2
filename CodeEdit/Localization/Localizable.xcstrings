@@ -11,6 +11,12 @@
             "state": "translated",
             "value": "Extensions"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensiones"
+          }
         }
       }
     },
@@ -22,6 +28,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Extensions Window"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ventana de Extensiones"
           }
         }
       }
@@ -35,6 +47,12 @@
             "state": "translated",
             "value": "What's New in CodeEdit"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novedades en CodeEdit"
+          }
         }
       }
     },
@@ -46,6 +64,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Release Notes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notas de la versión"
           }
         }
       }
@@ -59,6 +83,12 @@
             "state": "translated",
             "value": "Report an Issue"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reportar un problema"
+          }
         }
       }
     },
@@ -70,6 +100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "About CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de CodeEdit"
           }
         }
       }
@@ -83,6 +119,12 @@
             "state": "translated",
             "value": "Check for updates..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones..."
+          }
         }
       }
     },
@@ -94,6 +136,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Settings..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración..."
           }
         }
       }
@@ -107,6 +155,12 @@
             "state": "translated",
             "value": "Open Recent"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Recientes"
+          }
         }
       }
     },
@@ -119,6 +173,12 @@
             "state": "translated",
             "value": "Clear Menu"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar menú"
+          }
         }
       }
     },
@@ -127,6 +187,12 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor"
+          }
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
             "value": "Editor"
@@ -143,6 +209,12 @@
             "state": "translated",
             "value": "Structure"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estructura"
+          }
         }
       }
     },
@@ -154,6 +226,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Move line up"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover línea hacia arriba"
           }
         }
       }
@@ -167,6 +245,12 @@
             "state": "translated",
             "value": "Move line down"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover línea hacia abajo"
+          }
         }
       }
     },
@@ -178,6 +262,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Welcome to CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenido a CodeEdit"
           }
         }
       }
@@ -191,6 +281,12 @@
             "state": "translated",
             "value": "About CodeEdit"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de CodeEdit"
+          }
         }
       }
     },
@@ -202,6 +298,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Manage Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrar extensiones"
           }
         }
       }
@@ -215,6 +317,12 @@
             "state": "translated",
             "value": "Find"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar"
+          }
         }
       }
     },
@@ -226,6 +334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Find..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar..."
           }
         }
       }
@@ -239,6 +353,12 @@
             "state": "translated",
             "value": "Find and Replace..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar y reemplazar..."
+          }
         }
       }
     },
@@ -250,6 +370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Find Next"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar siguiente"
           }
         }
       }
@@ -263,6 +389,12 @@
             "state": "translated",
             "value": "Find Previous"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar anterior"
+          }
         }
       }
     },
@@ -274,6 +406,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Use Selection for Find"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar selección para buscar"
           }
         }
       }
@@ -287,6 +425,12 @@
             "state": "translated",
             "value": "Jump to Selection"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir a la selección"
+          }
         }
       }
     },
@@ -299,6 +443,12 @@
             "state": "translated",
             "value": "Tasks"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tareas"
+          }
         }
       }
     },
@@ -307,6 +457,12 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"%@\""
+          }
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
             "value": "\"%@\""
@@ -323,6 +479,12 @@
             "state": "translated",
             "value": "(No Selected Task)"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Ninguna tarea seleccionada)"
+          }
         }
       }
     },
@@ -334,6 +496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Run %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecutar %@"
           }
         }
       }
@@ -347,6 +515,12 @@
             "state": "translated",
             "value": "Stop %@"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener %@"
+          }
         }
       }
     },
@@ -358,6 +532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show %@ Output"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar salida de %@"
           }
         }
       }
@@ -371,6 +551,12 @@
             "state": "translated",
             "value": "Create Tasks"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crear Tareas"
+          }
         }
       }
     },
@@ -382,6 +568,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choose Task..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir tarea..."
           }
         }
       }
@@ -395,6 +587,12 @@
             "state": "translated",
             "value": "Manage Tasks..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrar tareas..."
+          }
         }
       }
     },
@@ -407,6 +605,12 @@
             "state": "translated",
             "value": "Source Control"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Control de Versiones"
+          }
         }
       }
     },
@@ -415,6 +619,12 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit..."
+          }
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
             "value": "Commit..."
@@ -431,6 +641,12 @@
             "state": "translated",
             "value": "Push..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
         }
       }
     },
@@ -439,6 +655,12 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
             "value": "Pull..."
@@ -455,6 +677,12 @@
             "state": "translated",
             "value": "Fetch Changes"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtener Cambios"
+          }
         }
       }
     },
@@ -466,6 +694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stage All Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparar Todos los Cambios"
           }
         }
       }
@@ -479,6 +713,12 @@
             "state": "translated",
             "value": "Failed To Stage Changes"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al preparar cambios"
+          }
         }
       }
     },
@@ -490,6 +730,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unstage All Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despreparar todos los cambios"
           }
         }
       }
@@ -503,6 +749,12 @@
             "state": "translated",
             "value": "Failed To Unstage Changes"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al despreparar cambios"
+          }
         }
       }
     },
@@ -511,6 +763,12 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cherry-Pick..."
+          }
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
             "value": "Cherry-Pick..."
@@ -527,6 +785,12 @@
             "state": "translated",
             "value": "Stash Changes..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hacer Stash de Cambios..."
+          }
         }
       }
     },
@@ -538,6 +802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Discard All Changes..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar todos los cambios..."
           }
         }
       }
@@ -551,6 +821,12 @@
             "state": "translated",
             "value": "Add Exisiting Remote..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar Remoto Existente..."
+          }
         }
       }
     },
@@ -562,6 +838,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Navigate"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegar"
           }
         }
       }
@@ -575,6 +857,12 @@
             "state": "translated",
             "value": "Reveal in Project Navigator"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en el navegador de proyecto"
+          }
         }
       }
     },
@@ -586,6 +874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reveal Changes in Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar cambios en el navegador"
           }
         }
       }
@@ -599,6 +893,12 @@
             "state": "translated",
             "value": "Open in Next Editor"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en el Siguiente Editor"
+          }
         }
       }
     },
@@ -610,6 +910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open in..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en…"
           }
         }
       }
@@ -623,6 +929,12 @@
             "state": "translated",
             "value": "Show Previous Tab"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Pestaña Anterior"
+          }
         }
       }
     },
@@ -634,6 +946,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Next Tab"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Pestaña Siguiente"
           }
         }
       }
@@ -647,6 +965,12 @@
             "state": "translated",
             "value": "Go Forward"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir Adelante"
+          }
         }
       }
     },
@@ -658,6 +982,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Go Back"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver"
           }
         }
       }
@@ -671,6 +1001,12 @@
             "state": "translated",
             "value": "New"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo"
+          }
         }
       }
     },
@@ -682,6 +1018,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir…"
           }
         }
       }
@@ -695,6 +1037,12 @@
             "state": "translated",
             "value": "Open Recent"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Recientes"
+          }
         }
       }
     },
@@ -706,6 +1054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Quickly"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Rápidamente"
           }
         }
       }
@@ -719,6 +1073,12 @@
             "state": "translated",
             "value": "Close Tab"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Pestaña"
+          }
         }
       }
     },
@@ -730,6 +1090,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Close Editor"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Editor"
           }
         }
       }
@@ -743,6 +1109,12 @@
             "state": "translated",
             "value": "Close Window"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Ventana"
+          }
         }
       }
     },
@@ -754,6 +1126,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Close Workspace"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Espacio de Trabajo"
           }
         }
       }
@@ -767,6 +1145,12 @@
             "state": "translated",
             "value": "Close Terminal"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Terminal"
+          }
         }
       }
     },
@@ -778,6 +1162,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Workspace Settings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración del espacio de trabajo"
           }
         }
       }
@@ -791,6 +1181,12 @@
             "state": "translated",
             "value": "Save"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
+          }
         }
       }
     },
@@ -802,6 +1198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Search Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Navegador de Búsqueda"
           }
         }
       }
@@ -815,6 +1217,12 @@
             "state": "translated",
             "value": "Font Size"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño de fuente"
+          }
         }
       }
     },
@@ -826,6 +1234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Increase"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar"
           }
         }
       }
@@ -839,6 +1253,12 @@
             "state": "translated",
             "value": "Decrease"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disminuir"
+          }
         }
       }
     },
@@ -850,6 +1270,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reset"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
           }
         }
       }
@@ -863,6 +1289,12 @@
             "state": "translated",
             "value": "Customize Toolbar..."
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizar barra de herramientas…"
+          }
         }
       }
     },
@@ -874,6 +1306,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Jump Bar"
           }
         }
       }
@@ -887,6 +1325,12 @@
             "state": "translated",
             "value": "Dim editors without focus"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenuar editors sin foco"
+          }
         }
       }
     },
@@ -898,6 +1342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hide Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Jump Bar"
           }
         }
       }
@@ -911,6 +1361,12 @@
             "state": "translated",
             "value": "Hide Navigator"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar navegador"
+          }
         }
       }
     },
@@ -922,6 +1378,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar navegador"
           }
         }
       }
@@ -935,6 +1397,12 @@
             "state": "translated",
             "value": "Show Inspector"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Inspector"
+          }
         }
       }
     },
@@ -946,6 +1414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hide Inspector"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Inspector"
           }
         }
       }
@@ -959,6 +1433,12 @@
             "state": "translated",
             "value": "Show Utility Area"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar área de utilidades"
+          }
         }
       }
     },
@@ -970,6 +1450,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hide Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar área de utilidades"
           }
         }
       }
@@ -983,6 +1469,12 @@
             "state": "translated",
             "value": "Show Toolbar"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar barra de herramientas"
+          }
         }
       }
     },
@@ -994,6 +1486,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hide Toolbar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar barra de herramientas"
           }
         }
       }
@@ -1007,6 +1505,12 @@
             "state": "translated",
             "value": "Show Command Palette"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Paleta de Comandos"
+          }
         }
       }
     },
@@ -1018,6 +1522,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Interface"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar interfaz"
           }
         }
       }
@@ -1031,6 +1541,12 @@
             "state": "translated",
             "value": "Hide Interface"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar interfaz"
+          }
         }
       }
     },
@@ -1042,6 +1558,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Navigators"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegadores"
           }
         }
       }
