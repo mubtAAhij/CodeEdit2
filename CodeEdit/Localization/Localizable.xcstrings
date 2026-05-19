@@ -1,0 +1,1050 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "window-commands.extensions.menu-title": {
+      "comment": "Extensions menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensions"
+          }
+        }
+      }
+    },
+    "window-commands.extensions.open-window": {
+      "comment": "Button to open extensions window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Extensions Window"
+          }
+        }
+      }
+    },
+    "window-commands.help.whats-new": {
+      "comment": "Menu item for what's new in CodeEdit",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New in CodeEdit"
+          }
+        }
+      }
+    },
+    "window-commands.help.release-notes": {
+      "comment": "Menu item for release notes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release Notes"
+          }
+        }
+      }
+    },
+    "window-commands.help.report-issue": {
+      "comment": "Menu item to report an issue",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report an Issue"
+          }
+        }
+      }
+    },
+    "window-commands.main.about-codeedit": {
+      "comment": "Menu item for About CodeEdit",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        }
+      }
+    },
+    "window-commands.main.check-for-updates": {
+      "comment": "Menu item to check for updates",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates..."
+          }
+        }
+      }
+    },
+    "window-commands.main.settings": {
+      "comment": "Menu item to open settings",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings..."
+          }
+        }
+      }
+    },
+    "window-commands.recent.menu-title": {
+      "comment": "Open Recent menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        }
+      }
+    },
+    "window-commands.recent.clear-menu": {
+      "comment": "Recent project menu clear button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Menu"
+          }
+        }
+      }
+    },
+    "window-commands.editor.menu-title": {
+      "comment": "Editor menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor"
+          }
+        }
+      }
+    },
+    "window-commands.editor.structure": {
+      "comment": "Structure submenu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Structure"
+          }
+        }
+      }
+    },
+    "window-commands.editor.move-line-up": {
+      "comment": "Move line up command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line up"
+          }
+        }
+      }
+    },
+    "window-commands.editor.move-line-down": {
+      "comment": "Move line down command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line down"
+          }
+        }
+      }
+    },
+    "window-commands.window.welcome": {
+      "comment": "Welcome window menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to CodeEdit"
+          }
+        }
+      }
+    },
+    "window-commands.window.about": {
+      "comment": "About window menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        }
+      }
+    },
+    "window-commands.window.manage-extensions": {
+      "comment": "Manage extensions window menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Extensions"
+          }
+        }
+      }
+    },
+    "window-commands.find.menu-title": {
+      "comment": "Find menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find"
+          }
+        }
+      }
+    },
+    "window-commands.find.find": {
+      "comment": "Find command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find..."
+          }
+        }
+      }
+    },
+    "window-commands.find.find-and-replace": {
+      "comment": "Find and replace command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find and Replace..."
+          }
+        }
+      }
+    },
+    "window-commands.find.find-next": {
+      "comment": "Find next occurrence command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Next"
+          }
+        }
+      }
+    },
+    "window-commands.find.find-previous": {
+      "comment": "Find previous occurrence command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Previous"
+          }
+        }
+      }
+    },
+    "window-commands.find.use-selection-for-find": {
+      "comment": "Use selection for find command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Selection for Find"
+          }
+        }
+      }
+    },
+    "window-commands.find.jump-to-selection": {
+      "comment": "Jump to selection command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jump to Selection"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.menu-title": {
+      "comment": "Tasks menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.quoted-task-name": {
+      "comment": "Quoted task name format",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"%@\""
+          }
+        }
+      }
+    },
+    "window-commands.tasks.no-selected-task": {
+      "comment": "No selected task placeholder",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(No Selected Task)"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.run-task": {
+      "comment": "Run task button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Run %@"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.stop-task": {
+      "comment": "Stop task button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop %@"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.show-output": {
+      "comment": "Show task output button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show %@ Output"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.create-tasks": {
+      "comment": "Create tasks button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Tasks"
+          }
+        }
+      }
+    },
+    "window-commands.tasks.choose-task": {
+      "comment": "Choose task menu label",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Task..."
+          }
+        }
+      }
+    },
+    "window-commands.tasks.manage-tasks": {
+      "comment": "Manage tasks button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Tasks..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.menu-title": {
+      "comment": "Source control menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source Control"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.commit": {
+      "comment": "Commit changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.push": {
+      "comment": "Push changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.pull": {
+      "comment": "Pull changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.fetch-changes": {
+      "comment": "Fetch changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fetch Changes"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.stage-all-changes": {
+      "comment": "Stage all changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stage All Changes"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.failed-to-stage-changes": {
+      "comment": "Failed to stage changes error title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Stage Changes"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.unstage-all-changes": {
+      "comment": "Unstage all changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unstage All Changes"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.failed-to-unstage-changes": {
+      "comment": "Failed to unstage changes error title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Unstage Changes"
+          }
+        }
+      }
+    },
+    "window-commands.source-control.cherry-pick": {
+      "comment": "Cherry-pick button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cherry-Pick..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.stash-changes": {
+      "comment": "Stash changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stash Changes..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.discard-all-changes": {
+      "comment": "Discard all changes button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard All Changes..."
+          }
+        }
+      }
+    },
+    "window-commands.source-control.add-existing-remote": {
+      "comment": "Add existing remote button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Exisiting Remote..."
+          }
+        }
+      }
+    },
+    "window-commands.navigate.menu-title": {
+      "comment": "Navigate menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigate"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.reveal-in-project-navigator": {
+      "comment": "Reveal in project navigator button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal in Project Navigator"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.reveal-changes-in-navigator": {
+      "comment": "Reveal changes in navigator button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal Changes in Navigator"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.open-in-next-editor": {
+      "comment": "Open in next editor button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Next Editor"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.open-in": {
+      "comment": "Open in button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in..."
+          }
+        }
+      }
+    },
+    "window-commands.navigate.show-previous-tab": {
+      "comment": "Show previous tab button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Previous Tab"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.show-next-tab": {
+      "comment": "Show next tab button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Next Tab"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.go-forward": {
+      "comment": "Go forward button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Forward"
+          }
+        }
+      }
+    },
+    "window-commands.navigate.go-back": {
+      "comment": "Go back button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Back"
+          }
+        }
+      }
+    },
+    "window-commands.file.new": {
+      "comment": "New file button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New"
+          }
+        }
+      }
+    },
+    "window-commands.file.open": {
+      "comment": "Open file button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open..."
+          }
+        }
+      }
+    },
+    "window-commands.file.open-recent": {
+      "comment": "Open recent menu",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        }
+      }
+    },
+    "window-commands.file.open-quickly": {
+      "comment": "Open quickly button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Quickly"
+          }
+        }
+      }
+    },
+    "window-commands.file.close-tab": {
+      "comment": "Close tab button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Tab"
+          }
+        }
+      }
+    },
+    "window-commands.file.close-editor": {
+      "comment": "Close editor button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Editor"
+          }
+        }
+      }
+    },
+    "window-commands.file.close-window": {
+      "comment": "Close window button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Window"
+          }
+        }
+      }
+    },
+    "window-commands.file.close-workspace": {
+      "comment": "Close workspace button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Workspace"
+          }
+        }
+      }
+    },
+    "window-commands.file.close-terminal": {
+      "comment": "Close terminal button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Terminal"
+          }
+        }
+      }
+    },
+    "window-commands.file.workspace-settings": {
+      "comment": "Workspace settings button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace Settings"
+          }
+        }
+      }
+    },
+    "window-commands.file.save": {
+      "comment": "Save button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "window-commands.view.open-search-navigator": {
+      "comment": "Open search navigator button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Search Navigator"
+          }
+        }
+      }
+    },
+    "window-commands.view.font-size": {
+      "comment": "Font size menu",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font Size"
+          }
+        }
+      }
+    },
+    "window-commands.view.font-size-increase": {
+      "comment": "Increase font size button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase"
+          }
+        }
+      }
+    },
+    "window-commands.view.font-size-decrease": {
+      "comment": "Decrease font size button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decrease"
+          }
+        }
+      }
+    },
+    "window-commands.view.font-size-reset": {
+      "comment": "Reset font size button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        }
+      }
+    },
+    "window-commands.view.customize-toolbar": {
+      "comment": "Customize toolbar button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customize Toolbar..."
+          }
+        }
+      }
+    },
+    "window-commands.view.show-jump-bar": {
+      "comment": "Show jump bar button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        }
+      }
+    },
+    "window-commands.view.dim-editors-without-focus": {
+      "comment": "Dim editors without focus toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-jump-bar": {
+      "comment": "Hide jump bar button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Jump Bar"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-navigator": {
+      "comment": "Hide navigator button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Navigator"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-navigator": {
+      "comment": "Show navigator button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Navigator"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-inspector": {
+      "comment": "Show/hide inspector button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inspector"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-inspector": {
+      "comment": "Hide inspector button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Inspector"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-utility-area": {
+      "comment": "Show/hide utility area button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Utility Area"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-utility-area": {
+      "comment": "Hide utility area button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Utility Area"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-toolbar": {
+      "comment": "Show/hide toolbar button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Toolbar"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-toolbar": {
+      "comment": "Hide toolbar button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Toolbar"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-command-palette": {
+      "comment": "Show command palette button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Command Palette"
+          }
+        }
+      }
+    },
+    "window-commands.view.show-interface": {
+      "comment": "Show/hide interface button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Interface"
+          }
+        }
+      }
+    },
+    "window-commands.view.hide-interface": {
+      "comment": "Hide interface button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Interface"
+          }
+        }
+      }
+    },
+    "window-commands.view.navigators": {
+      "comment": "Navigators menu",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigators"
+          }
+        }
+      }
+    }
+  }
+}
