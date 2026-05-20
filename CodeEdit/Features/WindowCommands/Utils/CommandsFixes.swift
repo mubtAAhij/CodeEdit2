@@ -22,7 +22,7 @@ extension NSMenuItem {
 
         fixAlternate(newValue)
 
-        if self.title == "Open Recent" {
+        if self.title == String(localized: "file.open-recent", defaultValue: "Open Recent", comment: "Menu item to open recent projects") {
             self.submenu = FileCommands.recentProjectsMenu.makeMenu()
         }
 
