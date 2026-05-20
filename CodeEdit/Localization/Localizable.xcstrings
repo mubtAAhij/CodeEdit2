@@ -1,0 +1,3198 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "find-navigator.indexing-progress": {
+      "comment": "Progress percentage for workspace indexing",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing %d%%"
+          }
+        }
+      }
+    },
+    "find-navigator.indexing-help": {
+      "comment": "Tooltip explaining indexing process and its impact on search results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing current workspace files for search. Searches performed while indexing may return incomplete results."
+          }
+        }
+      }
+    },
+    "source-control.no-remotes": {
+      "comment": "Message shown when repository has no remote servers configured",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No remotes"
+          }
+        }
+      }
+    },
+    "source-control.add-remote-button": {
+      "comment": "Button to add a remote server to the repository",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "status-bar.encoding.utf8": {
+      "comment": "Label for UTF-8 text encoding in status bar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UTF 8"
+          }
+        }
+      }
+    },
+    "status-bar.line-ending.lf": {
+      "comment": "Label for LF (Line Feed) line ending in status bar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LF"
+          }
+        }
+      }
+    },
+    "extensions.menu-title": {
+      "comment": "Menu title for extensions",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensions"
+          }
+        }
+      }
+    },
+    "extensions.open-window": {
+      "comment": "Menu item to open the extensions window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Extensions Window"
+          }
+        }
+      }
+    },
+    "help.whats-new": {
+      "comment": "Help menu item to show what's new in this version",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New in CodeEdit"
+          }
+        }
+      }
+    },
+    "help.release-notes": {
+      "comment": "Help menu item to show release notes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release Notes"
+          }
+        }
+      }
+    },
+    "help.report-issue": {
+      "comment": "Help menu item to report a bug or issue",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report an Issue"
+          }
+        }
+      }
+    },
+    "file.open-recent": {
+      "comment": "Menu item to open recent projects",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        }
+      }
+    },
+    "extensions.window-title": {
+      "comment": "Title of the extensions window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensions"
+          }
+        }
+      }
+    },
+    "extensions.select-prompt": {
+      "comment": "Prompt to select an extension from the list",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select an extension"
+          }
+        }
+      }
+    },
+    "extensions.multiple-selected": {
+      "comment": "Number of extensions selected",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "main.about-codeedit": {
+      "comment": "About CodeEdit menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        }
+      }
+    },
+    "main.check-updates": {
+      "comment": "Check for updates menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates..."
+          }
+        }
+      }
+    },
+    "main.settings": {
+      "comment": "Settings menu item",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings..."
+          }
+        }
+      }
+    },
+    "extensions.features": {
+      "comment": "Section title for extension features",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Features"
+          }
+        }
+      }
+    },
+    "extensions.settings-header": {
+      "comment": "Header for extension settings section",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extension Settings"
+          }
+        }
+      }
+    },
+    "extensions.settings-scene-id": {
+      "comment": "Scene ID for extension settings view",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "find-navigator.filter": {
+      "comment": "Placeholder for find navigator filter field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
+          }
+        }
+      }
+    },
+    "find-navigator.filter-help": {
+      "comment": "Tooltip for filter field in find navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show results with matching text"
+          }
+        }
+      }
+    },
+    "source-control.view-in-finder": {
+      "comment": "Context menu item to view file in Finder",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View in Finder"
+          }
+        }
+      }
+    },
+    "source-control.reveal-in-project-navigator": {
+      "comment": "Context menu item to reveal file in project navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal in Project Navigator"
+          }
+        }
+      }
+    },
+    "source-control.open-in-new-tab": {
+      "comment": "Context menu item to open file in new tab",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in New Tab"
+          }
+        }
+      }
+    },
+    "source-control.open-in-new-window": {
+      "comment": "Context menu item to open file in new window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in New Window"
+          }
+        }
+      }
+    },
+    "source-control.discard-changes": {
+      "comment": "Context menu item to discard changes in a file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard Changes in %@..."
+          }
+        }
+      }
+    },
+    "status-bar.indent.use-tabs": {
+      "comment": "Menu item to use tabs for indentation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Tabs"
+          }
+        }
+      }
+    },
+    "status-bar.indent.use-spaces": {
+      "comment": "Menu item to use spaces for indentation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Spaces"
+          }
+        }
+      }
+    },
+    "status-bar.indent.tab-width": {
+      "comment": "Picker label for tab width setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab Width"
+          }
+        }
+      }
+    },
+    "status-bar.indent.spaces-count": {
+      "comment": "Menu item showing number of spaces for indentation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d Spaces"
+          }
+        }
+      }
+    },
+    "status-bar.indent.current-spaces": {
+      "comment": "Status bar label showing current number of spaces for indentation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d Spaces"
+          }
+        }
+      }
+    },
+    "editor.menu-title": {
+      "comment": "Editor menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor"
+          }
+        }
+      }
+    },
+    "editor.structure": {
+      "comment": "Structure submenu in Editor menu",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Structure"
+          }
+        }
+      }
+    },
+    "editor.move-line-up": {
+      "comment": "Menu item to move line up",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line up"
+          }
+        }
+      }
+    },
+    "editor.move-line-down": {
+      "comment": "Menu item to move line down",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line down"
+          }
+        }
+      }
+    },
+    "window.welcome": {
+      "comment": "Menu item to open Welcome window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to CodeEdit"
+          }
+        }
+      }
+    },
+    "window.about": {
+      "comment": "Menu item to open About window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        }
+      }
+    },
+    "window.manage-extensions": {
+      "comment": "Menu item to open Extensions window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Extensions"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.no-selection": {
+      "comment": "Accessibility label when no text is selected",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Selection"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.selected-ranges": {
+      "comment": "Status bar label showing number of selected text ranges",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected ranges"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected range"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected ranges"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.cursor.char-len": {
+      "comment": "Status bar label showing character position and selection length",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Char: %d Len: %d"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.lines": {
+      "comment": "Status bar label showing number of lines selected",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d lines"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d line"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d lines"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.cursor.characters": {
+      "comment": "Status bar label showing number of characters selected",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d characters"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d character"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d characters"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.cursor.char-offset": {
+      "comment": "Status bar label showing character offset with no selection",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Char: %d Len: 0"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.line-col": {
+      "comment": "Status bar label showing line and column position",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Line: %d  Col: %d"
+          }
+        }
+      }
+    },
+    "find-replace.no-files-matched": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No files in the workspace matched: %@"
+          }
+        }
+      }
+    },
+    "find-replace.all-files-failed": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All files failed to update. (%d) errors occurred. Check logs for more information"
+          }
+        }
+      }
+    },
+    "find-replace.partial-success": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d successfully updated, %d errors occurred. Please check logs for more information."
+          }
+        }
+      }
+    },
+    "find-replace.error": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "find-replace.read-error": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An error occurred while reading file contents of: %@"
+          }
+        }
+      }
+    },
+    "find-replace.ok": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "find-replace.write-error": {
+      "comment": "Localized string",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An error occurred while writing to: %@"
+          }
+        }
+      }
+    },
+    "workspace.indexing.status.title": {
+      "comment": "Status title shown when workspace indexing is in progress",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing | Processing files"
+          }
+        }
+      }
+    },
+    "workspace.indexing.status.message": {
+      "comment": "Status message explaining the indexing process to users",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creating an index to enable fast and accurate searches within your codebase."
+          }
+        }
+      }
+    },
+    "workspace.error.file-not-found": {
+      "comment": "Error message when a file cannot be found",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File not found"
+          }
+        }
+      }
+    },
+    "workspace.error.file-not-found-in-codeedit": {
+      "comment": "Error message when a file is not found in the CodeEdit workspace",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File not found in CodeEdit"
+          }
+        }
+      }
+    },
+    "workspace.error.origin-file-not-found": {
+      "comment": "Error message when the source file for an operation cannot be found",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to find origin file"
+          }
+        }
+      }
+    },
+    "workspace.error.destination-exists": {
+      "comment": "Error message when trying to create or move a file to a location that already exists",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Destination already exists"
+          }
+        }
+      }
+    },
+    "workspace.error.invalid-filename": {
+      "comment": "Error message when a file name is invalid",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid file name"
+          }
+        }
+      }
+    },
+    "workspace.error.recovery-reopen": {
+      "comment": "Recovery suggestion to reopen the workspace",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen the workspace to reindex the file system."
+          }
+        }
+      }
+    },
+    "workspace.error.recovery-retry": {
+      "comment": "Recovery suggestion to retry the operation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The file may have moved during the operation, try again."
+          }
+        }
+      }
+    },
+    "workspace.error.recovery-rename": {
+      "comment": "Recovery suggestion to use a different name or remove conflicting file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use a different file name or remove the conflicting file."
+          }
+        }
+      }
+    },
+    "workspace.error.recovery-filename-rules": {
+      "comment": "Recovery suggestion explaining file name rules",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File names must not contain the : character and be less than 256 characters."
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.show": {
+      "comment": "Accessibility label to show the utility area",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the Utility area"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.hide": {
+      "comment": "Accessibility label to hide the utility area",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide the Utility area"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.toggle": {
+      "comment": "Menu command to toggle utility area visibility",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Utility Area"
+          }
+        }
+      }
+    },
+    "source-control.sync.no-tracked-branch": {
+      "comment": "Message shown when current branch has no upstream tracking branch",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tracked branch for '%@'"
+          }
+        }
+      }
+    },
+    "source-control.sync.pull": {
+      "comment": "Button to pull changes from remote repository",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        }
+      }
+    },
+    "source-control.sync.push": {
+      "comment": "Button to push changes to remote repository",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        }
+      }
+    },
+    "source-control.sync.pull-failed": {
+      "comment": "Error alert title when pull operation fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to pull"
+          }
+        }
+      }
+    },
+    "source-control.sync.push-failed": {
+      "comment": "Error alert title when push operation fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to push"
+          }
+        }
+      }
+    },
+    "source-control.sync.commits-ahead": {
+      "comment": "Label showing number of commits ahead of remote",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d ahead"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d ahead"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d ahead"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "source-control.sync.commits-behind": {
+      "comment": "Label showing number of commits behind remote",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d behind"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d behind"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d behind"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "find.menu": {
+      "comment": "Find menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find"
+          }
+        }
+      }
+    },
+    "find.menu.find": {
+      "comment": "Menu item to open find panel",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find..."
+          }
+        }
+      }
+    },
+    "find.menu.find-and-replace": {
+      "comment": "Menu item to open find and replace panel",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find and Replace..."
+          }
+        }
+      }
+    },
+    "find.menu.find-next": {
+      "comment": "Menu item to find next occurrence",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Next"
+          }
+        }
+      }
+    },
+    "find.menu.find-previous": {
+      "comment": "Menu item to find previous occurrence",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Previous"
+          }
+        }
+      }
+    },
+    "find.menu.use-selection": {
+      "comment": "Menu item to use selected text as search term",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Selection for Find"
+          }
+        }
+      }
+    },
+    "find.menu.jump-to-selection": {
+      "comment": "Menu item to jump to current selection",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jump to Selection"
+          }
+        }
+      }
+    },
+    "source-control.commit.message-placeholder": {
+      "comment": "Placeholder for commit message input",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit message (required)"
+          }
+        }
+      }
+    },
+    "source-control.commit.description-placeholder": {
+      "comment": "Placeholder for detailed commit description",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detailed description"
+          }
+        }
+      }
+    },
+    "source-control.commit.amend": {
+      "comment": "Toggle to amend previous commit",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amend"
+          }
+        }
+      }
+    },
+    "source-control.commit.unstage-all": {
+      "comment": "Button to unstage all files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unstage All"
+          }
+        }
+      }
+    },
+    "source-control.commit.stage-all": {
+      "comment": "Button to stage all files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stage All"
+          }
+        }
+      }
+    },
+    "source-control.commit.committing": {
+      "comment": "Status shown while committing",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Committing..."
+          }
+        }
+      }
+    },
+    "source-control.commit.commit": {
+      "comment": "Button to commit changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit"
+          }
+        }
+      }
+    },
+    "source-control.commit.commit-and-push": {
+      "comment": "Menu item to commit and push changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit and Push..."
+          }
+        }
+      }
+    },
+    "source-control.commit.failed-commit": {
+      "comment": "Error alert title when commit fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to commit"
+          }
+        }
+      }
+    },
+    "source-control.commit.failed-push": {
+      "comment": "Error alert title when push fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to push"
+          }
+        }
+      }
+    },
+    "find.error.no-index": {
+      "comment": "Error message when search index is not available",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No index found. Try rebuilding the index."
+          }
+        }
+      }
+    },
+    "find.error.decode-failed": {
+      "comment": "Error message when file content cannot be decoded",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to decode file content."
+          }
+        }
+      }
+    },
+    "find.error.invalid-regex": {
+      "comment": "Error message when search query is not a valid regular expression",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid regular expression."
+          }
+        }
+      }
+    },
+    "tasks.menu": {
+      "comment": "Tasks menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        }
+      }
+    },
+    "tasks.no-selected-task": {
+      "comment": "Placeholder text when no task is selected",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(No Selected Task)"
+          }
+        }
+      }
+    },
+    "tasks.run-task": {
+      "comment": "Button to run the selected task with task name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Run %@"
+          }
+        }
+      }
+    },
+    "tasks.stop-task": {
+      "comment": "Button to stop the selected task with task name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop %@"
+          }
+        }
+      }
+    },
+    "tasks.show-task-output": {
+      "comment": "Button to show output for the selected task with task name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show %@ Output"
+          }
+        }
+      }
+    },
+    "tasks.create-tasks": {
+      "comment": "Button to create new tasks",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Tasks"
+          }
+        }
+      }
+    },
+    "tasks.choose-task": {
+      "comment": "Menu label to choose a task",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Task..."
+          }
+        }
+      }
+    },
+    "tasks.manage-tasks": {
+      "comment": "Button to manage tasks",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Tasks..."
+          }
+        }
+      }
+    },
+    "source-control.menu": {
+      "comment": "Source Control menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source Control"
+          }
+        }
+      }
+    },
+    "source-control.commit": {
+      "comment": "Menu item to commit changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit..."
+          }
+        }
+      }
+    },
+    "source-control.push": {
+      "comment": "Menu item to push changes to remote",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        }
+      }
+    },
+    "source-control.pull": {
+      "comment": "Menu item to pull changes from remote",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        }
+      }
+    },
+    "source-control.fetch-changes": {
+      "comment": "Menu item to fetch changes from remote",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fetch Changes"
+          }
+        }
+      }
+    },
+    "source-control.stage-all-changes": {
+      "comment": "Menu item to stage all changed files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stage All Changes"
+          }
+        }
+      }
+    },
+    "source-control.error.failed-to-stage": {
+      "comment": "Error alert title when staging changes fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Stage Changes"
+          }
+        }
+      }
+    },
+    "source-control.unstage-all-changes": {
+      "comment": "Menu item to unstage all changed files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unstage All Changes"
+          }
+        }
+      }
+    },
+    "source-control.error.failed-to-unstage": {
+      "comment": "Error alert title when unstaging changes fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Unstage Changes"
+          }
+        }
+      }
+    },
+    "source-control.cherry-pick": {
+      "comment": "Menu item to cherry-pick commits",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cherry-Pick..."
+          }
+        }
+      }
+    },
+    "source-control.stash-changes": {
+      "comment": "Menu item to stash uncommitted changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stash Changes..."
+          }
+        }
+      }
+    },
+    "source-control.discard-all-changes": {
+      "comment": "Menu item to discard all uncommitted changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard All Changes..."
+          }
+        }
+      }
+    },
+    "source-control.add-existing-remote": {
+      "comment": "Menu item to add an existing remote repository",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Exisiting Remote..."
+          }
+        }
+      }
+    },
+    "navigate.menu": {
+      "comment": "Navigate menu title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigate"
+          }
+        }
+      }
+    },
+    "navigate.reveal-in-project-navigator": {
+      "comment": "Menu item to reveal current file in project navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal in Project Navigator"
+          }
+        }
+      }
+    },
+    "navigate.reveal-changes-in-navigator": {
+      "comment": "Menu item to reveal changes in navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal Changes in Navigator"
+          }
+        }
+      }
+    },
+    "navigate.open-in-next-editor": {
+      "comment": "Menu item to open file in next editor",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Next Editor"
+          }
+        }
+      }
+    },
+    "navigate.open-in": {
+      "comment": "Menu item to open file in specific editor",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in..."
+          }
+        }
+      }
+    },
+    "navigate.show-previous-tab": {
+      "comment": "Menu item to show previous tab",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Previous Tab"
+          }
+        }
+      }
+    },
+    "navigate.show-next-tab": {
+      "comment": "Menu item to show next tab",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Next Tab"
+          }
+        }
+      }
+    },
+    "navigate.go-forward": {
+      "comment": "Menu item to go forward in navigation history",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Forward"
+          }
+        }
+      }
+    },
+    "navigate.go-back": {
+      "comment": "Menu item to go back in navigation history",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Back"
+          }
+        }
+      }
+    },
+    "find-navigator.scoped": {
+      "comment": "Label for scoped search toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scoped"
+          }
+        }
+      }
+    },
+    "find-navigator.match-case": {
+      "comment": "Tooltip for case-sensitive search toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Match Case"
+          }
+        }
+      }
+    },
+    "find-navigator.replace-with": {
+      "comment": "Placeholder for replacement text field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case-label": {
+      "comment": "Label for preserve case toggle button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AB"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case": {
+      "comment": "Tooltip for preserve case toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preserve Case"
+          }
+        }
+      }
+    },
+    "find-navigator.only-in-folders": {
+      "comment": "Placeholder for include folders text field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only in folders"
+          }
+        }
+      }
+    },
+    "find-navigator.search-only-in-open-editors": {
+      "comment": "Tooltip for search in open editors toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search only in Open Editors"
+          }
+        }
+      }
+    },
+    "find-navigator.excluding-folders": {
+      "comment": "Placeholder for exclude folders text field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluding folders"
+          }
+        }
+      }
+    },
+    "find-navigator.use-exclude-settings": {
+      "comment": "Tooltip for exclude settings toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Exclude Settings and Ignore Files"
+          }
+        }
+      }
+    },
+    "find-navigator.replace-all": {
+      "comment": "Button to replace all search results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace All"
+          }
+        }
+      }
+    },
+    "file.new": {
+      "comment": "Menu item to create a new file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New"
+          }
+        }
+      }
+    },
+    "file.open": {
+      "comment": "Menu item to open a file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open..."
+          }
+        }
+      }
+    },
+    "file.open-quickly": {
+      "comment": "Menu item to open file quickly",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Quickly"
+          }
+        }
+      }
+    },
+    "file.close-tab": {
+      "comment": "Menu item to close current tab",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Tab"
+          }
+        }
+      }
+    },
+    "file.close-editor": {
+      "comment": "Menu item to close current editor",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Editor"
+          }
+        }
+      }
+    },
+    "file.close-window": {
+      "comment": "Menu item to close current window",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Window"
+          }
+        }
+      }
+    },
+    "file.close-workspace": {
+      "comment": "Menu item to close workspace",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Workspace"
+          }
+        }
+      }
+    },
+    "file.close-terminal": {
+      "comment": "Menu item to close terminal",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Terminal"
+          }
+        }
+      }
+    },
+    "file.workspace-settings": {
+      "comment": "Menu item to open workspace settings",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace Settings"
+          }
+        }
+      }
+    },
+    "file.save": {
+      "comment": "Menu item to save file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "settings.general.appearance": {
+      "comment": "Label for appearance settings",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        }
+      }
+    },
+    "settings.general.appearance.system": {
+      "comment": "System appearance option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        }
+      }
+    },
+    "settings.general.appearance.light": {
+      "comment": "Light appearance option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        }
+      }
+    },
+    "settings.general.appearance.dark": {
+      "comment": "Dark appearance option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        }
+      }
+    },
+    "settings.general.show-issues": {
+      "comment": "Label for show issues setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Issues"
+          }
+        }
+      }
+    },
+    "settings.general.show-issues.inline": {
+      "comment": "Show issues inline option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inline"
+          }
+        }
+      }
+    },
+    "settings.general.show-issues.minimized": {
+      "comment": "Show issues minimized option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Minimized"
+          }
+        }
+      }
+    },
+    "settings.general.show-live-issues": {
+      "comment": "Toggle for showing live issues",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Live Issues"
+          }
+        }
+      }
+    },
+    "settings.general.show-jump-bar": {
+      "comment": "Toggle for showing editor jump bar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        }
+      }
+    },
+    "settings.general.dim-editors-without-focus": {
+      "comment": "Toggle for dimming unfocused editors",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        }
+      }
+    },
+    "settings.general.file-extensions": {
+      "comment": "Label for file extensions setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Extensions"
+          }
+        }
+      }
+    },
+    "settings.general.file-extensions.hide-all": {
+      "comment": "Hide all file extensions option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide all"
+          }
+        }
+      }
+    },
+    "settings.general.file-extensions.show-all": {
+      "comment": "Show all file extensions option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show all"
+          }
+        }
+      }
+    },
+    "settings.general.file-extensions.show-only": {
+      "comment": "Show only specific file extensions option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show only"
+          }
+        }
+      }
+    },
+    "settings.general.file-extensions.hide-only": {
+      "comment": "Hide only specific file extensions option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide only"
+          }
+        }
+      }
+    },
+    "settings.general.file-icon-style": {
+      "comment": "Label for file icon style setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Icon Style"
+          }
+        }
+      }
+    },
+    "settings.general.file-icon-style.color": {
+      "comment": "Color file icon style option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        }
+      }
+    },
+    "settings.general.file-icon-style.monochrome": {
+      "comment": "Monochrome file icon style option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monochrome"
+          }
+        }
+      }
+    },
+    "settings.general.navigator-tab-bar-position": {
+      "comment": "Label for navigator tab bar position setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Tab Bar Position"
+          }
+        }
+      }
+    },
+    "settings.general.position.top": {
+      "comment": "Top position option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Top"
+          }
+        }
+      }
+    },
+    "settings.general.position.side": {
+      "comment": "Side position option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Side"
+          }
+        }
+      }
+    },
+    "settings.general.inspector-tab-bar-position": {
+      "comment": "Label for inspector tab bar position setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspector Tab Bar Position"
+          }
+        }
+      }
+    },
+    "settings.general.reopen-behavior": {
+      "comment": "Label for reopen behavior setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen Behavior"
+          }
+        }
+      }
+    },
+    "settings.general.reopen-behavior.welcome-screen": {
+      "comment": "Welcome screen reopen option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome Screen"
+          }
+        }
+      }
+    },
+    "settings.general.reopen-behavior.open-panel": {
+      "comment": "Open panel reopen option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Panel"
+          }
+        }
+      }
+    },
+    "settings.general.reopen-behavior.new-document": {
+      "comment": "New document reopen option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Document"
+          }
+        }
+      }
+    },
+    "settings.general.after-last-window-closed": {
+      "comment": "Label for behavior after last window closes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After the last window is closed"
+          }
+        }
+      }
+    },
+    "settings.general.after-last-window-closed.do-nothing": {
+      "comment": "Do nothing after last window closes option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do nothing"
+          }
+        }
+      }
+    },
+    "settings.general.after-last-window-closed.show-welcome-window": {
+      "comment": "Show welcome window after last window closes option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Welcome Window"
+          }
+        }
+      }
+    },
+    "settings.general.after-last-window-closed.quit": {
+      "comment": "Quit after last window closes option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size": {
+      "comment": "Label for project navigator size setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Project Navigator Size"
+          }
+        }
+      }
+    },
+    "settings.general.size.small": {
+      "comment": "Small size option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Small"
+          }
+        }
+      }
+    },
+    "settings.general.size.medium": {
+      "comment": "Medium size option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        }
+      }
+    },
+    "settings.general.size.large": {
+      "comment": "Large size option",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large"
+          }
+        }
+      }
+    },
+    "settings.general.find-navigator-detail": {
+      "comment": "Label for find navigator detail setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Navigator Detail"
+          }
+        }
+      }
+    },
+    "settings.general.issue-navigator-detail": {
+      "comment": "Label for issue navigator detail setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Issue Navigator Detail"
+          }
+        }
+      }
+    },
+    "settings.general.dialog-warnings": {
+      "comment": "Label for dialog warnings setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dialog Warnings"
+          }
+        }
+      }
+    },
+    "settings.general.dialog-warnings.reset": {
+      "comment": "Button to reset don't ask me warnings",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset \"Don't Ask Me\" Warnings"
+          }
+        }
+      }
+    },
+    "settings.general.shell-command": {
+      "comment": "Label for codeedit shell command setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'codeedit' Shell Command"
+          }
+        }
+      }
+    },
+    "settings.general.shell-command.install": {
+      "comment": "Button to install shell command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install"
+          }
+        }
+      }
+    },
+    "settings.general.updates.check-now": {
+      "comment": "Button to check for updates now",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Now"
+          }
+        }
+      }
+    },
+    "settings.general.updates.check-for-updates": {
+      "comment": "Label for check for updates setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates"
+          }
+        }
+      }
+    },
+    "settings.general.updates.last-checked": {
+      "comment": "Label showing when updates were last checked",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last checked: %@"
+          }
+        }
+      }
+    },
+    "settings.general.updates.auto-check": {
+      "comment": "Toggle for automatically checking for app updates",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically check for app updates"
+          }
+        }
+      }
+    },
+    "settings.general.updates.include-prerelease": {
+      "comment": "Toggle for including pre-release versions",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include pre-release versions"
+          }
+        }
+      }
+    },
+    "settings.general.auto-save": {
+      "comment": "Toggle for automatically saving changes",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically save changes to disk"
+          }
+        }
+      }
+    },
+    "settings.general.updates.never-checked": {
+      "comment": "Indicates updates have never been checked",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never"
+          }
+        }
+      }
+    },
+    "settings.general.search.appearance": {
+      "comment": "Search key for appearance setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        }
+      }
+    },
+    "settings.general.search.file-icon-style": {
+      "comment": "Search key for file icon style setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Icon Style"
+          }
+        }
+      }
+    },
+    "settings.general.search.tab-bar-style": {
+      "comment": "Search key for tab bar style setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab Bar Style"
+          }
+        }
+      }
+    },
+    "settings.general.search.show-jump-bar": {
+      "comment": "Search key for show jump bar setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        }
+      }
+    },
+    "settings.general.search.dim-editors": {
+      "comment": "Search key for dim editors setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        }
+      }
+    },
+    "settings.general.search.navigator-tab-bar-position": {
+      "comment": "Search key for navigator tab bar position setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Tab Bar Position"
+          }
+        }
+      }
+    },
+    "settings.general.search.inspector-tab-bar-position": {
+      "comment": "Search key for inspector tab bar position setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspector Tab Bar Position"
+          }
+        }
+      }
+    },
+    "settings.general.search.show-issues": {
+      "comment": "Search key for show issues setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Issues"
+          }
+        }
+      }
+    },
+    "settings.general.search.show-live-issues": {
+      "comment": "Search key for show live issues setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Live Issues"
+          }
+        }
+      }
+    },
+    "settings.general.search.auto-save": {
+      "comment": "Search key for auto save setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically save change to disk"
+          }
+        }
+      }
+    },
+    "settings.general.search.auto-reveal": {
+      "comment": "Search key for auto reveal setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically reveal in project navigator"
+          }
+        }
+      }
+    },
+    "settings.general.search.reopen-behavior": {
+      "comment": "Search key for reopen behavior setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen Behavior"
+          }
+        }
+      }
+    },
+    "settings.general.search.after-last-window-closed": {
+      "comment": "Search key for after last window closed setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After the last window is closed"
+          }
+        }
+      }
+    },
+    "settings.general.search.file-extensions": {
+      "comment": "Search key for file extensions setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Extensions"
+          }
+        }
+      }
+    },
+    "settings.general.search.project-navigator-size": {
+      "comment": "Search key for project navigator size setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Project Navigator Size"
+          }
+        }
+      }
+    },
+    "settings.general.search.find-navigator-detail": {
+      "comment": "Search key for find navigator detail setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Navigator Detail"
+          }
+        }
+      }
+    },
+    "settings.general.search.issue-navigator-detail": {
+      "comment": "Search key for issue navigator detail setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Issue Navigator Detail"
+          }
+        }
+      }
+    },
+    "settings.general.search.open-with-codeedit": {
+      "comment": "Search key for open with CodeEdit setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show \"Open With CodeEdit\" option in Finder"
+          }
+        }
+      }
+    },
+    "settings.general.search.shell-command": {
+      "comment": "Search key for shell command setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'codeedit' Shell command"
+          }
+        }
+      }
+    },
+    "settings.general.search.dialog-warnings": {
+      "comment": "Search key for dialog warnings setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dialog Warnings"
+          }
+        }
+      }
+    },
+    "settings.general.search.check-for-updates": {
+      "comment": "Search key for check for updates setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates"
+          }
+        }
+      }
+    },
+    "settings.general.search.auto-check-updates": {
+      "comment": "Search key for auto check updates setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically check for app updates"
+          }
+        }
+      }
+    },
+    "settings.general.search.prerelease": {
+      "comment": "Search key for pre-release versions setting",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include pre-release versions"
+          }
+        }
+      }
+    },
+    "settings.general.navigator-detail.one-line": {
+      "comment": "Navigator detail option for one line",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Line"
+          }
+        }
+      }
+    },
+    "view.command-palette": {
+      "comment": "Menu item to show command palette",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Command Palette"
+          }
+        }
+      }
+    },
+    "view.search-navigator": {
+      "comment": "Menu item to open search navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Search Navigator"
+          }
+        }
+      }
+    },
+    "view.font-size": {
+      "comment": "Menu for font size options",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font Size"
+          }
+        }
+      }
+    },
+    "view.font-size.increase": {
+      "comment": "Menu item to increase font size",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase"
+          }
+        }
+      }
+    },
+    "view.font-size.decrease": {
+      "comment": "Menu item to decrease font size",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decrease"
+          }
+        }
+      }
+    },
+    "view.font-size.reset": {
+      "comment": "Menu item to reset font size",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        }
+      }
+    },
+    "view.customize-toolbar": {
+      "comment": "Menu item to customize toolbar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customize Toolbar..."
+          }
+        }
+      }
+    },
+    "view.jump-bar.hide": {
+      "comment": "Menu item to hide jump bar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Jump Bar"
+          }
+        }
+      }
+    },
+    "view.jump-bar.show": {
+      "comment": "Menu item to show jump bar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        }
+      }
+    },
+    "view.dim-editors": {
+      "comment": "Toggle to dim unfocused editors",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        }
+      }
+    },
+    "view.navigator.show": {
+      "comment": "Menu item to show navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Navigator"
+          }
+        }
+      }
+    },
+    "view.navigator.hide": {
+      "comment": "Menu item to hide navigator",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Navigator"
+          }
+        }
+      }
+    },
+    "view.inspector.show": {
+      "comment": "Menu item to show inspector",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inspector"
+          }
+        }
+      }
+    },
+    "view.inspector.hide": {
+      "comment": "Menu item to hide inspector",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Inspector"
+          }
+        }
+      }
+    },
+    "view.utility-area.show": {
+      "comment": "Menu item to show utility area",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Utility Area"
+          }
+        }
+      }
+    },
+    "view.utility-area.hide": {
+      "comment": "Menu item to hide utility area",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Utility Area"
+          }
+        }
+      }
+    },
+    "view.toolbar.show": {
+      "comment": "Menu item to show toolbar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Toolbar"
+          }
+        }
+      }
+    },
+    "view.toolbar.hide": {
+      "comment": "Menu item to hide toolbar",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Toolbar"
+          }
+        }
+      }
+    },
+    "view.interface.show": {
+      "comment": "Menu item to show interface",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Interface"
+          }
+        }
+      }
+    },
+    "view.interface.hide": {
+      "comment": "Menu item to hide interface",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Interface"
+          }
+        }
+      }
+    },
+    "view.navigators": {
+      "comment": "Menu for navigator options",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigators"
+          }
+        }
+      }
+    },
+    "workspace.file-management.delete-confirmation.message": {
+      "comment": "Delete confirmation alert message asking user to confirm deletion of a file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do you want to delete"
+          }
+        }
+      }
+    },
+    "workspace.file-management.delete-confirmation.info": {
+      "comment": "Delete confirmation alert informative text warning about permanent deletion",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This item will be deleted immediately. You can't undo this action."
+          }
+        }
+      }
+    },
+    "workspace.file-management.delete-button": {
+      "comment": "Delete button title in file deletion confirmation dialog",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "workspace.file-management.delete-cancel-button": {
+      "comment": "Cancel button title in file deletion confirmation dialog",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "workspace.file-management.batch-delete-confirmation.message": {
+      "comment": "Batch delete confirmation alert message asking user to confirm deletion of multiple files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete the %d selected items?"
+          }
+        }
+      }
+    },
+    "workspace.file-management.batch-delete-confirmation.info": {
+      "comment": "Batch delete confirmation alert informative text warning about permanent deletion of multiple files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d items will be deleted immediately. You cannot undo this action."
+          }
+        }
+      }
+    },
+    "workspace.file-management.batch-delete-button": {
+      "comment": "Delete button title in batch file deletion confirmation dialog",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "workspace.file-management.batch-delete-cancel-button": {
+      "comment": "Cancel button title in batch file deletion confirmation dialog",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "workspace.file-management.duplicate-file-name": {
+      "comment": "File name format for duplicated files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ copy%@"
+          }
+        }
+      }
+    },
+    "workspace.indexing.finished.title": {
+      "comment": "Status title shown when workspace indexing is complete",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished indexing"
+          }
+        }
+      }
+    },
+    "settings.general.open-in-codeedit-toggle": {
+      "comment": "Toggle to show Open With CodeEdit option in Finder context menu",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show \"Open With CodeEdit\" option in Finder"
+          }
+        }
+      }
+    },
+    "settings.general.auto-reveal-toggle": {
+      "comment": "Toggle to automatically reveal files in project navigator when focused",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically reveal in project navigator"
+          }
+        }
+      }
+    },
+    "settings.general.navigator-detail.up-to-lines": {
+      "comment": "Navigator detail option for multiple lines",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Up to %d lines"
+          }
+        }
+      }
+    },
+    "find-navigator.results-summary": {
+      "comment": "Summary showing search results count and file count",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ in %#@files@"
+          }
+        }
+      }
+    },
+    "find-navigator.status.searching": {
+      "comment": "Status message shown while searching",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching"
+          }
+        }
+      }
+    },
+    "find-navigator.status.replacing": {
+      "comment": "Status message shown while replacing",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replacing"
+          }
+        }
+      }
+    },
+    "find-navigator.no-results.title": {
+      "comment": "Title shown when search finds no results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results"
+          }
+        }
+      }
+    },
+    "find-navigator.no-results.description": {
+      "comment": "Description shown when search finds no results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results for \"%@\" in Project"
+          }
+        }
+      }
+    },
+    "find-navigator.replaced.title": {
+      "comment": "Title shown when replacement is complete",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replaced"
+          }
+        }
+      }
+    },
+    "find-navigator.replaced.description": {
+      "comment": "Description showing successful replacement across files",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully replaced terms across %d files"
+          }
+        }
+      }
+    },
+    "find-navigator.error.title": {
+      "comment": "Title shown when an error occurs during find/replace",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Error Occurred"
+          }
+        }
+      }
+    }
+  }
+}
