@@ -169,12 +169,35 @@ extension CEWorkspaceFileManager {
         let fileName = file.name
 
         let deleteConfirmation = NSAlert()
-        deleteConfirmation.messageText = "Do you want to delete “\(fileName)”?"
-        deleteConfirmation.informativeText = "This item will be deleted immediately. You can't undo this action."
+        deleteConfirmation.messageText = String(
+            format: String(
+                localized: "file-management.delete-confirmation.message",
+                defaultValue: "Do you want to delete \"%@\"?",
+                comment: "Delete confirmation dialog message"
+            ),
+            fileName
+        )
+        deleteConfirmation.informativeText = String(
+            localized: "file-management.delete-confirmation.info",
+            defaultValue: "This item will be deleted immediately. You can't undo this action.",
+            comment: "Delete confirmation dialog informative text"
+        )
         deleteConfirmation.alertStyle = .critical
-        deleteConfirmation.addButton(withTitle: "Delete")
+        deleteConfirmation.addButton(
+            withTitle: String(
+                localized: "file-management.delete-confirmation.delete-button",
+                defaultValue: "Delete",
+                comment: "Delete button in delete confirmation dialog"
+            )
+        )
         deleteConfirmation.buttons.last?.hasDestructiveAction = true
-        deleteConfirmation.addButton(withTitle: "Cancel")
+        deleteConfirmation.addButton(
+            withTitle: String(
+                localized: "file-management.delete-confirmation.cancel-button",
+                defaultValue: "Cancel",
+                comment: "Cancel button in delete confirmation dialog"
+            )
+        )
         if !confirmDelete || deleteConfirmation.runModal() == .alertFirstButtonReturn { // "Delete" button
             if fileManager.fileExists(atPath: file.url.path) {
                 try deleteFile(at: file.url)
@@ -188,13 +211,38 @@ extension CEWorkspaceFileManager {
     ///   - confirmDelete: True to present an alert to confirm the delete.
     public func batchDelete(files: Set<CEWorkspaceFile>, confirmDelete: Bool = true) throws {
         let deleteConfirmation = NSAlert()
-        deleteConfirmation.messageText = "Are you sure you want to delete the \(files.count) selected items?"
-        // swiftlint:disable:next line_length
-        deleteConfirmation.informativeText = "\(files.count) items will be deleted immediately. You cannot undo this action."
+        deleteConfirmation.messageText = String(
+            format: String(
+                localized: "file-management.batch-delete-confirmation.message",
+                defaultValue: "Are you sure you want to delete the %d selected items?",
+                comment: "Batch delete confirmation dialog message"
+            ),
+            files.count
+        )
+        deleteConfirmation.informativeText = String(
+            format: String(
+                localized: "file-management.batch-delete-confirmation.info",
+                defaultValue: "%d items will be deleted immediately. You cannot undo this action.",
+                comment: "Batch delete confirmation dialog informative text"
+            ),
+            files.count
+        )
         deleteConfirmation.alertStyle = .critical
-        deleteConfirmation.addButton(withTitle: "Delete")
+        deleteConfirmation.addButton(
+            withTitle: String(
+                localized: "file-management.batch-delete-confirmation.delete-button",
+                defaultValue: "Delete",
+                comment: "Delete button in batch delete confirmation dialog"
+            )
+        )
         deleteConfirmation.buttons.last?.hasDestructiveAction = true
-        deleteConfirmation.addButton(withTitle: "Cancel")
+        deleteConfirmation.addButton(
+            withTitle: String(
+                localized: "file-management.batch-delete-confirmation.cancel-button",
+                defaultValue: "Cancel",
+                comment: "Cancel button in batch delete confirmation dialog"
+            )
+        )
         if !confirmDelete || deleteConfirmation.runModal() == .alertFirstButtonReturn {
             for file in files where fileManager.fileExists(atPath: file.url.path) {
                 try deleteFile(at: file.url)
@@ -228,7 +276,17 @@ extension CEWorkspaceFileManager {
             let fileExtension = fileUrl.pathExtension.isEmpty ? "" : ".\(fileUrl.pathExtension)"
             let fileName = fileExtension.isEmpty ? previousName :
             previousName.replacingOccurrences(of: fileExtension, with: "")
-            fileUrl = fileUrl.deletingLastPathComponent().appending(path: "\(fileName) copy\(fileExtension)")
+            fileUrl = fileUrl.deletingLastPathComponent().appending(
+                path: String(
+                    format: String(
+                        localized: "file-management.duplicate.copy-name",
+                        defaultValue: "%@ copy%@",
+                        comment: "Duplicate file name format"
+                    ),
+                    fileName,
+                    fileExtension
+                )
+            )
         }
 
         if fileManager.fileExists(atPath: file.url.path) {
