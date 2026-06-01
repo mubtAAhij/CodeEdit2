@@ -20,7 +20,7 @@ struct ExtensionDetailView: View {
                 }
 
                 Form {
-                    Section("Features") {
+                    Section(String(localized: "extensions.features", defaultValue: "Features", comment: "Features section heading")) {
                         ForEach(ext.availableFeatures, id: \.self) { feature in
                             Text(feature.description)
                         }
@@ -29,7 +29,7 @@ struct ExtensionDetailView: View {
                 .formStyle(.grouped)
             }
 
-            Text("Extension Settings")
+            Text(String(localized: "extensions.settings-heading", defaultValue: "Extension Settings", comment: "Extension settings heading"))
                 .font(.title3)
                 .fontWeight(.semibold)
                 .padding(.leading)
