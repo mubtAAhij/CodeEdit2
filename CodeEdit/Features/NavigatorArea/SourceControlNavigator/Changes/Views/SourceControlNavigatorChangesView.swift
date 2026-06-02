@@ -50,7 +50,7 @@ struct SourceControlNavigatorChangesView: View {
             if hasChanges {
                 SourceControlNavigatorChangesList()
             } else {
-                CEContentUnavailableView("No Changes")
+                CEContentUnavailableView(String(localized: "source-control-navigator.changes.no-changes", defaultValue: "No Changes", comment: "Empty state message when no git changes exist"))
             }
         }
         .frame(maxHeight: .infinity)
