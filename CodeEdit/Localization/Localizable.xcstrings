@@ -2,32 +2,62 @@
   "version": "1.0",
   "sourceLanguage": "en",
   "strings": {
-    "find-navigator.indexing-progress": {
-      "comment": "Indexing progress percentage shown during workspace search indexing",
+    "find-navigator.ab-label": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Indexing %d%%"
+            "value": "AB"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AB"
           }
         }
       }
     },
-    "find-navigator.indexing-help": {
-      "comment": "Help text explaining the indexing process and its impact on search results",
+    "find_navigator.error_occurred": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Indexing current workspace files for search. Searches performed while indexing may return incomplete results."
+            "value": "An Error Occurred"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocurrió un error"
+          }
+        }
+      }
+    },
+    "find_navigator.excluding_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluding folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluyendo carpetas"
           }
         }
       }
     },
     "find-navigator.filter-field-title": {
-      "comment": "Placeholder text for the filter field in Find Navigator",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorToolbarBottom.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -35,11 +65,17 @@
             "state": "translated",
             "value": "Filter"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtrar"
+          }
         }
       }
     },
     "find-navigator.filter-help": {
-      "comment": "Help tooltip for the filter field explaining its purpose",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorToolbarBottom.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -47,89 +83,71 @@
             "state": "translated",
             "value": "Show results with matching text"
           }
-        }
-      }
-    },
-    "find_navigator.results_summary": {
-      "comment": "Summary showing number of search results and files found",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@results@ in %#@files@"
-          },
-          "substitutions": {
-            "results": {
-              "argNum": 1,
-              "formatSpecifier": "d",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d result"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d results"
-                    }
-                  }
-                }
-              }
-            },
-            "files": {
-              "argNum": 2,
-              "formatSpecifier": "d",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d file"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d files"
-                    }
-                  }
-                }
-              }
-            }
+            "value": "Mostrar resultados con texto coincidente"
           }
         }
       }
     },
-    "find-navigator.searching": {
-      "comment": "Status message shown while searching",
+    "find-navigator.indexing-help": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorIndexBar.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Searching"
+            "value": "Indexing current workspace files for search. Searches performed while indexing may return incomplete results."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexando archivos del espacio de trabajo actual para búsqueda. Las búsquedas realizadas durante la indexación pueden devolver resultados incompletos."
           }
         }
       }
     },
-    "find-navigator.replacing": {
-      "comment": "Status message shown while replacing",
+    "find-navigator.indexing-progress": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorIndexBar.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Replacing"
+            "value": "Indexing %d%%"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexando %d%%"
+          }
+        }
+      }
+    },
+    "find-navigator.match-case": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Match Case"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distinguir mayúsculas y minúsculas"
           }
         }
       }
     },
     "find_navigator.no_results": {
-      "comment": "Title shown when no search results are found",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -137,11 +155,17 @@
             "state": "translated",
             "value": "No Results"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados"
+          }
         }
       }
     },
     "find_navigator.no_results_for_query": {
-      "comment": "Description shown when no results found for a specific query",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -149,11 +173,71 @@
             "state": "translated",
             "value": "No Results for \"%@\" in Project"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados para \"%@\" en el proyecto"
+          }
+        }
+      }
+    },
+    "find_navigator.only_in_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only in folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo en carpetas"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preserve Case"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conservar mayúsculas y minúsculas"
+          }
+        }
+      }
+    },
+    "find-navigator.replace-all": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace All"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazar todo"
+          }
         }
       }
     },
     "find_navigator.replaced": {
-      "comment": "Title shown when replacement operation completes",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -161,11 +245,17 @@
             "state": "translated",
             "value": "Replaced"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazado"
+          }
         }
       }
     },
     "find_navigator.replaced_success_message": {
-      "comment": "Message showing number of files where replacements were made",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -189,23 +279,153 @@
               }
             }
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se reemplazaron los términos en %d archivos correctamente"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Términos reemplazados exitosamente en %d archivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Se reemplazaron los términos en %d archivos correctamente"
+                }
+              }
+            }
+          }
         }
       }
     },
-    "find_navigator.error_occurred": {
-      "comment": "Title shown when an error occurs during search or replace",
+    "find-navigator.replacing": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "An Error Occurred"
+            "value": "Replacing"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazando"
+          }
+        }
+      }
+    },
+    "find_navigator.results_summary": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ in %#@files@"
+          },
+          "substitutions": {
+            "files": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
+            },
+            "results": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d result"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d results"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ en %#@files@"
+          },
+          "substitutions": {
+            "files": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivos"
+                    }
+                  }
+                }
+              }
+            },
+            "results": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d resultado"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d resultados"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
     "find-navigator.scoped": {
-      "comment": "Label for scoped search toggle",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -213,71 +433,35 @@
             "state": "translated",
             "value": "Scoped"
           }
-        }
-      }
-    },
-    "find-navigator.match-case": {
-      "comment": "Help text for case-sensitive search toggle",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "Match Case"
+            "value": "Con ámbito"
           }
         }
       }
     },
-    "find-navigator.with": {
-      "comment": "Placeholder for replace text field",
+    "find-navigator.searching": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "With"
+            "value": "Searching"
           }
-        }
-      }
-    },
-    "find-navigator.ab-label": {
-      "comment": "Label for preserve case toggle",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "AB"
-          }
-        }
-      }
-    },
-    "find-navigator.preserve-case": {
-      "comment": "Help text for preserve case toggle",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Preserve Case"
-          }
-        }
-      }
-    },
-    "find_navigator.only_in_folders": {
-      "comment": "Placeholder for include folders field",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Only in folders"
+            "value": "Buscando"
           }
         }
       }
     },
     "find-navigator.search-only-in-open-editors": {
-      "comment": "Help text for search in open editors toggle",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -285,23 +469,17 @@
             "state": "translated",
             "value": "Search only in Open Editors"
           }
-        }
-      }
-    },
-    "find_navigator.excluding_folders": {
-      "comment": "Placeholder for exclude folders field",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
+        },
+        "es-419": {
           "stringUnit": {
             "state": "translated",
-            "value": "Excluding folders"
+            "value": "Buscar solo en Editores Abiertos"
           }
         }
       }
     },
     "find-navigator.use-exclude-settings": {
-      "comment": "Help text for exclude settings toggle",
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -309,17 +487,29 @@
             "state": "translated",
             "value": "Use Exclude Settings and Ignore Files"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar configuración de exclusión y archivos ignorados"
+          }
         }
       }
     },
-    "find-navigator.replace-all": {
-      "comment": "Button text to replace all occurrences",
+    "find-navigator.with": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Replace All"
+            "value": "With"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con"
           }
         }
       }
