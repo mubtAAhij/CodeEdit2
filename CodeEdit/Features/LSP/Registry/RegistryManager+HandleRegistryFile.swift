@@ -93,7 +93,7 @@ extension RegistryManager {
 
             guard let httpResponse = response as? HTTPURLResponse else {
                 throw RegistryManagerError.downloadFailed(
-                    url: url, error: NSError(domain: "Invalid response type", code: -1)
+                    url: url, error: NSError(domain: "CodeEdit.RegistryError", code: -1, userInfo: [NSLocalizedDescriptionKey: String(localized: "lsp.registry.invalid_response_type", defaultValue: "Invalid response type", comment: "Error when HTTP response type is invalid")])
                 )
             }
             guard (200...299).contains(httpResponse.statusCode) else {
