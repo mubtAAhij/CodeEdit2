@@ -1,0 +1,750 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "lsp.data_channel_terminated_unexpectedly": {
+      "comment": "Error message when LSP data channel terminates unexpectedly",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data Channel Terminated Unexpectedly"
+          }
+        }
+      }
+    },
+    "lsp.installation_method.unknown": {
+      "comment": "Unknown installation method",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown"
+          }
+        }
+      }
+    },
+    "lsp.installation_method.unsupported": {
+      "comment": "Unsupported package manager type with name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Unsupported) %@"
+          }
+        }
+      }
+    },
+    "package_manager.build_from_source": {
+      "comment": "Package manager type: build from source",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build From Source"
+          }
+        }
+      }
+    },
+    "package_manager.download_from_github": {
+      "comment": "Package manager type: download from GitHub",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download From GitHub"
+          }
+        }
+      }
+    },
+    "lsp.registry.target.invalid_format": {
+      "comment": "Error message for invalid target format during decoding",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid target format"
+          }
+        }
+      }
+    },
+    "lsp.registry.bin.invalid_format": {
+      "comment": "Error message for invalid bin format during decoding",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid bin format"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.step_progress": {
+      "comment": "Package manager installation step progress with step number and task name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %d: %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.removing_existing": {
+      "comment": "Status message when removing existing installation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removing existing installation."
+          }
+        }
+      }
+    },
+    "lsp.package_manager.creating_directory": {
+      "comment": "Status message when creating directory with path",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creating directory: %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.initialize_directory": {
+      "comment": "Package manager installation step: initialize directory",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Initialize Directory Structure"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.install_using_cargo": {
+      "comment": "Package manager installation step: install using cargo",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install Package Using cargo"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.cargo_confirmation": {
+      "comment": "Confirmation prompt for installing cargo package with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This requires the cargo package %@.\nAllow CodeEdit to install this package?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.go_confirmation": {
+      "comment": "Confirmation prompt for running go commands",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This package requires go to install. Allow CodeEdit to run go commands?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.install_using_go": {
+      "comment": "Package manager installation step: install using go",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install Package Using go"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.go_install_confirmation": {
+      "comment": "Confirmation prompt for installing go package with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This requires installing the go package %@.\nAllow CodeEdit to install this package?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.build_from_source": {
+      "comment": "Package manager installation step: build from source",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build From Source"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.error.unknown": {
+      "comment": "Generic unknown error message",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown error occurred"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.error.not_installed": {
+      "comment": "Error when package manager is not installed",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The required package manager is not installed."
+          }
+        }
+      }
+    },
+    "lsp.package_manager.error.initialization_failed": {
+      "comment": "Error when directory initialization fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installation directory initialization failed."
+          }
+        }
+      }
+    },
+    "lsp.package_manager.error.installation_failed": {
+      "comment": "Error when package installation fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Package installation failed."
+          }
+        }
+      }
+    },
+    "lsp.package_manager.error.invalid_configuration": {
+      "comment": "Error when registry has invalid configuration",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The package registry contained an invalid installation configuration."
+          }
+        }
+      }
+    },
+    "lsp.registry.error.installation_running": {
+      "comment": "Error when trying to install while another installation is in progress",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A package is already being installed."
+          }
+        }
+      }
+    },
+    "lsp.registry.error.invalid_response": {
+      "comment": "Error for invalid HTTP response with status code",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid response received: %d"
+          }
+        }
+      }
+    },
+    "lsp.registry.error.download_failed": {
+      "comment": "Error when download fails with URL",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download for %@ error."
+          }
+        }
+      }
+    },
+    "lsp.registry.error.max_retries": {
+      "comment": "Error when maximum retry attempts exceeded with URL",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximum retries exceeded for url: %@"
+          }
+        }
+      }
+    },
+    "lsp.registry.error.write_failed": {
+      "comment": "Error when file write fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to write to file."
+          }
+        }
+      }
+    },
+    "lsp.registry.error.cache_write_failed": {
+      "comment": "Error when registry cache write fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to write to registry cache."
+          }
+        }
+      }
+    },
+    "lsp.registry.removing_package": {
+      "comment": "Activity title when removing a package with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removing %@"
+          }
+        }
+      }
+    },
+    "lsp.registry.installing_package": {
+      "comment": "Activity title when installing a package with package name and version",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installing %@"
+          }
+        }
+      }
+    },
+    "lsp.registry.install_failed_title": {
+      "comment": "Error notification title when package installation fails with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not install %@"
+          }
+        }
+      }
+    },
+    "lsp.registry.install_failed_description": {
+      "comment": "Error notification description when installation fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There was a problem during installation."
+          }
+        }
+      }
+    },
+    "lsp.registry.install_failed_button": {
+      "comment": "Button to dismiss installation error notification",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "lsp.registry.install_success": {
+      "comment": "Success message when package installation completes with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully installed %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.install_using_pip": {
+      "comment": "Package manager installation step: install using pip",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install Package Using pip"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.pip_confirmation": {
+      "comment": "Confirmation prompt for installing pip package with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This requires the pip package %@.\nAllow CodeEdit to install this package?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.update_requirements": {
+      "comment": "Package manager installation step: update requirements file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Update requirements.txt"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.writing_requirements": {
+      "comment": "Status message when writing requirements file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Writing requirements to requirements.txt"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.verify_installation": {
+      "comment": "Package manager installation step: verify installation",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify Installation"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.package_not_found": {
+      "comment": "Error when package not found in pip list with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Package %@ not found in pip list"
+          }
+        }
+      }
+    },
+    "lsp.registry.invalid_response_type": {
+      "comment": "Error when HTTP response type is invalid",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid response type"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.npm_confirmation": {
+      "comment": "Confirmation prompt for running npm commands",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This package requires npm to install. Allow CodeEdit to run npm commands?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.install_using_npm": {
+      "comment": "Package manager installation step: install using npm",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install Package Using npm"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.npm_install_confirmation_singular": {
+      "comment": "Confirmation prompt for installing single npm package with package name",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This requires the npm package %@.\nAllow CodeEdit to install this package?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.package_not_in_json": {
+      "comment": "Error when package not found in package.json",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Package not found in package.json"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.version_mismatch": {
+      "comment": "Error when installed package version doesn't match expected version",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version mismatch: Expected %@, but found %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.package_not_in_node_modules": {
+      "comment": "Error when package not found in node_modules",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Package not found in node_modules"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.git_confirmation": {
+      "comment": "Confirmation prompt for running git commands",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This package requires git to install. Allow CodeEdit to run git commands?"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.download_binary": {
+      "comment": "Package manager installation step: download binary",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download Binary Executable"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.downloading_url": {
+      "comment": "Status message when downloading from URL",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.http_error": {
+      "comment": "Error when HTTP request fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTP error"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.download_failed": {
+      "comment": "Error when package download fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not download package"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.decompress_binary": {
+      "comment": "Package manager installation step: decompress binary",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompress Binary Executable"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.decompressing_file": {
+      "comment": "Status message when decompressing file",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompressing %@"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.decompressed_to": {
+      "comment": "Status message showing decompression destination path",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompressed to '%@'"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.decompressing_tar": {
+      "comment": "Status message when decompressing tar archive",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompressing %@ using `tar`"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.decompressing_gunzip": {
+      "comment": "Status message when decompressing gzip archive",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompressing %@ using `gunzip`"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.clone_with_git": {
+      "comment": "Package manager installation step: clone with git",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clone with Git"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.git_clone_confirmation": {
+      "comment": "Confirmation prompt for git clone command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This step will run the following command to clone the package from source control:\n`%@`"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.install_from_source": {
+      "comment": "Package manager installation step: install from source",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install From Source"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.source_install_confirmation": {
+      "comment": "Confirmation prompt for source installation command",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This step will run the following to finish installing:\n`%@`"
+          }
+        }
+      }
+    },
+    "lsp.package_manager.source_build_failed": {
+      "comment": "Error when source build fails",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source build failed."
+          }
+        }
+      }
+    }
+  }
+}
