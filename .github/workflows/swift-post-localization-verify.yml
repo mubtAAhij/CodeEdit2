@@ -1,0 +1,206 @@
+name: Swift Post-Localization Build Verify (Quetzal)
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to verify (localized changes branch)"
+        required: true
+        type: string
+      job_id:
+        description: "Apply job id (for traceability)"
+        required: false
+        default: ""
+        type: string
+      project_id:
+        description: "Project id (for traceability)"
+        required: false
+        default: ""
+        type: string
+      integration_id:
+        description: "Integration id (for traceability)"
+        required: false
+        default: ""
+        type: string
+      xcode_version:
+        description: "Xcode version (e.g. 16.4, latest, latest-stable)"
+        required: false
+        default: "latest"
+        type: string
+      scheme:
+        description: "Explicit xcodebuild scheme (optional)"
+        required: false
+        default: ""
+        type: string
+      xcode_workspace_or_project:
+        description: "Optional path to .xcworkspace or .xcodeproj from repo root"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  verify-swift-build:
+    runs-on: macos-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+
+      - name: Select Xcode version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: ${{ inputs.xcode_version }}
+
+      - name: Find Xcode project/workspace and scheme
+        id: find-xcode-project
+        run: |
+          set -euo pipefail
+          PATH_OVERRIDE='${{ inputs.xcode_workspace_or_project }}'
+          PATH_OVERRIDE="${PATH_OVERRIDE#"${PATH_OVERRIDE%%[![:space:]]*}"}"
+          PATH_OVERRIDE="${PATH_OVERRIDE%"${PATH_OVERRIDE##*[![:space:]]}"}"
+
+          XCODE_WORKSPACE=""
+          XCODE_PROJECT=""
+
+          if [ -n "$PATH_OVERRIDE" ]; then
+            if [ ! -e "$PATH_OVERRIDE" ]; then
+              echo "::error::Path does not exist: $PATH_OVERRIDE"
+              exit 1
+            fi
+            case "$PATH_OVERRIDE" in
+              *.xcworkspace)
+                XCODE_WORKSPACE="$PATH_OVERRIDE"
+                if [[ "$XCODE_WORKSPACE" == *.xcodeproj/project.xcworkspace ]]; then
+                  XCODE_PROJECT="$(dirname "$XCODE_WORKSPACE")"
+                else
+                  XCODE_PROJECT=$(find . -name "*.xcodeproj" -type d | head -n 1)
+                fi
+                ;;
+              *.xcodeproj)
+                XCODE_PROJECT="$PATH_OVERRIDE"
+                if [ -d "$XCODE_PROJECT/project.xcworkspace" ]; then
+                  XCODE_WORKSPACE="$XCODE_PROJECT/project.xcworkspace"
+                fi
+                ;;
+              *)
+                echo "::error::xcode_workspace_or_project must end with .xcworkspace or .xcodeproj"
+                exit 1
+                ;;
+            esac
+          else
+            XCODE_WORKSPACE=$(find . -name "*.xcworkspace" -type d | head -n 1)
+            XCODE_PROJECT=$(find . -name "*.xcodeproj" -type d | head -n 1)
+          fi
+
+          if [ -n "$XCODE_WORKSPACE" ]; then
+            echo "project_path=$XCODE_WORKSPACE" >> "$GITHUB_OUTPUT"
+            echo "project_type=workspace" >> "$GITHUB_OUTPUT"
+          elif [ -n "$XCODE_PROJECT" ]; then
+            echo "project_path=$XCODE_PROJECT" >> "$GITHUB_OUTPUT"
+            echo "project_type=project" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::No .xcodeproj or .xcworkspace found"
+            exit 1
+          fi
+
+          if [ -n "${{ inputs.scheme }}" ]; then
+            SCHEME="${{ inputs.scheme }}"
+          elif [ -n "$XCODE_WORKSPACE" ]; then
+            SCHEME=$(xcodebuild -list -workspace "$XCODE_WORKSPACE" 2>/dev/null | grep -A 100 "Schemes:" | grep -v "Schemes:" | head -n 1 | xargs || true)
+            if [ -z "$SCHEME" ] && [ -n "$XCODE_PROJECT" ]; then
+              SCHEME=$(basename "$XCODE_PROJECT" .xcodeproj)
+            fi
+          else
+            SCHEME=$(xcodebuild -list -project "$XCODE_PROJECT" 2>/dev/null | grep -A 100 "Schemes:" | grep -v "Schemes:" | head -n 1 | xargs || true)
+            if [ -z "$SCHEME" ]; then
+              SCHEME=$(basename "$XCODE_PROJECT" .xcodeproj)
+            fi
+          fi
+          echo "scheme=$SCHEME" >> "$GITHUB_OUTPUT"
+
+      - name: Make build script available
+        run: |
+          set -euo pipefail
+          mkdir -p Scripts
+          if [ ! -f "Scripts/build_post_localization_verify.sh" ]; then
+            cat > Scripts/build_post_localization_verify.sh <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+
+          BUILD_PATH="${1:-}"
+          SCHEME="${2:-}"
+          CONFIGURATION="${3:-Debug}"
+
+          if [ -z "$BUILD_PATH" ] || [ -z "$SCHEME" ]; then
+            echo "Usage: build_post_localization_verify.sh <build_path> <scheme> [configuration]"
+            exit 1
+          fi
+
+          BUILD_TYPE="project"
+          if [[ "$BUILD_PATH" == *.xcworkspace ]]; then
+            BUILD_TYPE="workspace"
+          fi
+
+          xcodebuild_cmd() {
+            local cmd_args=()
+            if [ "$BUILD_TYPE" = "workspace" ]; then
+              cmd_args+=(-workspace "$BUILD_PATH")
+            else
+              cmd_args+=(-project "$BUILD_PATH")
+            fi
+            cmd_args+=(-scheme "$SCHEME")
+            cmd_args+=("$@")
+            xcodebuild "${cmd_args[@]}"
+          }
+
+          DESTINATION=""
+          AVAILABLE_DESTINATIONS=$(xcodebuild_cmd -showdestinations 2>/dev/null || true)
+          if echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:macOS"; then
+            DESTINATION="generic/platform=macOS"
+          elif echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:iOS Simulator"; then
+            DESTINATION="generic/platform=iOS Simulator"
+          elif echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:iOS"; then
+            DESTINATION="generic/platform=iOS"
+          fi
+
+          if [ -z "$DESTINATION" ]; then
+            DESTINATION="generic/platform=macOS"
+          fi
+
+          if [ "$BUILD_TYPE" = "workspace" ]; then
+            xcodebuild -workspace "$BUILD_PATH" -resolvePackageDependencies || true
+          else
+            xcodebuild -project "$BUILD_PATH" -resolvePackageDependencies || true
+          fi
+
+          xcodebuild_cmd \
+            -configuration "$CONFIGURATION" \
+            -destination "$DESTINATION" \
+            CODE_SIGNING_ALLOWED=NO \
+            -skipPackagePluginValidation \
+            build 2>&1 | tee build_output_post_localization.log
+          EOF
+          fi
+          chmod +x Scripts/build_post_localization_verify.sh
+
+      - name: Run full build verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          bash ./Scripts/build_post_localization_verify.sh \
+            "${{ steps.find-xcode-project.outputs.project_path }}" \
+            "${{ steps.find-xcode-project.outputs.scheme }}" \
+            "Debug"
+
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-localization-build-verify-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            build_output_post_localization.log
+          retention-days: 30
+          if-no-files-found: warn
