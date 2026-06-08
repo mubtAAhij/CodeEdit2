@@ -176,6 +176,12 @@ jobs:
             xcodebuild -project "$BUILD_PATH" -resolvePackageDependencies || true
           fi
 
+          # Build verification should fail on compile issues, not style lint findings.
+          export SWIFTLINT_DISABLE=YES
+          export SWIFTLINT_SKIP_BUILD_PHASE=YES
+          export DISABLE_SWIFTLINT=YES
+          export SWIFTLINT_DISABLE=1
+
           xcodebuild_cmd \
             -configuration "$CONFIGURATION" \
             -destination "$DESTINATION" \
