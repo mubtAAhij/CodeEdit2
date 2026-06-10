@@ -24,13 +24,13 @@ struct FindNavigatorIndexBar: View {
                         EmptyView()
                     } currentValueLabel: {
                         HStack {
-                            Text("Indexing \(Int(progress * 100))%")
+                            Text(String(format: String(localized: "find-navigator.indexing-progress", defaultValue: "Indexing %d%%", comment: "Progress indicator for file indexing in search navigator"), Int(progress * 100)))
                                 .font(.system(size: 10))
                                 .animation(.none)
                         }
                     }
                     // swiftlint:disable:next line_length
-                    .help("Indexing current workspace files for search. Searches performed while indexing may return incomplete results.")
+                    .help(String(localized: "find-navigator.indexing-help", defaultValue: "Indexing current workspace files for search. Searches performed while indexing may return incomplete results.", comment: "Tooltip explaining file indexing process and incomplete results during indexing"))
                 }
                 .transition(.asymmetric(insertion: .identity, removal: .move(edge: .top).combined(with: .opacity)))
             }
