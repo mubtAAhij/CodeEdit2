@@ -58,6 +58,11 @@ jobs:
         id: find-xcode-project
         run: |
           set -euo pipefail
+          echo "[verify] Starting Xcode project/workspace discovery"
+          echo "[verify] GitHub ref: ${GITHUB_REF:-unknown}"
+          echo "[verify] Inputs: branch='${{ inputs.branch }}' xcode_workspace_or_project='${{ inputs.xcode_workspace_or_project }}' scheme='${{ inputs.scheme }}'"
+          echo "[verify] Working directory: $(pwd)"
+
           PATH_OVERRIDE='${{ inputs.xcode_workspace_or_project }}'
           PATH_OVERRIDE="${PATH_OVERRIDE#"${PATH_OVERRIDE%%[![:space:]]*}"}"
           PATH_OVERRIDE="${PATH_OVERRIDE%"${PATH_OVERRIDE##*[![:space:]]}"}"
@@ -65,7 +70,35 @@ jobs:
           XCODE_WORKSPACE=""
           XCODE_PROJECT=""
 
+          run_xcodebuild_list() {
+            local mode="$1"
+            local build_path="$2"
+            python3 - "$mode" "$build_path" <<'PY'
+import subprocess
+import sys
+
+mode, build_path = sys.argv[1], sys.argv[2]
+cmd = ["xcodebuild", "-list", f"-{mode}", build_path]
+print(f"[verify] Running {' '.join(cmd)} with 180s timeout", flush=True)
+try:
+    proc = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+    if proc.stdout:
+        print(proc.stdout, end="" if proc.stdout.endswith("\n") else "\n")
+    if proc.stderr:
+        print(proc.stderr, file=sys.stderr, end="" if proc.stderr.endswith("\n") else "\n")
+    sys.exit(proc.returncode)
+except subprocess.TimeoutExpired as exc:
+    print(f"[verify] WARNING: {' '.join(cmd)} timed out after 180s", file=sys.stderr, flush=True)
+    if exc.stdout:
+        print(exc.stdout, end="" if exc.stdout.endswith("\n") else "\n")
+    if exc.stderr:
+        print(exc.stderr, file=sys.stderr, end="" if exc.stderr.endswith("\n") else "\n")
+    sys.exit(124)
+PY
+          }
+
           if [ -n "$PATH_OVERRIDE" ]; then
+            echo "[verify] Using explicit path override: $PATH_OVERRIDE"
             if [ ! -e "$PATH_OVERRIDE" ]; then
               echo "::error::Path does not exist: $PATH_OVERRIDE"
               exit 1
@@ -76,7 +109,10 @@ jobs:
                 if [[ "$XCODE_WORKSPACE" == *.xcodeproj/project.xcworkspace ]]; then
                   XCODE_PROJECT="$(dirname "$XCODE_WORKSPACE")"
                 else
-                  XCODE_PROJECT=$(find . -name "*.xcodeproj" -type d | head -n 1)
+                  CANDIDATE_PROJECT="${XCODE_WORKSPACE%.xcworkspace}.xcodeproj"
+                  if [ -d "$CANDIDATE_PROJECT" ]; then
+                    XCODE_PROJECT="$CANDIDATE_PROJECT"
+                  fi
                 fi
                 ;;
               *.xcodeproj)
@@ -91,14 +127,20 @@ jobs:
                 ;;
             esac
           else
-            XCODE_WORKSPACE=$(find . -name "*.xcworkspace" -type d | head -n 1)
-            XCODE_PROJECT=$(find . -name "*.xcodeproj" -type d | head -n 1)
+            echo "[verify] No explicit path override; discovering via git index"
+            XCODE_WORKSPACE=$(git ls-files '*.xcworkspace' | head -n 1 || true)
+            XCODE_PROJECT=$(git ls-files '*.xcodeproj/project.pbxproj' | sed 's#/project.pbxproj$##' | head -n 1 || true)
+            if [ -z "$XCODE_WORKSPACE" ] && [ -n "$XCODE_PROJECT" ] && [ -d "$XCODE_PROJECT/project.xcworkspace" ]; then
+              XCODE_WORKSPACE="$XCODE_PROJECT/project.xcworkspace"
+            fi
           fi
 
           if [ -n "$XCODE_WORKSPACE" ]; then
+            echo "[verify] Resolved workspace: $XCODE_WORKSPACE"
             echo "project_path=$XCODE_WORKSPACE" >> "$GITHUB_OUTPUT"
             echo "project_type=workspace" >> "$GITHUB_OUTPUT"
           elif [ -n "$XCODE_PROJECT" ]; then
+            echo "[verify] Resolved project: $XCODE_PROJECT"
             echo "project_path=$XCODE_PROJECT" >> "$GITHUB_OUTPUT"
             echo "project_type=project" >> "$GITHUB_OUTPUT"
           else
@@ -108,17 +150,42 @@ jobs:
 
           if [ -n "${{ inputs.scheme }}" ]; then
             SCHEME="${{ inputs.scheme }}"
+            echo "[verify] Using explicit scheme input: $SCHEME"
           elif [ -n "$XCODE_WORKSPACE" ]; then
-            SCHEME=$(xcodebuild -list -workspace "$XCODE_WORKSPACE" 2>/dev/null | grep -A 100 "Schemes:" | grep -v "Schemes:" | head -n 1 | xargs || true)
+            SCHEME=$(basename "$XCODE_WORKSPACE" .xcworkspace)
+            echo "[verify] Derived fallback scheme from workspace name: $SCHEME"
+            LIST_OUTPUT="$(run_xcodebuild_list workspace "$XCODE_WORKSPACE" || true)"
+            LIST_SCHEME=$(printf "%s\n" "$LIST_OUTPUT" | awk '/Schemes:/{flag=1; next} flag && NF {print; exit}' | xargs || true)
+            if [ -n "$LIST_SCHEME" ]; then
+              SCHEME="$LIST_SCHEME"
+              echo "[verify] Resolved scheme from xcodebuild -list: $SCHEME"
+            else
+              echo "[verify] Could not parse scheme from xcodebuild -list; keeping fallback scheme: $SCHEME"
+            fi
             if [ -z "$SCHEME" ] && [ -n "$XCODE_PROJECT" ]; then
               SCHEME=$(basename "$XCODE_PROJECT" .xcodeproj)
+              echo "[verify] Workspace scheme empty; fallback to project basename scheme: $SCHEME"
             fi
           else
-            SCHEME=$(xcodebuild -list -project "$XCODE_PROJECT" 2>/dev/null | grep -A 100 "Schemes:" | grep -v "Schemes:" | head -n 1 | xargs || true)
+            SCHEME=$(basename "$XCODE_PROJECT" .xcodeproj)
+            echo "[verify] Derived fallback scheme from project name: $SCHEME"
+            LIST_OUTPUT="$(run_xcodebuild_list project "$XCODE_PROJECT" || true)"
+            LIST_SCHEME=$(printf "%s\n" "$LIST_OUTPUT" | awk '/Schemes:/{flag=1; next} flag && NF {print; exit}' | xargs || true)
+            if [ -n "$LIST_SCHEME" ]; then
+              SCHEME="$LIST_SCHEME"
+              echo "[verify] Resolved scheme from xcodebuild -list: $SCHEME"
+            else
+              echo "[verify] Could not parse scheme from xcodebuild -list; keeping fallback scheme: $SCHEME"
+            fi
             if [ -z "$SCHEME" ]; then
               SCHEME=$(basename "$XCODE_PROJECT" .xcodeproj)
             fi
           fi
+          if [ -z "$SCHEME" ]; then
+            echo "::error::Failed to determine Xcode scheme"
+            exit 1
+          fi
+          echo "[verify] Final selected scheme: $SCHEME"
           echo "scheme=$SCHEME" >> "$GITHUB_OUTPUT"
 
       - name: Make build script available
