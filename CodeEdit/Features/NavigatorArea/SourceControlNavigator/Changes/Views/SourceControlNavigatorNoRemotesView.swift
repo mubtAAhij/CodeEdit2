@@ -15,14 +15,14 @@ struct SourceControlNavigatorNoRemotesView: View {
             HStack {
                 Label(
                     title: {
-                        Text("No remotes")
+                        Text(String(localized: "source-control-navigator.no-remotes.title", defaultValue: "No remotes", comment: "Label shown when git repository has no remote repositories"))
                     }, icon: {
                         Image(systemName: "network")
                             .foregroundColor(.secondary)
                     }
                 )
                 Spacer()
-                Button("Add") {
+                Button(String(localized: "source-control-navigator.no-remotes.add-button", defaultValue: "Add", comment: "Button to add a new git remote")) {
                     sourceControlManager.addExistingRemoteSheetIsPresented = true
                 }
             }
