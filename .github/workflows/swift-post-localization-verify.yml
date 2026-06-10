@@ -73,28 +73,29 @@ jobs:
           run_xcodebuild_list() {
             local mode="$1"
             local build_path="$2"
-            python3 - "$mode" "$build_path" <<'PY'
-import subprocess
-import sys
-
-mode, build_path = sys.argv[1], sys.argv[2]
-cmd = ["xcodebuild", "-list", f"-{mode}", build_path]
-print(f"[verify] Running {' '.join(cmd)} with 180s timeout", flush=True)
-try:
-    proc = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    if proc.stdout:
-        print(proc.stdout, end="" if proc.stdout.endswith("\n") else "\n")
-    if proc.stderr:
-        print(proc.stderr, file=sys.stderr, end="" if proc.stderr.endswith("\n") else "\n")
-    sys.exit(proc.returncode)
-except subprocess.TimeoutExpired as exc:
-    print(f"[verify] WARNING: {' '.join(cmd)} timed out after 180s", file=sys.stderr, flush=True)
-    if exc.stdout:
-        print(exc.stdout, end="" if exc.stdout.endswith("\n") else "\n")
-    if exc.stderr:
-        print(exc.stderr, file=sys.stderr, end="" if exc.stderr.endswith("\n") else "\n")
-    sys.exit(124)
-PY
+            local tmp_out
+            tmp_out="$(mktemp)"
+            echo "[verify] Running xcodebuild -list -${mode} ${build_path} with 180s timeout"
+            ( xcodebuild -list "-${mode}" "$build_path" >"$tmp_out" 2>&1 ) &
+            local pid=$!
+            local waited=0
+            while kill -0 "$pid" 2>/dev/null && [ "$waited" -lt 180 ]; do
+              sleep 1
+              waited=$((waited + 1))
+            done
+            if kill -0 "$pid" 2>/dev/null; then
+              kill "$pid" 2>/dev/null || true
+              wait "$pid" 2>/dev/null || true
+              cat "$tmp_out" || true
+              rm -f "$tmp_out"
+              echo "[verify] WARNING: xcodebuild -list timed out after 180s" >&2
+              return 124
+            fi
+            wait "$pid"
+            local rc=$?
+            cat "$tmp_out"
+            rm -f "$tmp_out"
+            return "$rc"
           }
 
           if [ -n "$PATH_OVERRIDE" ]; then
@@ -193,92 +194,8 @@ PY
           set -euo pipefail
           mkdir -p Scripts
           if [ ! -f "Scripts/build_post_localization_verify.sh" ]; then
-            cat > Scripts/build_post_localization_verify.sh <<'EOF'
-          #!/usr/bin/env bash
-          set -euo pipefail
-
-          BUILD_PATH="${1:-}"
-          SCHEME="${2:-}"
-          CONFIGURATION="${3:-Debug}"
-
-          if [ -z "$BUILD_PATH" ] || [ -z "$SCHEME" ]; then
-            echo "Usage: build_post_localization_verify.sh <build_path> <scheme> [configuration]"
+            echo "::error::Scripts/build_post_localization_verify.sh is missing on branch ${{ inputs.branch }}. Ensure the Quetzal workflow bootstrap ran on the default branch, then merge or cherry-pick that commit."
             exit 1
-          fi
-
-          BUILD_TYPE="project"
-          if [[ "$BUILD_PATH" == *.xcworkspace ]]; then
-            BUILD_TYPE="workspace"
-          fi
-
-          xcodebuild_cmd() {
-            local cmd_args=()
-            if [ "$BUILD_TYPE" = "workspace" ]; then
-              cmd_args+=(-workspace "$BUILD_PATH")
-            else
-              cmd_args+=(-project "$BUILD_PATH")
-            fi
-            cmd_args+=(-scheme "$SCHEME")
-            cmd_args+=("$@")
-            xcodebuild "${cmd_args[@]}"
-          }
-
-          DESTINATION=""
-          AVAILABLE_DESTINATIONS=$(xcodebuild_cmd -showdestinations 2>/dev/null || true)
-          if echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:macOS"; then
-            DESTINATION="generic/platform=macOS"
-          elif echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:iOS Simulator"; then
-            DESTINATION="generic/platform=iOS Simulator"
-          elif echo "$AVAILABLE_DESTINATIONS" | grep -q "platform:iOS"; then
-            DESTINATION="generic/platform=iOS"
-          fi
-
-          if [ -z "$DESTINATION" ]; then
-            DESTINATION="generic/platform=macOS"
-          fi
-
-          if [ "$BUILD_TYPE" = "workspace" ]; then
-            xcodebuild -workspace "$BUILD_PATH" -scheme "$SCHEME" -resolvePackageDependencies || true
-          else
-            xcodebuild -project "$BUILD_PATH" -scheme "$SCHEME" -resolvePackageDependencies || true
-          fi
-
-          # Build verification should fail on compile issues, not style lint findings.
-          export SWIFTLINT_DISABLE=YES
-          export SWIFTLINT_SKIP_BUILD_PHASE=YES
-          export DISABLE_SWIFTLINT=YES
-          export SWIFTLINT_DISABLE=1
-
-          xcodebuild_cmd \
-            -configuration "$CONFIGURATION" \
-            -destination "$DESTINATION" \
-            CODE_SIGNING_ALLOWED=NO \
-            -skipPackagePluginValidation \
-            build 2>&1 | tee build_output_post_localization.log
-
-          BUILD_EXIT_CODE=${PIPESTATUS[0]}
-          if [ "$BUILD_EXIT_CODE" -eq 0 ]; then
-            exit 0
-          fi
-
-          echo "xcodebuild exited with code $BUILD_EXIT_CODE; checking whether failures are SwiftLint-plugin-only..."
-          FAILED_CMDS=$(awk '
-              /The following build commands failed:/ { in_block=1; next }
-              in_block && /^\(/ { in_block=0; next }
-              in_block && $0 ~ /^[[:space:]]+\S/ { gsub(/^[[:space:]]+/, "", $0); print }
-          ' build_output_post_localization.log || true)
-
-          if [ -n "$FAILED_CMDS" ]; then
-            NON_SWIFTLINT_FAILED=$(printf "%s\n" "$FAILED_CMDS" | grep -Ev "SwiftLint|Running SwiftLint" || true)
-            if [ -z "$NON_SWIFTLINT_FAILED" ]; then
-              echo "Only SwiftLint build-tool plugin failures detected; treating verification as pass."
-              exit 0
-            fi
-          fi
-
-          echo "Non-SwiftLint build failures detected; verification failed."
-          exit "$BUILD_EXIT_CODE"
-          EOF
           fi
           chmod +x Scripts/build_post_localization_verify.sh
 
