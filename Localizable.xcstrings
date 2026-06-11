@@ -1,0 +1,334 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "find-navigator.indexing-progress": {
+      "comment": "Index progress percentage",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing %d%%"
+          }
+        }
+      }
+    },
+    "find-navigator.indexing-help": {
+      "comment": "Tooltip explaining index progress",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing current workspace files for search. Searches performed while indexing may return incomplete results."
+          }
+        }
+      }
+    },
+    "find-navigator.filter": {
+      "comment": "Filter field title for search results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
+          }
+        }
+      }
+    },
+    "find-navigator.filter-help": {
+      "comment": "Tooltip for filter field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show results with matching text"
+          }
+        }
+      }
+    },
+    "find_navigator.results_summary": {
+      "comment": "Summary of search results showing result count and file count",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ in %#@files@"
+          },
+          "substitutions": {
+            "results": {
+              "argNum": 1,
+              "formatSpecifier": "d",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d result"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d results"
+                    }
+                  }
+                }
+              }
+            },
+            "files": {
+              "argNum": 2,
+              "formatSpecifier": "d",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "find-navigator.searching": {
+      "comment": "Search in progress status",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching"
+          }
+        }
+      }
+    },
+    "find-navigator.replacing": {
+      "comment": "Replace in progress status",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replacing"
+          }
+        }
+      }
+    },
+    "find_navigator.no_results": {
+      "comment": "Empty state title when search returns no results",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results"
+          }
+        }
+      }
+    },
+    "find_navigator.no_results_for_query": {
+      "comment": "Empty state description showing search query",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results for \\"
+          }
+        }
+      }
+    },
+    "find_navigator.replaced": {
+      "comment": "Success state title after replacement",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replaced"
+          }
+        }
+      }
+    },
+    "find_navigator.replaced_success_message": {
+      "comment": "Success message showing number of files updated",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully replaced terms across %#@files@"
+          },
+          "substitutions": {
+            "files": {
+              "argNum": 1,
+              "formatSpecifier": "d",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "find_navigator.error_occurred": {
+      "comment": "Error state title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Error Occurred"
+          }
+        }
+      }
+    },
+    "find-navigator.scoped": {
+      "comment": "Toggle for scoped search mode",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scoped"
+          }
+        }
+      }
+    },
+    "find-navigator.match-case": {
+      "comment": "Tooltip for case-sensitive toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Match Case"
+          }
+        }
+      }
+    },
+    "find-navigator.with": {
+      "comment": "Replacement text field title",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With"
+          }
+        }
+      }
+    },
+    "find-navigator.ab": {
+      "comment": "Preserve case toggle label",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AB"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case": {
+      "comment": "Tooltip for preserve case toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preserve Case"
+          }
+        }
+      }
+    },
+    "find_navigator.only_in_folders": {
+      "comment": "Title for includes text field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only in folders"
+          }
+        }
+      }
+    },
+    "find-navigator.search-only-in-open-editors": {
+      "comment": "Tooltip for open editors scope toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search only in Open Editors"
+          }
+        }
+      }
+    },
+    "find_navigator.excluding_folders": {
+      "comment": "Title for excludes text field",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluding folders"
+          }
+        }
+      }
+    },
+    "find-navigator.use-exclude-settings-and-ignore-files": {
+      "comment": "Tooltip for exclude settings toggle",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Exclude Settings and Ignore Files"
+          }
+        }
+      }
+    },
+    "find-navigator.replace-all": {
+      "comment": "Button to replace all matches",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace All"
+          }
+        }
+      }
+    }
+  }
+}
