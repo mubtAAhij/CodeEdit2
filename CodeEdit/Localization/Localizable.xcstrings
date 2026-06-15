@@ -1,0 +1,6708 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "-": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-"
+          }
+        }
+      }
+    },
+    ",": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ","
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", "
+          }
+        }
+      }
+    },
+    ".": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "."
+          }
+        }
+      }
+    },
+    "+": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+"
+          }
+        }
+      }
+    },
+    "action": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "action"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "acción"
+          }
+        }
+      }
+    },
+    "app.codeedit.CodeEdit.shared": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "app.codeedit.CodeEdit.shared"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "app.codeedit.CodeEdit.shared"
+          }
+        }
+      }
+    },
+    "applescript": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "applescript"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "applescript"
+          }
+        }
+      }
+    },
+    "arrow.triangle.branch": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "arrow.triangle.branch"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "arrow.triangle.branch"
+          }
+        }
+      }
+    },
+    "atom": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "atom"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "atom"
+          }
+        }
+      }
+    },
+    "/bin/zsh": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/bin/zsh"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/bin/zsh"
+          }
+        }
+      }
+    },
+    "c": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "c"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "c"
+          }
+        }
+      }
+    },
+    "-c": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-c"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-c"
+          }
+        }
+      }
+    },
+    "cc": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cc"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cc"
+          }
+        }
+      }
+    },
+    "checkmark.seal": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "checkmark.seal"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "checkmark.seal"
+          }
+        }
+      }
+    },
+    "chevron.left.forwardslash.chevron.right": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "chevron.left.forwardslash.chevron.right"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "chevron.left.forwardslash.chevron.right"
+          }
+        }
+      }
+    },
+    "codeedit": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "codeedit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "codeedit"
+          }
+        }
+      }
+    },
+    "cpp": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cpp"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cpp"
+          }
+        }
+      }
+    },
+    "create": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "create"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "crear"
+          }
+        }
+      }
+    },
+    "cup.and.saucer": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cup.and.saucer"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cup.and.saucer"
+          }
+        }
+      }
+    },
+    "curlybraces": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "curlybraces"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "llaves"
+          }
+        }
+      }
+    },
+    "delay": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "delay"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "retraso"
+          }
+        }
+      }
+    },
+    "deleteWithDelay": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "deleteWithDelay"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "deleteWithDelay"
+          }
+        }
+      }
+    },
+    "doc": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc"
+          }
+        }
+      }
+    },
+    "doc.javascript": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.javascript"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.javascript"
+          }
+        }
+      }
+    },
+    "doc.json": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.json"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.json"
+          }
+        }
+      }
+    },
+    "doc.plaintext": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.plaintext"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.texto-plano"
+          }
+        }
+      }
+    },
+    "doc.python": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.python"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.python"
+          }
+        }
+      }
+    },
+    "doc.richtext": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.richtext"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.richtext"
+          }
+        }
+      }
+    },
+    "doc.ruby": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.ruby"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "doc.ruby"
+          }
+        }
+      }
+    },
+    "-e": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-e"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-e"
+          }
+        }
+      }
+    },
+    "enableOpenInCE": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "enableOpenInCE"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "enableOpenInCE"
+          }
+        }
+      }
+    },
+    "extensions.detail.features": {
+      "comment": "CodeEdit/Features/Extensions/ExtensionDetailView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Features"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Características"
+          }
+        }
+      }
+    },
+    "extensions.detail.settings-title": {
+      "comment": "CodeEdit/Features/Extensions/ExtensionDetailView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extension Settings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración de extensiones"
+          }
+        }
+      }
+    },
+    "extensions.selected-count": {
+      "comment": "CodeEdit/Features/Extensions/ExtensionManagerWindow.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d seleccionados"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d seleccionado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d seleccionadas"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "extensions.select-extension": {
+      "comment": "CodeEdit/Features/Extensions/ExtensionManagerWindow.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select an extension"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar una extensión"
+          }
+        }
+      }
+    },
+    "extensions.window-title": {
+      "comment": "CodeEdit/Features/Extensions/ExtensionManagerWindow.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensiones"
+          }
+        }
+      }
+    },
+    "f": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "f"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "f"
+          }
+        }
+      }
+    },
+    "file-commands.close-editor-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Editor"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Editor"
+          }
+        }
+      }
+    },
+    "file-commands.close-tab-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Tab"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Pestaña"
+          }
+        }
+      }
+    },
+    "file-commands.close-terminal-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Terminal"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Terminal"
+          }
+        }
+      }
+    },
+    "file-commands.close-window-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Window"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar Ventana"
+          }
+        }
+      }
+    },
+    "file-commands.close-workspace-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Workspace"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar espacio de trabajo"
+          }
+        }
+      }
+    },
+    "file-commands.new-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo"
+          }
+        }
+      }
+    },
+    "file-commands.open-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir..."
+          }
+        }
+      }
+    },
+    "file-commands.open-quickly-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Quickly"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Rápidamente"
+          }
+        }
+      }
+    },
+    "file-commands.open-recent-menu": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Recientes"
+          }
+        }
+      }
+    },
+    "file-commands.save-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
+          }
+        }
+      }
+    },
+    "file-commands.workspace-settings-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace Settings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración del espacio de trabajo"
+          }
+        }
+      }
+    },
+    "file-management.batch-delete.cancel-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "file_management.batch_delete.confirmation_message": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete the %d selected items?"
+          },
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Are you sure you want to delete the %d selected items?"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Are you sure you want to delete the %d selected item?"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Estás seguro de que quieres eliminar los %d elementos seleccionados?"
+          },
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "¿Estás seguro de que quieres eliminar los %d elementos seleccionados?"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "¿Estás seguro de que quieres eliminar el %d elemento seleccionado?"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "file-management.batch-delete.delete-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
+          }
+        }
+      }
+    },
+    "file_management.batch_delete.warning_message": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d items will be deleted immediately. You cannot undo this action."
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d item will be deleted immediately. You cannot undo this action."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d items will be deleted immediately. You cannot undo this action."
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d elementos se eliminarán inmediatamente. No puedes deshacer esta acción."
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d elemento se eliminará de inmediato. No puedes deshacer esta acción."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d elementos se eliminarán de inmediato. No puedes deshacer esta acción."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "file-management.delete.cancel-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "file_management.delete.confirmation_message": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do you want to delete"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Quieres eliminar"
+          }
+        }
+      }
+    },
+    "file-management.delete.delete-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
+          }
+        }
+      }
+    },
+    "file_management.delete.warning_message": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This item will be deleted immediately. You can't undo this action."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este elemento se eliminará de inmediato. No puedes deshacer esta acción."
+          }
+        }
+      }
+    },
+    "file_management.duplicate.copy_suffix": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ copy%@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ copia%@"
+          }
+        }
+      }
+    },
+    "file-manager.error.destination-exists": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Destination already exists"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El destino ya existe"
+          }
+        }
+      }
+    },
+    "file-manager.error.file-moved-suggestion": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The file may have moved during the operation, try again."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El archivo puede haberse movido durante la operación, intenta de nuevo."
+          }
+        }
+      }
+    },
+    "file-manager.error.file-not-found": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File not found"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivo no encontrado"
+          }
+        }
+      }
+    },
+    "file-manager.error.file-not-indexed": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File not found in CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivo no encontrado en CodeEdit"
+          }
+        }
+      }
+    },
+    "file-manager.error.invalid-name": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid file name"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de archivo inválido"
+          }
+        }
+      }
+    },
+    "file-manager.error.invalid-name-suggestion": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File names must not contain the : character and be less than 256 characters."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los nombres de archivo no deben contener el carácter : ni superar los 256 caracteres."
+          }
+        }
+      }
+    },
+    "file-manager.error.origin-not-found": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to find origin file"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al encontrar archivo de origen"
+          }
+        }
+      }
+    },
+    "file-manager.error.reindex-suggestion": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen the workspace to reindex the file system."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reabre el espacio de trabajo para reindexar el sistema de archivos."
+          }
+        }
+      }
+    },
+    "file-manager.error.rename-suggestion": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+Error.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use a different file name or remove the conflicting file."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa un nombre de archivo diferente o elimina el archivo en conflicto."
+          }
+        }
+      }
+    },
+    "film": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "film"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "película"
+          }
+        }
+      }
+    },
+    "find-commands.find-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar..."
+          }
+        }
+      }
+    },
+    "find-commands.find-next-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Next"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar siguiente"
+          }
+        }
+      }
+    },
+    "find-commands.find-previous-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Previous"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar anterior"
+          }
+        }
+      }
+    },
+    "find-commands.find-replace-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find and Replace..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar y reemplazar..."
+          }
+        }
+      }
+    },
+    "find-commands.jump-to-selection-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jump to Selection"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir a la selección"
+          }
+        }
+      }
+    },
+    "find-commands.menu-title": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar"
+          }
+        }
+      }
+    },
+    "find-commands.use-selection-button": {
+      "comment": "CodeEdit/Features/WindowCommands/FindCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Selection for Find"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar Selección para Buscar"
+          }
+        }
+      }
+    },
+    "find_navigator.error_occurred": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Error Occurred"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocurrió un error"
+          }
+        }
+      }
+    },
+    "find-navigator.exclude-settings-tooltip": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Exclude Settings and Ignore Files"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar configuración de exclusión y archivos ignorados"
+          }
+        }
+      }
+    },
+    "find_navigator.excluding_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluding folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluyendo carpetas"
+          }
+        }
+      }
+    },
+    "find-navigator.filter-help": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorToolbarBottom.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show results with matching text"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar resultados con texto coincidente"
+          }
+        }
+      }
+    },
+    "find-navigator.filter-placeholder": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorToolbarBottom.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtrar"
+          }
+        }
+      }
+    },
+    "find-navigator.indexing-progress": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorIndexBar.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing %d%%"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexando %d%%"
+          }
+        }
+      }
+    },
+    "find-navigator.indexing-tooltip": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorIndexBar.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing current workspace files for search. Searches performed while indexing may return incomplete results."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexando archivos del espacio de trabajo actual para búsqueda. Las búsquedas realizadas durante la indexación pueden devolver resultados incompletos."
+          }
+        }
+      }
+    },
+    "find-navigator.match-case-tooltip": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Match Case"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coincidir mayúsculas"
+          }
+        }
+      }
+    },
+    "find_navigator.no_results": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados"
+          }
+        }
+      }
+    },
+    "find_navigator.no_results_for_query": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results for \"%@\" in Project"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay resultados para \"%@\" en el proyecto"
+          }
+        }
+      }
+    },
+    "find_navigator.only_in_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only in folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo en carpetas"
+          }
+        }
+      }
+    },
+    "find-navigator.open-editors-tooltip": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search only in Open Editors"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar solo en Editores Abiertos"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case-label": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AB"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AB"
+          }
+        }
+      }
+    },
+    "find-navigator.preserve-case-tooltip": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preserve Case"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preservar mayúsculas/minúsculas"
+          }
+        }
+      }
+    },
+    "find-navigator.replace-all-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace All"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazar todo"
+          }
+        }
+      }
+    },
+    "find_navigator.replaced": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replaced"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazado"
+          }
+        }
+      }
+    },
+    "find_navigator.replaced_success_message": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully replaced terms across %d files"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Términos reemplazados correctamente en %d archivos"
+          }
+        }
+      }
+    },
+    "find-navigator.replacing-status": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replacing"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazando"
+          }
+        }
+      }
+    },
+    "find_navigator.results_summary": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@result@ in %#@file@"
+          },
+          "substitutions": {
+            "result": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d result"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d results"
+                    }
+                  }
+                }
+              }
+            },
+            "file": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@result@ en %#@file@"
+          }
+        }
+      }
+    },
+    "find-navigator.scoped-label": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scoped"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con ámbito"
+          }
+        }
+      }
+    },
+    "find-navigator.searching-status": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando"
+          }
+        }
+      }
+    },
+    "find-navigator.with-placeholder": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con"
+          }
+        }
+      }
+    },
+    "find-replace.alert.error-title": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "find-replace.alert.ok-button": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
+          }
+        }
+      }
+    },
+    "find-replace.alert.read-error-message": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An error occurred while reading file contents of: %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocurrió un error al leer el contenido del archivo: %@"
+          }
+        }
+      }
+    },
+    "find-replace.alert.write-error-message": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An error occurred while writing to: %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al escribir en: %@"
+          }
+        }
+      }
+    },
+    "find-replace.alert.write-error-title": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "find-replace.alert.write-ok-button": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
+          }
+        }
+      }
+    },
+    "find-replace.error.all-files-failed": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All files failed to update. (%d) errors occurred. Check logs for more information"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al actualizar todos los archivos. Ocurrieron (%d) errores. Consulta los logs para más información"
+          }
+        }
+      }
+    },
+    "find-replace.error.no-files-matched": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No files in the workspace matched: %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay archivos en el espacio de trabajo que coincidan con: %@"
+          }
+        }
+      }
+    },
+    "find-replace.error.partial-success": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d successfully updated, %d errors occurred. Please check logs for more information."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d actualizados correctamente, %d errores ocurrieron. Revisa los logs para más información."
+          }
+        }
+      }
+    },
+    "gearshape.2": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gearshape.2"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gearshape.2"
+          }
+        }
+      }
+    },
+    "gearshape.fill": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gearshape.fill"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gearshape.fill"
+          }
+        }
+      }
+    },
+    "general-settings.after-last-window-closed-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After the last window is closed"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Después de cerrar la última ventana"
+          }
+        }
+      }
+    },
+    "general-settings.after-window-do-nothing": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do nothing"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hacer nada"
+          }
+        }
+      }
+    },
+    "general-settings.after-window-quit": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir"
+          }
+        }
+      }
+    },
+    "general-settings.after-window-show-welcome": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Welcome Window"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar ventana de bienvenida"
+          }
+        }
+      }
+    },
+    "general-settings.appearance-dark": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oscuro"
+          }
+        }
+      }
+    },
+    "general-settings.appearance-light": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claro"
+          }
+        }
+      }
+    },
+    "general-settings.appearance-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apariencia"
+          }
+        }
+      }
+    },
+    "general-settings.appearance-system": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistema"
+          }
+        }
+      }
+    },
+    "general-settings.auto-check-updates-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically check for app updates"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones de la app automáticamente"
+          }
+        }
+      }
+    },
+    "general-settings.auto-save-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically save changes to disk"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar cambios en disco automáticamente"
+          }
+        }
+      }
+    },
+    "general-settings.check-for-updates-label": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones"
+          }
+        }
+      }
+    },
+    "general-settings.check-now-button": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Now"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar ahora"
+          }
+        }
+      }
+    },
+    "general-settings.dialog-warnings-label": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dialog Warnings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertencias de Diálogo"
+          }
+        }
+      }
+    },
+    "general-settings.dim-editors-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenuar editores sin foco"
+          }
+        }
+      }
+    },
+    "general-settings.file-extensions-hide-all": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide all"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar todo"
+          }
+        }
+      }
+    },
+    "general-settings.file-extensions-hide-only": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide only"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar solo"
+          }
+        }
+      }
+    },
+    "general-settings.file-extensions-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensiones de archivo"
+          }
+        }
+      }
+    },
+    "general-settings.file-extensions-show-all": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show all"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar todo"
+          }
+        }
+      }
+    },
+    "general-settings.file-extensions-show-only": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show only"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar solo"
+          }
+        }
+      }
+    },
+    "general-settings.file-icon-style-color": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        }
+      }
+    },
+    "general-settings.file-icon-style-monochrome": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monochrome"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monocromático"
+          }
+        }
+      }
+    },
+    "general-settings.file-icon-style-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Icon Style"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estilo de íconos de archivo"
+          }
+        }
+      }
+    },
+    "general-settings.find-navigator-detail-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Navigator Detail"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalle del navegador de búsqueda"
+          }
+        }
+      }
+    },
+    "general-settings.inspector-tab-bar-position-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspector Tab Bar Position"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posición de la Barra de Pestañas del Inspector"
+          }
+        }
+      }
+    },
+    "general-settings.install-button": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instalar"
+          }
+        }
+      }
+    },
+    "general-settings.issue-navigator-detail-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Issue Navigator Detail"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalle del navegador de problemas"
+          }
+        }
+      }
+    },
+    "general-settings.navigator-tab-bar-position-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Tab Bar Position"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posición de la barra de pestañas del navegador"
+          }
+        }
+      }
+    },
+    "general-settings.open-in-codeedit-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show \"Open With CodeEdit\" option in Finder"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar opción \"Abrir con CodeEdit\" en Finder"
+          }
+        }
+      }
+    },
+    "general-settings.position-side": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Side"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lado"
+          }
+        }
+      }
+    },
+    "general-settings.position-top": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Top"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superior"
+          }
+        }
+      }
+    },
+    "general-settings.prerelease-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include pre-release versions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir versiones pre-lanzamiento"
+          }
+        }
+      }
+    },
+    "general_settings.preview_lines.one_line": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Line"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una línea"
+          }
+        }
+      }
+    },
+    "general_settings.preview_lines.up_to_n_lines": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Up to %d lines"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Up to %d line"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Up to %d lines"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasta %d líneas"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hasta %d línea"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hasta %d líneas"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "general-settings.project-navigator-size-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Project Navigator Size"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño del navegador de proyecto"
+          }
+        }
+      }
+    },
+    "general-settings.reopen-behavior-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen Behavior"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comportamiento al reabrir"
+          }
+        }
+      }
+    },
+    "general-settings.reopen-new-document": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Document"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Documento Nuevo"
+          }
+        }
+      }
+    },
+    "general-settings.reopen-open-panel": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Panel"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Panel"
+          }
+        }
+      }
+    },
+    "general-settings.reopen-welcome-screen": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome Screen"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pantalla de bienvenida"
+          }
+        }
+      }
+    },
+    "general-settings.reset-warnings-button": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset \"Don't Ask Me\" Warnings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer Advertencias \"No Preguntar de Nuevo\""
+          }
+        }
+      }
+    },
+    "general-settings.reveal-file-on-focus-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically reveal in project navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar automáticamente en el navegador de proyecto"
+          }
+        }
+      }
+    },
+    "general-settings.search.after-last-window": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After the last window is closed"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Después de cerrar la última ventana"
+          }
+        }
+      }
+    },
+    "general-settings.search.appearance": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apariencia"
+          }
+        }
+      }
+    },
+    "general-settings.search.auto-check-updates": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically check for app updates"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones de la app automáticamente"
+          }
+        }
+      }
+    },
+    "general_settings.search.automatically_save_change_to_disk": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically save change to disk"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar cambios en disco automáticamente"
+          }
+        }
+      }
+    },
+    "general-settings.search.auto-reveal": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically reveal in project navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar automáticamente en el navegador de proyecto"
+          }
+        }
+      }
+    },
+    "general-settings.search.check-for-updates": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones"
+          }
+        }
+      }
+    },
+    "general_settings.search.codeedit_shell_command": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'codeedit' Shell command"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando de shell \"codeedit\""
+          }
+        }
+      }
+    },
+    "general-settings.search.dialog-warnings": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dialog Warnings"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertencias de Diálogo"
+          }
+        }
+      }
+    },
+    "general-settings.search.dim-editors": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenuar editores sin foco"
+          }
+        }
+      }
+    },
+    "general-settings.search.file-extensions": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensiones de archivo"
+          }
+        }
+      }
+    },
+    "general-settings.search.file-icon-style": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Icon Style"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estilo de íconos de archivo"
+          }
+        }
+      }
+    },
+    "general-settings.search.find-navigator-detail": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Navigator Detail"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalle del navegador de búsqueda"
+          }
+        }
+      }
+    },
+    "general-settings.search.inspector-tab-bar-position": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspector Tab Bar Position"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posición de la Barra de Pestañas del Inspector"
+          }
+        }
+      }
+    },
+    "general-settings.search.issue-navigator-detail": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Issue Navigator Detail"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalle del navegador de problemas"
+          }
+        }
+      }
+    },
+    "general-settings.search.navigator-tab-bar-position": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Tab Bar Position"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posición de la barra de pestañas del navegador"
+          }
+        }
+      }
+    },
+    "general-settings.search.prerelease": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include pre-release versions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir versiones pre-lanzamiento"
+          }
+        }
+      }
+    },
+    "general-settings.search.project-navigator-size": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Project Navigator Size"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño del navegador de proyecto"
+          }
+        }
+      }
+    },
+    "general-settings.search.reopen-behavior": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen Behavior"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comportamiento al reabrir"
+          }
+        }
+      }
+    },
+    "general-settings.search.show-issues": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Issues"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar problemas"
+          }
+        }
+      }
+    },
+    "general-settings.search.show-jump-bar": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Jump Bar"
+          }
+        }
+      }
+    },
+    "general-settings.search.show-live-issues": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Live Issues"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar problemas en vivo"
+          }
+        }
+      }
+    },
+    "general_settings.search.show_open_with_codeedit_option_in_finder": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show \"Open With CodeEdit\" option in Finder"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar opción \"Abrir con CodeEdit\" en Finder"
+          }
+        }
+      }
+    },
+    "general_settings.search.tab_bar_style": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab Bar Style"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estilo de barra de pestañas"
+          }
+        }
+      }
+    },
+    "general-settings.shell-command-label": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'codeedit' Shell Command"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando de Shell \"codeedit\""
+          }
+        }
+      }
+    },
+    "general-settings.show-issues-inline": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inline"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en línea"
+          }
+        }
+      }
+    },
+    "general-settings.show-issues-minimized": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Minimized"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar minimizadas"
+          }
+        }
+      }
+    },
+    "general-settings.show-issues-picker": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Issues"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar problemas"
+          }
+        }
+      }
+    },
+    "general-settings.show-jump-bar-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Jump Bar"
+          }
+        }
+      }
+    },
+    "general-settings.show-live-issues-toggle": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Live Issues"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar problemas en vivo"
+          }
+        }
+      }
+    },
+    "general-settings.size-large": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grande"
+          }
+        }
+      }
+    },
+    "general-settings.size-medium": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medio"
+          }
+        }
+      }
+    },
+    "general-settings.size-small": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Small"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pequeño"
+          }
+        }
+      }
+    },
+    "general_settings.update_checker.last_checked": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last checked: %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última búsqueda: %@"
+          }
+        }
+      }
+    },
+    "general_settings.update_checker.never": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nunca"
+          }
+        }
+      }
+    },
+    "gif": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gif"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gif"
+          }
+        }
+      }
+    },
+    "g.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "g.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "g.square"
+          }
+        }
+      }
+    },
+    "h": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "h"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "h"
+          }
+        }
+      }
+    },
+    "H": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "H"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "H"
+          }
+        }
+      }
+    },
+    "hpp": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hpp"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hpp"
+          }
+        }
+      }
+    },
+    "h.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "h.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "h.square"
+          }
+        }
+      }
+    },
+    "i": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "i"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "i"
+          }
+        }
+      }
+    },
+    "icns": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "icns"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "icns"
+          }
+        }
+      }
+    },
+    "id": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "id"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "id"
+          }
+        }
+      }
+    },
+    "isLoading": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "isLoading"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "isLoading"
+          }
+        }
+      }
+    },
+    "jpeg": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jpeg"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jpeg"
+          }
+        }
+      }
+    },
+    "jpg": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jpg"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jpg"
+          }
+        }
+      }
+    },
+    "key.fill": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "key.fill"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tecla.relleno"
+          }
+        }
+      }
+    },
+    "lock.doc": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "lock.doc"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "lock.doc"
+          }
+        }
+      }
+    },
+    "m": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "m"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "m"
+          }
+        }
+      }
+    },
+    "menu.app.about": {
+      "comment": "CodeEdit/Features/WindowCommands/MainCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de CodeEdit"
+          }
+        }
+      }
+    },
+    "menu.app.check-updates": {
+      "comment": "CodeEdit/Features/WindowCommands/MainCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones..."
+          }
+        }
+      }
+    },
+    "menu.app.settings": {
+      "comment": "CodeEdit/Features/WindowCommands/MainCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración..."
+          }
+        }
+      }
+    },
+    "menu.editor": {
+      "comment": "CodeEdit/Features/WindowCommands/EditorCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor"
+          }
+        }
+      }
+    },
+    "menu.editor.structure": {
+      "comment": "CodeEdit/Features/WindowCommands/EditorCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Structure"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estructura"
+          }
+        }
+      }
+    },
+    "menu.editor.structure.move-line-down": {
+      "comment": "CodeEdit/Features/WindowCommands/EditorCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line down"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover línea hacia abajo"
+          }
+        }
+      }
+    },
+    "menu.editor.structure.move-line-up": {
+      "comment": "CodeEdit/Features/WindowCommands/EditorCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move line up"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover línea hacia arriba"
+          }
+        }
+      }
+    },
+    "menu.extensions": {
+      "comment": "CodeEdit/Features/WindowCommands/ExtensionCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensiones"
+          }
+        }
+      }
+    },
+    "menu.extensions.open-window": {
+      "comment": "CodeEdit/Features/WindowCommands/ExtensionCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Extensions Window"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ventana de Extensiones"
+          }
+        }
+      }
+    },
+    "menu.file.open-recent": {
+      "comment": "CodeEdit/Features/WindowCommands/Utils/CommandsFixes.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Recientes"
+          }
+        }
+      }
+    },
+    "menu.file.open-recent.clear": {
+      "comment": "CodeEdit/Features/WindowCommands/Utils/RecentProjectsMenu.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Menu"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar menú"
+          }
+        }
+      }
+    },
+    "menu.help.release-notes": {
+      "comment": "CodeEdit/Features/WindowCommands/HelpCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release Notes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notas de la versión"
+          }
+        }
+      }
+    },
+    "menu.help.report-issue": {
+      "comment": "CodeEdit/Features/WindowCommands/HelpCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report an Issue"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reportar un problema"
+          }
+        }
+      }
+    },
+    "menu.help.whats-new": {
+      "comment": "CodeEdit/Features/WindowCommands/HelpCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New in CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novedades de CodeEdit"
+          }
+        }
+      }
+    },
+    "menu.window.about": {
+      "comment": "CodeEdit/Features/WindowCommands/WindowCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de CodeEdit"
+          }
+        }
+      }
+    },
+    "menu.window.manage-extensions": {
+      "comment": "CodeEdit/Features/WindowCommands/WindowCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Extensions"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrar extensiones"
+          }
+        }
+      }
+    },
+    "menu.window.welcome": {
+      "comment": "CodeEdit/Features/WindowCommands/WindowCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to CodeEdit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te damos la bienvenida a CodeEdit"
+          }
+        }
+      }
+    },
+    "message": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "message"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mensaje"
+          }
+        }
+      }
+    },
+    "mm": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mm"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mm"
+          }
+        }
+      }
+    },
+    "m.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "m.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "m.square"
+          }
+        }
+      }
+    },
+    "n": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n"
+          }
+        }
+      }
+    },
+    "navigate-commands.go-back-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Back"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver"
+          }
+        }
+      }
+    },
+    "navigate-commands.go-forward-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Forward"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir hacia adelante"
+          }
+        }
+      }
+    },
+    "navigate-commands.menu-title": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigate"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegar"
+          }
+        }
+      }
+    },
+    "navigate-commands.open-in-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en..."
+          }
+        }
+      }
+    },
+    "navigate-commands.open-in-next-editor-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Next Editor"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en el Siguiente Editor"
+          }
+        }
+      }
+    },
+    "navigate-commands.reveal-changes-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal Changes in Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar cambios en el navegador"
+          }
+        }
+      }
+    },
+    "navigate-commands.reveal-in-navigator-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal in Project Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en el navegador de proyecto"
+          }
+        }
+      }
+    },
+    "navigate-commands.show-next-tab-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Next Tab"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Pestaña Siguiente"
+          }
+        }
+      }
+    },
+    "navigate-commands.show-previous-tab-button": {
+      "comment": "CodeEdit/Features/WindowCommands/NavigateCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Previous Tab"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Pestaña Anterior"
+          }
+        }
+      }
+    },
+    "o": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "o"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "o"
+          }
+        }
+      }
+    },
+    "open.drawer": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "open.drawer"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "abrir.drawer"
+          }
+        }
+      }
+    },
+    "osascript": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "osascript"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "osascript"
+          }
+        }
+      }
+    },
+    "p": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p"
+          }
+        }
+      }
+    },
+    "paintbrush": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "paintbrush"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pincel"
+          }
+        }
+      }
+    },
+    "percentage": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "percentage"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "porcentaje"
+          }
+        }
+      }
+    },
+    "photo": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "photo"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "foto"
+          }
+        }
+      }
+    },
+    "png": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "png"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "png"
+          }
+        }
+      }
+    },
+    "Resources": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resources"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recursos"
+          }
+        }
+      }
+    },
+    "r.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r.square"
+          }
+        }
+      }
+    },
+    "s": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "s"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "s"
+          }
+        }
+      }
+    },
+    "source-control-commands.add-remote-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Exisiting Remote..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar Remoto Existente..."
+          }
+        }
+      }
+    },
+    "source-control-commands.cherry-pick-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cherry-Pick..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cherry-Pick..."
+          }
+        }
+      }
+    },
+    "source-control-commands.commit-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmar..."
+          }
+        }
+      }
+    },
+    "source-control-commands.discard-all-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard All Changes..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar todos los cambios..."
+          }
+        }
+      }
+    },
+    "source-control-commands.fetch-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fetch Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtener cambios"
+          }
+        }
+      }
+    },
+    "source-control-commands.menu-title": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source Control"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Control de Versiones"
+          }
+        }
+      }
+    },
+    "source-control-commands.pull-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        }
+      }
+    },
+    "source-control-commands.push-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        }
+      }
+    },
+    "source-control-commands.stage-all-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stage All Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparar todos los cambios"
+          }
+        }
+      }
+    },
+    "source-control-commands.stage-error-title": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Stage Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al preparar los cambios"
+          }
+        }
+      }
+    },
+    "source-control-commands.stash-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stash Changes..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hacer Stash de Cambios..."
+          }
+        }
+      }
+    },
+    "source-control-commands.unstage-all-button": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unstage All Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despreparar todos los cambios"
+          }
+        }
+      }
+    },
+    "source-control-commands.unstage-error-title": {
+      "comment": "CodeEdit/Features/WindowCommands/SourceControlCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed To Unstage Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al despreparar cambios"
+          }
+        }
+      }
+    },
+    "source-control.commit.amend-toggle": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amend"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modificar"
+          }
+        }
+      }
+    },
+    "source-control.commit.commit-and-push-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit and Push..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit y push..."
+          }
+        }
+      }
+    },
+    "source-control.commit.commit-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit"
+          }
+        }
+      }
+    },
+    "source-control.commit.committing-status": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Committing..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haciendo commit..."
+          }
+        }
+      }
+    },
+    "source-control.commit.details-placeholder": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detailed description"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descripción detallada"
+          }
+        }
+      }
+    },
+    "source-control.commit.failed-to-commit-error": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to commit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al hacer commit"
+          }
+        }
+      }
+    },
+    "source-control.commit.failed-to-push-error": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to push"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al hacer push"
+          }
+        }
+      }
+    },
+    "source-control.commit.message-placeholder": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commit message (required)"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mensaje de commit (requerido)"
+          }
+        }
+      }
+    },
+    "source-control.commit.stage-all-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stage All"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparar todo"
+          }
+        }
+      }
+    },
+    "source-control.commit.unstage-all-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unstage All"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despreparar todo"
+          }
+        }
+      }
+    },
+    "source-control-navigator.changes.no-changes": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Changes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin cambios"
+          }
+        }
+      }
+    },
+    "source-control-navigator.context-menu.discard-changes": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesList.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard Changes in %@..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar cambios en %@..."
+          }
+        }
+      }
+    },
+    "source-control-navigator.context-menu.open-new-tab": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesList.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in New Tab"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Pestaña Nueva"
+          }
+        }
+      }
+    },
+    "source-control-navigator.context-menu.open-new-window": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesList.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in New Window"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Ventana Nueva"
+          }
+        }
+      }
+    },
+    "source-control-navigator.context-menu.reveal-in-project": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesList.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reveal in Project Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en el navegador de proyecto"
+          }
+        }
+      }
+    },
+    "source-control-navigator.context-menu.view-in-finder": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesList.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View in Finder"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver en Finder"
+          }
+        }
+      }
+    },
+    "source-control-navigator.no-remotes.add-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorNoRemotesView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar"
+          }
+        }
+      }
+    },
+    "source-control-navigator.no-remotes.title": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorNoRemotesView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No remotes"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay remotos"
+          }
+        }
+      }
+    },
+    "source-control.sync.commits-ahead": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d ahead"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d adelante"
+          }
+        }
+      }
+    },
+    "source-control.sync.commits-behind": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d behind"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d atrás"
+          }
+        }
+      }
+    },
+    "source-control.sync.no-tracked-branch": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tracked branch for '%@'"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay rama rastreada para \"%@\""
+          }
+        }
+      }
+    },
+    "source-control.sync.pull-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pull..."
+          }
+        }
+      }
+    },
+    "source-control.sync.pull-error-title": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to pull"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al hacer pull"
+          }
+        }
+      }
+    },
+    "source-control.sync.push-button": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorSyncView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push..."
+          }
+        }
+      }
+    },
+    "source-control.sync.push-error-title": {
+      "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorChangesCommitView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to push"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al hacer push"
+          }
+        }
+      }
+    },
+    "speaker.wave.2": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "speaker.wave.2"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "speaker.wave.2"
+          }
+        }
+      }
+    },
+    "square.fill.on.circle.fill": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "square.fill.on.circle.fill"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "square.fill.on.circle.fill"
+          }
+        }
+      }
+    },
+    "s.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "s.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "s.square"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.characters-selected": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d characters"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d characters"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d characters"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d caracteres"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d caracteres"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d caracteres"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.cursor.char-location-length": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Char: %d Len: %d"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Car: %d Long: %d"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.char-location-zero": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Char: %d Len: 0"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Car: %d Long: 0"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.line-column": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Line: %d  Col: %d"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lín: %d  Col: %d"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.lines-selected": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d lines"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d lines"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d lines"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d líneas"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d líneas"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d líneas"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.cursor.no-selection": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Selection"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin selección"
+          }
+        }
+      }
+    },
+    "status-bar.cursor.selected-ranges": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected ranges"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected ranges"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d selected ranges"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d rangos seleccionados"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d rango seleccionado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d rangos seleccionados"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.encoding.utf8": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarEncodingSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UTF 8"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UTF 8"
+          }
+        }
+      }
+    },
+    "status-bar.indent.current-width": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarIndentSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d Spaces"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d Spaces"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d Spaces"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d espacios"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d espacios"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d espacios"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.indent.spaces-count": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarIndentSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d Spaces"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d Spaces"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d Spaces"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d espacios"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d espacios"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d espacios"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "status-bar.indent.tab-width": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarIndentSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab Width"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancho de Tabulación"
+          }
+        }
+      }
+    },
+    "status-bar.indent.use-spaces": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarIndentSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Spaces"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar espacios"
+          }
+        }
+      }
+    },
+    "status-bar.indent.use-tabs": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarIndentSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Tabs"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar Tabulaciones"
+          }
+        }
+      }
+    },
+    "status-bar.line-ending.lf": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarLineEndSelector.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LF"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LF"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.hide-tooltip": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide the Utility area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar el área de utilidades"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.show-tooltip": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the Utility area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar el área de utilidades"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.toggle-command-name": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alternar área de utilidades"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.toggle-command-name-appear": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alternar área de utilidades"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.toggle-command-title": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alternar área de utilidades"
+          }
+        }
+      }
+    },
+    "status-bar.utility-area.toggle-command-title-appear": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarToggleUtilityAreaButton.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alternar área de utilidades"
+          }
+        }
+      }
+    },
+    "swift": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "swift"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "swift"
+          }
+        }
+      }
+    },
+    "t": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "t"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "t"
+          }
+        }
+      }
+    },
+    "tablecells": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tablecells"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "celdas de tabla"
+          }
+        }
+      }
+    },
+    "tasks-commands.choose-task-menu": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Task..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir tarea..."
+          }
+        }
+      }
+    },
+    "tasks-commands.create-tasks-button": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Tasks"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crear Tareas"
+          }
+        }
+      }
+    },
+    "tasks-commands.manage-tasks-button": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Tasks..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrar tareas..."
+          }
+        }
+      }
+    },
+    "tasks-commands.menu-title": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tareas"
+          }
+        }
+      }
+    },
+    "tasks-commands.no-selected-task": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(No Selected Task)"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Ninguna tarea seleccionada)"
+          }
+        }
+      }
+    },
+    "tasks-commands.run-button": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Run %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecutar %@"
+          }
+        }
+      }
+    },
+    "tasks-commands.show-output-button": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show %@ Output"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar salida de %@"
+          }
+        }
+      }
+    },
+    "tasks-commands.stop-button": {
+      "comment": "CodeEdit/Features/WindowCommands/TasksCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop %@"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener %@"
+          }
+        }
+      }
+    },
+    "terminal": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal"
+          }
+        }
+      }
+    },
+    "text": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "text"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "texto"
+          }
+        }
+      }
+    },
+    "text.quote": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "text.quote"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "text.quote"
+          }
+        }
+      }
+    },
+    "tiff": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tiff"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tiff"
+          }
+        }
+      }
+    },
+    "title": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "title"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "título"
+          }
+        }
+      }
+    },
+    "txt": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "txt"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "txt"
+          }
+        }
+      }
+    },
+    "update": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "update"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "actualizar"
+          }
+        }
+      }
+    },
+    "/usr/local/bin/codeedit": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/usr/local/bin/codeedit"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/usr/local/bin/codeedit"
+          }
+        }
+      }
+    },
+    "view-commands.customize-toolbar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customize Toolbar..."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizar barra de herramientas..."
+          }
+        }
+      }
+    },
+    "view-commands.dim-editors-toggle": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dim editors without focus"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atenuar editors sin foco"
+          }
+        }
+      }
+    },
+    "view-commands.font-size-decrease": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decrease"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disminuir"
+          }
+        }
+      }
+    },
+    "view-commands.font-size-increase": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar"
+          }
+        }
+      }
+    },
+    "view-commands.font-size-menu": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font Size"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño de fuente"
+          }
+        }
+      }
+    },
+    "view-commands.font-size-reset": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
+          }
+        }
+      }
+    },
+    "view-commands.hide-inspector": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Inspector"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Inspector"
+          }
+        }
+      }
+    },
+    "view-commands.hide-interface": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Interface"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar interfaz"
+          }
+        }
+      }
+    },
+    "view-commands.hide-jump-bar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar Jump Bar"
+          }
+        }
+      }
+    },
+    "view-commands.hide-navigator": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar navegador"
+          }
+        }
+      }
+    },
+    "view-commands.hide-toolbar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Toolbar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar barra de herramientas"
+          }
+        }
+      }
+    },
+    "view-commands.hide-utility-area": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar área de utilidades"
+          }
+        }
+      }
+    },
+    "view-commands.navigators-menu": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigators"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegadores"
+          }
+        }
+      }
+    },
+    "view-commands.open-search-navigator": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Search Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Navegador de Búsqueda"
+          }
+        }
+      }
+    },
+    "view-commands.show-command-palette": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Command Palette"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar paleta de comandos"
+          }
+        }
+      }
+    },
+    "view-commands.show-inspector": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inspector"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Inspector"
+          }
+        }
+      }
+    },
+    "view-commands.show-interface": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Interface"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar interfaz"
+          }
+        }
+      }
+    },
+    "view-commands.show-jump-bar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Jump Bar"
+          }
+        }
+      }
+    },
+    "view-commands.show-navigator": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar navegador"
+          }
+        }
+      }
+    },
+    "view-commands.show-toolbar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Toolbar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar barra de herramientas"
+          }
+        }
+      }
+    },
+    "view-commands.show-utility-area": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar área de utilidades"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_inspector": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Inspector"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Inspector"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_interface": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Interface"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar interfaz"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_jump_bar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Jump Bar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Jump Bar"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_navigator": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Navigator"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar navegador"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_toolbar": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Toolbar"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar barra de herramientas"
+          }
+        }
+      }
+    },
+    "view_commands.toggle_utility_area": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Utility Area"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar área de utilidades"
+          }
+        }
+      }
+    },
+    "v.square": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileIcon.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "v.square"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "v.square"
+          }
+        }
+      }
+    },
+    "w": {
+      "comment": "CodeEdit/Features/WindowCommands/FileCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "w"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "w"
+          }
+        }
+      }
+    },
+    "with administrator privileges": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "with administrator privileges"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "con privilegios de administrador"
+          }
+        }
+      }
+    },
+    "workspace_document.find.decode_error": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Find.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to decode file content."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al decodificar el contenido del archivo."
+          }
+        }
+      }
+    },
+    "workspace_document.find.invalid_regex_error": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Find.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid regular expression."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expresión regular inválida."
+          }
+        }
+      }
+    },
+    "workspace_document.find.no_index_error": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Find.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No index found. Try rebuilding the index."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontró el índice. Intenta reconstruir el índice."
+          }
+        }
+      }
+    },
+    "workspace_document.indexing.create_index_message": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creating an index to enable fast and accurate searches within your codebase."
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creando un índice para permitir búsquedas rápidas y precisas en tu código."
+          }
+        }
+      }
+    },
+    "workspace_document.indexing.finished": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished indexing"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexación finalizada"
+          }
+        }
+      }
+    },
+    "workspace_document.indexing.processing_files": {
+      "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Index.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing | Processing files"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexando | Procesando archivos"
+          }
+        }
+      }
+    },
+    "y": {
+      "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "y"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "y"
+          }
+        }
+      }
+    }
+  }
+}
