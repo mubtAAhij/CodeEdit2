@@ -169,12 +169,12 @@ extension CEWorkspaceFileManager {
         let fileName = file.name
 
         let deleteConfirmation = NSAlert()
-        deleteConfirmation.messageText = "Do you want to delete “\(fileName)”?"
-        deleteConfirmation.informativeText = "This item will be deleted immediately. You can't undo this action."
+        deleteConfirmation.messageText = String(format: String(localized: "file_management.delete.confirmation_message", defaultValue: "Do you want to delete \"%@\"?", comment: "Confirmation message for deleting a file"), fileName)
+        deleteConfirmation.informativeText = String(localized: "file_management.delete.warning_message", defaultValue: "This item will be deleted immediately. You can't undo this action.", comment: "Warning that delete action is irreversible")
         deleteConfirmation.alertStyle = .critical
-        deleteConfirmation.addButton(withTitle: "Delete")
+        deleteConfirmation.addButton(withTitle: String(localized: "file-management.delete-button", defaultValue: "Delete", comment: "Button to confirm deletion"))
         deleteConfirmation.buttons.last?.hasDestructiveAction = true
-        deleteConfirmation.addButton(withTitle: "Cancel")
+        deleteConfirmation.addButton(withTitle: String(localized: "file-management.cancel-button", defaultValue: "Cancel", comment: "Button to cancel deletion"))
         if !confirmDelete || deleteConfirmation.runModal() == .alertFirstButtonReturn { // "Delete" button
             if fileManager.fileExists(atPath: file.url.path) {
                 try deleteFile(at: file.url)
@@ -188,13 +188,13 @@ extension CEWorkspaceFileManager {
     ///   - confirmDelete: True to present an alert to confirm the delete.
     public func batchDelete(files: Set<CEWorkspaceFile>, confirmDelete: Bool = true) throws {
         let deleteConfirmation = NSAlert()
-        deleteConfirmation.messageText = "Are you sure you want to delete the \(files.count) selected items?"
+        deleteConfirmation.messageText = String(format: String(localized: "file_management.batch_delete.confirmation_message", defaultValue: "Are you sure you want to delete the %d selected items?", comment: "Confirmation message for batch deleting files"), files.count)
         // swiftlint:disable:next line_length
-        deleteConfirmation.informativeText = "\(files.count) items will be deleted immediately. You cannot undo this action."
+        deleteConfirmation.informativeText = String(format: String(localized: "file_management.batch_delete.warning_message", defaultValue: "%d items will be deleted immediately. You cannot undo this action.", comment: "Warning that batch delete action is irreversible"), files.count)
         deleteConfirmation.alertStyle = .critical
-        deleteConfirmation.addButton(withTitle: "Delete")
+        deleteConfirmation.addButton(withTitle: String(localized: "file-management.batch-delete-button", defaultValue: "Delete", comment: "Button to confirm batch deletion"))
         deleteConfirmation.buttons.last?.hasDestructiveAction = true
-        deleteConfirmation.addButton(withTitle: "Cancel")
+        deleteConfirmation.addButton(withTitle: String(localized: "file-management.batch-cancel-button", defaultValue: "Cancel", comment: "Button to cancel batch deletion"))
         if !confirmDelete || deleteConfirmation.runModal() == .alertFirstButtonReturn {
             for file in files where fileManager.fileExists(atPath: file.url.path) {
                 try deleteFile(at: file.url)
@@ -228,7 +228,7 @@ extension CEWorkspaceFileManager {
             let fileExtension = fileUrl.pathExtension.isEmpty ? "" : ".\(fileUrl.pathExtension)"
             let fileName = fileExtension.isEmpty ? previousName :
             previousName.replacingOccurrences(of: fileExtension, with: "")
-            fileUrl = fileUrl.deletingLastPathComponent().appending(path: "\(fileName) copy\(fileExtension)")
+            fileUrl = fileUrl.deletingLastPathComponent().appending(path: String(format: String(localized: "file_management.duplicate.copy_suffix", defaultValue: "%@ copy%@", comment: "Filename format for duplicated file"), fileName, fileExtension))
         }
 
         if fileManager.fileExists(atPath: file.url.path) {
