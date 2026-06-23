@@ -13,9 +13,8 @@ final class RecentProjectsMenu: NSObject, NSMenuDelegate {
 
     // MARK: - Menu construction
 
-    private let menuTitle = String(
-        localized: "menu.open-recent",
-        defaultValue: "Open Recent",
+    private let menuTitle = NSLocalizedString(
+        "Open Recent",
         comment: "Open Recent menu title"
     )
 
@@ -52,9 +51,8 @@ final class RecentProjectsMenu: NSObject, NSMenuDelegate {
         menu.addItem(.separator())
 
         let clearMenuItem = NSMenuItem(
-            title: String(
-                localized: "menu.open-recent.clear",
-                defaultValue: "Clear Menu",
+            title: NSLocalizedString(
+                "Clear Menu",
                 comment: "Recent project menu clear button"
             ),
             action: #selector(clearMenuItemClicked(_:)),

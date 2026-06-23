@@ -50,7 +50,7 @@ struct SourceControlNavigatorChangesView: View {
             if hasChanges {
                 SourceControlNavigatorChangesList()
             } else {
-                CEContentUnavailableView(String(localized: "source-control.no-changes", defaultValue: "No Changes", comment: "Message when there are no source control changes"))
+                CEContentUnavailableView("No Changes")
             }
         }
         .frame(maxHeight: .infinity)

@@ -15,26 +15,26 @@ struct NavigateCommands: Commands {
     }
 
     var body: some Commands {
-        CommandMenu(String(localized: "menu.navigate", defaultValue: "Navigate", comment: "Navigate menu")) {
+        CommandMenu("Navigate") {
             Group {
-                Button(String(localized: "menu.navigate.reveal-in-navigator", defaultValue: "Reveal in Project Navigator", comment: "Reveal in Project Navigator menu item")) {
+                Button("Reveal in Project Navigator") {
                     NSApp.sendAction(#selector(ProjectNavigatorViewController.revealFile(_:)), to: nil, from: nil)
                 }
                 .keyboardShortcut("j", modifiers: [.shift, .command])
 
-                Button(String(localized: "menu.navigate.reveal-changes", defaultValue: "Reveal Changes in Navigator", comment: "Reveal Changes in Navigator menu item")) {
+                Button("Reveal Changes in Navigator") {
 
                 }
                 .keyboardShortcut("m", modifiers: [.shift, .command])
                 .disabled(true)
 
-                Button(String(localized: "menu.navigate.open-next-editor", defaultValue: "Open in Next Editor", comment: "Open in Next Editor menu item")) {
+                Button("Open in Next Editor") {
 
                 }
                 .keyboardShortcut(",", modifiers: [.option, .command])
                 .disabled(true)
 
-                Button(String(localized: "menu.navigate.open-in", defaultValue: "Open in...", comment: "Open in... menu item")) {
+                Button("Open in...") {
 
                 }
                 .disabled(true)
@@ -43,13 +43,13 @@ struct NavigateCommands: Commands {
 
             }
             Group {
-                Button(String(localized: "menu.navigate.previous-tab", defaultValue: "Show Previous Tab", comment: "Show Previous Tab menu item")) {
+                Button("Show Previous Tab") {
                     editor?.selectPreviousTab()
                 }
                 .keyboardShortcut("{", modifiers: [.command])
                 .disabled(editor?.tabs.count ?? 0 <= 1)  // Disable if there's one or no tabs
 
-                Button(String(localized: "menu.navigate.next-tab", defaultValue: "Show Next Tab", comment: "Show Next Tab menu item")) {
+                Button("Show Next Tab") {
                     editor?.selectNextTab()
                 }
                 .keyboardShortcut("}", modifiers: [.command])
@@ -58,12 +58,12 @@ struct NavigateCommands: Commands {
             Group {
                 Divider()
 
-                Button(String(localized: "menu.navigate.go-forward", defaultValue: "Go Forward", comment: "Go Forward menu item")) {
+                Button("Go Forward") {
                     editor?.goForwardInHistory()
                 }
                 .disabled(!(editor?.canGoForwardInHistory ?? false))
 
-                Button(String(localized: "menu.navigate.go-back", defaultValue: "Go Back", comment: "Go Back menu item")) {
+                Button("Go Back") {
                     editor?.goBackInHistory()
                 }
                 .disabled(!(editor?.canGoBackInHistory ?? false))

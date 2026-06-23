@@ -13,17 +13,17 @@ struct WindowCommands: Commands {
 
     var body: some Commands {
         CommandGroup(replacing: .singleWindowList) {
-            Button(String(localized: "menu.welcome-to-codeedit", defaultValue: "Welcome to CodeEdit", comment: "Welcome to CodeEdit menu item")) {
+            Button("Welcome to CodeEdit") {
                 openWindow(sceneID: .welcome)
             }
             .keyboardShortcut("1", modifiers: [.shift, .command])
 
-            Button(String(localized: "menu.about-codeedit-window", defaultValue: "About CodeEdit", comment: "About CodeEdit window menu item")) {
+            Button("About CodeEdit") {
                 openWindow(sceneID: .about)
             }
             .keyboardShortcut("2", modifiers: [.shift, .command])
 
-            Button(String(localized: "menu.manage-extensions", defaultValue: "Manage Extensions", comment: "Manage Extensions menu item")) {
+            Button("Manage Extensions") {
                 openWindow(sceneID: .extensions)
             }
             .keyboardShortcut("3", modifiers: [.shift, .command])

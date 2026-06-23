@@ -20,21 +20,21 @@ struct FileCommands: Commands {
     var body: some Commands {
         CommandGroup(replacing: .newItem) {
             Group {
-                Button(String(localized: "menu.file.new", defaultValue: "New", comment: "New menu item")) {
+                Button("New") {
                     NSDocumentController.shared.newDocument(nil)
                 }
                 .keyboardShortcut("n")
 
-                Button(String(localized: "menu.file.open", defaultValue: "Open...", comment: "Open menu item")) {
+                Button("Open...") {
                     NSDocumentController.shared.openDocument(nil)
                 }
                 .keyboardShortcut("o")
 
                 // Leave this empty, is done through a hidden API in WindowCommands/Utils/CommandsFixes.swift
                 // We set this with a custom NSMenu. See WindowCommands/Utils/RecentProjectsMenu.swift
-                Menu(String(localized: "menu.file.open-recent", defaultValue: "Open Recent", comment: "Open Recent menu")) { }
+                Menu("Open Recent") { }
 
-                Button(String(localized: "menu.file.open-quickly", defaultValue: "Open Quickly", comment: "Open Quickly menu item")) {
+                Button("Open Quickly") {
                     NSApp.sendAction(#selector(CodeEditWindowController.openQuickly(_:)), to: nil, from: nil)
                 }
                 .keyboardShortcut("o", modifiers: [.command, .shift])
@@ -42,7 +42,7 @@ struct FileCommands: Commands {
         }
 
         CommandGroup(replacing: .saveItem) {
-            Button(String(localized: "menu.file.close-tab", defaultValue: "Close Tab", comment: "Close Tab menu item")) {
+            Button("Close Tab") {
                 if NSApp.target(forAction: #selector(CodeEditWindowController.closeCurrentTab(_:))) != nil {
                     NSApp.sendAction(#selector(CodeEditWindowController.closeCurrentTab(_:)), to: nil, from: nil)
                 } else {
@@ -51,7 +51,7 @@ struct FileCommands: Commands {
             }
             .keyboardShortcut("w")
 
-            Button(String(localized: "menu.file.close-editor", defaultValue: "Close Editor", comment: "Close Editor menu item")) {
+            Button("Close Editor") {
                 if NSApp.target(forAction: #selector(CodeEditWindowController.closeActiveEditor(_:))) != nil {
                     NSApp.sendAction(
                         #selector(CodeEditWindowController.closeActiveEditor(_:)),
@@ -64,19 +64,19 @@ struct FileCommands: Commands {
             }
             .keyboardShortcut("w", modifiers: [.control, .shift, .command])
 
-            Button(String(localized: "menu.file.close-window", defaultValue: "Close Window", comment: "Close Window menu item")) {
+            Button("Close Window") {
                 NSApp.sendAction(#selector(NSWindow.performClose(_:)), to: NSApp.keyWindow, from: nil)
             }
             .keyboardShortcut("w", modifiers: [.shift, .command])
 
-            Button(String(localized: "menu.file.close-workspace", defaultValue: "Close Workspace", comment: "Close Workspace menu item")) {
+            Button("Close Workspace") {
                 NSApp.sendAction(#selector(NSWindow.performClose(_:)), to: NSApp.keyWindow, from: nil)
             }
             .keyboardShortcut("w", modifiers: [.control, .option, .command])
             .disabled(!(NSApplication.shared.keyWindow?.windowController is CodeEditWindowController))
 
             if let utilityAreaViewModel {
-                Button(String(localized: "menu.file.close-terminal", defaultValue: "Close Terminal", comment: "Close Terminal menu item")) {
+                Button("Close Terminal") {
                     utilityAreaViewModel.removeTerminals(utilityAreaViewModel.selectedTerminals)
                 }
                 .keyboardShortcut(.delete)
@@ -84,14 +84,14 @@ struct FileCommands: Commands {
 
             Divider()
 
-            Button(String(localized: "menu.file.workspace-settings", defaultValue: "Workspace Settings", comment: "Workspace Settings menu item")) {
+            Button("Workspace Settings") {
                 NSApp.sendAction(#selector(CodeEditWindowController.openWorkspaceSettings(_:)), to: nil, from: nil)
             }
             .disabled(windowController?.workspace == nil)
 
             Divider()
 
-            Button(String(localized: "menu.file.save", defaultValue: "Save", comment: "Save menu item")) {
+            Button("Save") {
                 NSApp.sendAction(#selector(CodeEditWindowController.saveDocument(_:)), to: nil, from: nil)
             }
             .keyboardShortcut("s")

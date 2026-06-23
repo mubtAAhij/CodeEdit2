@@ -28,24 +28,24 @@ struct SourceControlNavigatorChangesList: View {
                 if selectedFiles.count == 1,
                    let file = selectedFiles.first {
                     Group {
-                        Button(String(localized: "source-control.context.view-in-finder", defaultValue: "View in Finder", comment: "View in Finder context menu item")) {
+                        Button("View in Finder") {
                             NSWorkspace.shared.activateFileViewerSelecting([file.fileURL.absoluteURL])
                         }
-                        Button(String(localized: "source-control.context.reveal-in-navigator", defaultValue: "Reveal in Project Navigator", comment: "Reveal in Project Navigator context menu item")) {}
+                        Button("Reveal in Project Navigator") {}
                             .disabled(true) // TODO: Implementation Needed
                         Divider()
                     }
                     Group {
-                        Button(String(localized: "source-control.context.open-new-tab", defaultValue: "Open in New Tab", comment: "Open in New Tab context menu item")) {
+                        Button("Open in New Tab") {
                             openGitFile(file)
                         }
-                        Button(String(localized: "source-control.context.open-new-window", defaultValue: "Open in New Window", comment: "Open in New Window context menu item")) {}
+                        Button("Open in New Window") {}
                             .disabled(true) // TODO: Implementation Needed
                     }
                     if file.anyStatus() != .none {
                         Group {
                             Divider()
-                            Button(String(format: String(localized: "source-control.context.discard-changes", defaultValue: "Discard Changes in %@...", comment: "Discard changes for a specific file"), file.fileURL.lastPathComponent)) {
+                            Button("Discard Changes in \(file.fileURL.lastPathComponent)...") {
                                 sourceControlManager.discardChanges(for: file.fileURL)
                             }
                             Divider()

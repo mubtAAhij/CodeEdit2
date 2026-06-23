@@ -77,13 +77,13 @@ struct GeneralSettingsView: View {
 /// The extension of the view with all the preferences
 private extension GeneralSettingsView {
     var appearance: some View {
-        Picker(String(localized: "settings.general.appearance", defaultValue: "Appearance", comment: "Appearance picker label"), selection: $settings.appAppearance) {
-            Text(String(localized: "settings.general.appearance.system", defaultValue: "System", comment: "System appearance option"))
+        Picker("Appearance", selection: $settings.appAppearance) {
+            Text("System")
                 .tag(SettingsData.Appearances.system)
             Divider()
-            Text(String(localized: "settings.general.appearance.light", defaultValue: "Light", comment: "Light appearance option"))
+            Text("Light")
                 .tag(SettingsData.Appearances.light)
-            Text(String(localized: "settings.general.appearance.dark", defaultValue: "Dark", comment: "Dark appearance option"))
+            Text("Dark")
                 .tag(SettingsData.Appearances.dark)
         }
         .onChange(of: settings.appAppearance) { _, tag in
@@ -93,37 +93,37 @@ private extension GeneralSettingsView {
 
     // TODO: Implement reflecting Show Issues preference and remove disabled modifier
     var showIssues: some View {
-        Picker(String(localized: "settings.general.show-issues", defaultValue: "Show Issues", comment: "Show Issues picker label"), selection: $settings.showIssues) {
-            Text(String(localized: "settings.general.show-issues.inline", defaultValue: "Show Inline", comment: "Show Inline option"))
+        Picker("Show Issues", selection: $settings.showIssues) {
+            Text("Show Inline")
                 .tag(SettingsData.Issues.inline)
-            Text(String(localized: "settings.general.show-issues.minimized", defaultValue: "Show Minimized", comment: "Show Minimized option"))
+            Text("Show Minimized")
                 .tag(SettingsData.Issues.minimized)
         }
     }
 
     var showLiveIssues: some View {
-        Toggle(String(localized: "settings.general.show-live-issues", defaultValue: "Show Live Issues", comment: "Show Live Issues toggle"), isOn: $settings.showLiveIssues)
+        Toggle("Show Live Issues", isOn: $settings.showLiveIssues)
     }
 
     var showEditorJumpBar: some View {
-        Toggle(String(localized: "settings.general.show-jump-bar", defaultValue: "Show Jump Bar", comment: "Show Jump Bar toggle"), isOn: $settings.showEditorJumpBar)
+        Toggle("Show Jump Bar", isOn: $settings.showEditorJumpBar)
     }
 
     var dimEditorsWithoutFocus: some View {
-        Toggle(String(localized: "settings.general.dim-editors-without-focus", defaultValue: "Dim editors without focus", comment: "Dim editors without focus toggle"), isOn: $settings.dimEditorsWithoutFocus)
+        Toggle("Dim editors without focus", isOn: $settings.dimEditorsWithoutFocus)
     }
 
     var fileExtensions: some View {
         Group {
-            Picker(String(localized: "settings.general.file-extensions", defaultValue: "File Extensions", comment: "File Extensions picker label"), selection: $settings.fileExtensionsVisibility) {
-                Text(String(localized: "settings.general.file-extensions.hide-all", defaultValue: "Hide all", comment: "Hide all option"))
+            Picker("File Extensions", selection: $settings.fileExtensionsVisibility) {
+                Text("Hide all")
                     .tag(SettingsData.FileExtensionsVisibility.hideAll)
-                Text(String(localized: "settings.general.file-extensions.show-all", defaultValue: "Show all", comment: "Show all option"))
+                Text("Show all")
                     .tag(SettingsData.FileExtensionsVisibility.showAll)
                 Divider()
-                Text(String(localized: "settings.general.file-extensions.show-only", defaultValue: "Show only", comment: "Show only option"))
+                Text("Show only")
                     .tag(SettingsData.FileExtensionsVisibility.showOnly)
-                Text(String(localized: "settings.general.file-extensions.hide-only", defaultValue: "Hide only", comment: "Hide only option"))
+                Text("Hide only")
                     .tag(SettingsData.FileExtensionsVisibility.hideOnly)
             }
             if case .showOnly = settings.fileExtensionsVisibility {
@@ -140,75 +140,75 @@ private extension GeneralSettingsView {
     }
 
     var fileIconStyle: some View {
-        Picker(String(localized: "settings.general.file-icon-style", defaultValue: "File Icon Style", comment: "File Icon Style picker label"), selection: $settings.fileIconStyle) {
-            Text(String(localized: "settings.general.file-icon-style.color", defaultValue: "Color", comment: "Color option"))
+        Picker("File Icon Style", selection: $settings.fileIconStyle) {
+            Text("Color")
                 .tag(SettingsData.FileIconStyle.color)
-            Text(String(localized: "settings.general.file-icon-style.monochrome", defaultValue: "Monochrome", comment: "Monochrome option"))
+            Text("Monochrome")
                 .tag(SettingsData.FileIconStyle.monochrome)
         }
         .pickerStyle(.radioGroup)
     }
 
     var navigatorTabBarPosition: some View {
-        Picker(String(localized: "settings.general.navigator-tab-bar-position", defaultValue: "Navigator Tab Bar Position", comment: "Navigator Tab Bar Position picker label"), selection: $settings.navigatorTabBarPosition) {
-            Text(String(localized: "settings.general.position.top", defaultValue: "Top", comment: "Top position option"))
+        Picker("Navigator Tab Bar Position", selection: $settings.navigatorTabBarPosition) {
+            Text("Top")
                 .tag(SettingsData.SidebarTabBarPosition.top)
-            Text(String(localized: "settings.general.position.side", defaultValue: "Side", comment: "Side position option"))
+            Text("Side")
                 .tag(SettingsData.SidebarTabBarPosition.side)
         }
         .pickerStyle(.radioGroup)
     }
 
     var inspectorTabBarPosition: some View {
-        Picker(String(localized: "settings.general.inspector-tab-bar-position", defaultValue: "Inspector Tab Bar Position", comment: "Inspector Tab Bar Position picker label"), selection: $settings.inspectorTabBarPosition) {
-            Text(String(localized: "settings.general.position.top", defaultValue: "Top", comment: "Top position option"))
+        Picker("Inspector Tab Bar Position", selection: $settings.inspectorTabBarPosition) {
+            Text("Top")
                 .tag(SettingsData.SidebarTabBarPosition.top)
-            Text(String(localized: "settings.general.position.side", defaultValue: "Side", comment: "Side position option"))
+            Text("Side")
                 .tag(SettingsData.SidebarTabBarPosition.side)
         }
         .pickerStyle(.radioGroup)
     }
 
     var reopenBehavior: some View {
-        Picker(String(localized: "settings.general.reopen-behavior", defaultValue: "Reopen Behavior", comment: "Reopen Behavior picker label"), selection: $settings.reopenBehavior) {
-            Text(String(localized: "settings.general.reopen-behavior.welcome", defaultValue: "Welcome Screen", comment: "Welcome Screen option"))
+        Picker("Reopen Behavior", selection: $settings.reopenBehavior) {
+            Text("Welcome Screen")
                 .tag(SettingsData.ReopenBehavior.welcome)
             Divider()
-            Text(String(localized: "settings.general.reopen-behavior.open-panel", defaultValue: "Open Panel", comment: "Open Panel option"))
+            Text("Open Panel")
                 .tag(SettingsData.ReopenBehavior.openPanel)
-            Text(String(localized: "settings.general.reopen-behavior.new-document", defaultValue: "New Document", comment: "New Document option"))
+            Text("New Document")
                 .tag(SettingsData.ReopenBehavior.newDocument)
         }
     }
 
     var afterWindowsCloseBehaviour: some View {
         Picker(
-            String(localized: "settings.general.after-last-window-closed", defaultValue: "After the last window is closed", comment: "After last window closed picker label"),
+            "After the last window is closed",
             selection: $settings.reopenWindowAfterClose
         ) {
-            Text(String(localized: "settings.general.close-behavior.do-nothing", defaultValue: "Do nothing", comment: "Do nothing option"))
+            Text("Do nothing")
                 .tag(SettingsData.ReopenWindowBehavior.doNothing)
             Divider()
-            Text(String(localized: "settings.general.close-behavior.welcome", defaultValue: "Show Welcome Window", comment: "Show Welcome Window option"))
+            Text("Show Welcome Window")
                 .tag(SettingsData.ReopenWindowBehavior.showWelcomeWindow)
-            Text(String(localized: "settings.general.close-behavior.quit", defaultValue: "Quit", comment: "Quit option"))
+            Text("Quit")
                 .tag(SettingsData.ReopenWindowBehavior.quit)
         }
     }
 
     var projectNavigatorSize: some View {
-        Picker(String(localized: "settings.general.project-navigator-size", defaultValue: "Project Navigator Size", comment: "Project Navigator Size picker label"), selection: $settings.projectNavigatorSize) {
-            Text(String(localized: "settings.general.size.small", defaultValue: "Small", comment: "Small size option"))
+        Picker("Project Navigator Size", selection: $settings.projectNavigatorSize) {
+            Text("Small")
                 .tag(SettingsData.ProjectNavigatorSize.small)
-            Text(String(localized: "settings.general.size.medium", defaultValue: "Medium", comment: "Medium size option"))
+            Text("Medium")
                 .tag(SettingsData.ProjectNavigatorSize.medium)
-            Text(String(localized: "settings.general.size.large", defaultValue: "Large", comment: "Large size option"))
+            Text("Large")
                 .tag(SettingsData.ProjectNavigatorSize.large)
         }
     }
 
     var findNavigatorDetail: some View {
-        Picker(String(localized: "settings.general.find-navigator-detail", defaultValue: "Find Navigator Detail", comment: "Find Navigator Detail picker label"), selection: $settings.findNavigatorDetail) {
+        Picker("Find Navigator Detail", selection: $settings.findNavigatorDetail) {
             ForEach(SettingsData.NavigatorDetail.allCases, id: \.self) { tag in
                 Text(tag.label).tag(tag)
             }
@@ -217,7 +217,7 @@ private extension GeneralSettingsView {
 
     // TODO: Implement reflecting Issue Navigator Detail preference and remove disabled modifier
     var issueNavigatorDetail: some View {
-        Picker(String(localized: "settings.general.issue-navigator-detail", defaultValue: "Issue Navigator Detail", comment: "Issue Navigator Detail picker label"), selection: $settings.issueNavigatorDetail) {
+        Picker("Issue Navigator Detail", selection: $settings.issueNavigatorDetail) {
             ForEach(SettingsData.NavigatorDetail.allCases, id: \.self) { tag in
                 Text(tag.label).tag(tag)
             }
@@ -227,10 +227,10 @@ private extension GeneralSettingsView {
 
     // TODO: Implement reset for Don't Ask Me warnings Button and remove disabled modifier
     var dialogWarnings: some View {
-        LabeledContent(String(localized: "settings.general.dialog-warnings", defaultValue: "Dialog Warnings", comment: "Dialog Warnings label")) {
+        LabeledContent("Dialog Warnings") {
             Button(action: {
             }, label: {
-                Text(String(localized: "settings.general.reset-warnings", defaultValue: "Reset \"Don't Ask Me\" Warnings", comment: "Reset warnings button label"))
+                Text("Reset \"Don't Ask Me\" Warnings")
             })
             .buttonStyle(.bordered)
         }
@@ -238,9 +238,9 @@ private extension GeneralSettingsView {
     }
 
     var shellCommand: some View {
-        LabeledContent(String(localized: "settings.general.shell-command", defaultValue: "'codeedit' Shell Command", comment: "Shell command label")) {
+        LabeledContent("'codeedit' Shell Command") {
             Button(action: installShellCommand, label: {
-                Text(String(localized: "settings.general.install", defaultValue: "Install", comment: "Install button label"))
+                Text("Install")
             })
             .disabled(true)
             .buttonStyle(.bordered)
@@ -283,27 +283,27 @@ private extension GeneralSettingsView {
     var updateChecker: some View {
         Section {
             LabeledContent {
-                Button(String(localized: "settings.general.check-now", defaultValue: "Check Now", comment: "Check Now button label")) {
+                Button("Check Now") {
                     updater.checkForUpdates()
                 }
             } label: {
-                Text(String(localized: "settings.general.check-for-updates", defaultValue: "Check for updates", comment: "Check for updates label"))
-                Text(String(format: String(localized: "general_settings.update_checker.last_checked", defaultValue: "Last checked: %@", comment: "Last update check time"), lastUpdatedString))
+                Text("Check for updates")
+                Text("Last checked: \(lastUpdatedString)")
 
             }
         }
     }
 
     var autoUpdateToggle: some View {
-        Toggle(String(localized: "settings.general.auto-check-updates", defaultValue: "Automatically check for app updates", comment: "Auto check updates toggle"), isOn: $updater.automaticallyChecksForUpdates)
+        Toggle("Automatically check for app updates", isOn: $updater.automaticallyChecksForUpdates)
     }
 
     var prereleaseToggle: some View {
-        Toggle(String(localized: "settings.general.include-prerelease", defaultValue: "Include pre-release versions", comment: "Include pre-release toggle"), isOn: $updater.includePrereleaseVersions)
+        Toggle("Include pre-release versions", isOn: $updater.includePrereleaseVersions)
     }
 
     var autoSave: some View {
-        Toggle(String(localized: "settings.general.auto-save", defaultValue: "Automatically save changes to disk", comment: "Auto save toggle"), isOn: $settings.isAutoSaveOn)
+        Toggle("Automatically save changes to disk", isOn: $settings.isAutoSaveOn)
     }
 
     // MARK: - Preference Views
@@ -312,7 +312,7 @@ private extension GeneralSettingsView {
         if let lastUpdatedDate = updater.lastUpdateCheckDate {
             return Self.formatter.string(from: lastUpdatedDate)
         } else {
-            return String(localized: "general_settings.update_checker.never", defaultValue: "Never", comment: "Never checked for updates")
+            return "Never"
         }
     }
 
@@ -349,7 +349,7 @@ private extension GeneralSettingsView {
     }
 
     var openInCodeEditToggle: some View {
-        Toggle(String(localized: "settings.general.open-with-codeedit", defaultValue: "Show \"Open With CodeEdit\" option in Finder", comment: "Open With CodeEdit toggle"), isOn: $openInCodeEdit)
+        Toggle("Show “Open With CodeEdit” option in Finder", isOn: $openInCodeEdit)
             .onChange(of: openInCodeEdit) { _, newValue in
                 guard let defaults = UserDefaults.init(
                     suiteName: "app.codeedit.CodeEdit.shared"
@@ -363,7 +363,7 @@ private extension GeneralSettingsView {
     }
 
     var revealFileOnFocusChangeToggle: some View {
-        Toggle(String(localized: "settings.general.reveal-in-navigator", defaultValue: "Automatically reveal in project navigator", comment: "Reveal in navigator toggle"), isOn: $settings.revealFileOnFocusChange)
+        Toggle("Automatically reveal in project navigator", isOn: $settings.revealFileOnFocusChange)
     }
 
     private static let formatter = configure(DateFormatter()) {
