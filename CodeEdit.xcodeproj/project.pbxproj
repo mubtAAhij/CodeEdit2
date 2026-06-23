@@ -304,7 +304,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6C7B1C762A1D57CE005CBBFC /* PBXTargetDependency */,
 				2BE487F328245162003F3F64 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
@@ -573,10 +572,6 @@
 			isa = PBXTargetDependency;
 			target = 2BE487EB28245162003F3F64 /* OpenWithCodeEdit */;
 			targetProxy = 2BE487F228245162003F3F64 /* PBXContainerItemProxy */;
-		};
-		6C7B1C762A1D57CE005CBBFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 6C7B1C752A1D57CE005CBBFC /* SwiftLint */;
 		};
 		B658FB3F27DA9E1000EA4DBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1929,11 +1924,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6C76D6D22E15B91E00EF52C3 /* XCRemoteSwiftPackageReference "CodeEditSourceEditor" */;
 			productName = CodeEditSourceEditor;
-		};
-		6C7B1C752A1D57CE005CBBFC /* SwiftLint */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 287136B1292A407E00E9F5F4 /* XCRemoteSwiftPackageReference "SwiftLintPlugin" */;
-			productName = "plugin:SwiftLint";
 		};
 		6C81916A29B41DD300B75C92 /* DequeModule */ = {
 			isa = XCSwiftPackageProductDependency;
