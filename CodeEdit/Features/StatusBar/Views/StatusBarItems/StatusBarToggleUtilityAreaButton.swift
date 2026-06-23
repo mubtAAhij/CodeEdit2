@@ -21,22 +21,24 @@ internal struct StatusBarToggleUtilityAreaButton: View {
         }
         .buttonStyle(.icon)
         .keyboardShortcut("Y", modifiers: [.command, .shift])
-        .help(utilityAreaViewModel.isCollapsed ? "Show the Utility area" : "Hide the Utility area")
+        .help(utilityAreaViewModel.isCollapsed ? String(localized: "status-bar.show-utility-area", defaultValue: "Show the Utility area", comment: "Tooltip to show utility area") : String(localized: "status-bar.hide-utility-area", defaultValue: "Hide the Utility area", comment: "Tooltip to hide utility area"))
         .onHover { isHovering($0) }
         .onChange(of: controlActiveState) { _, newValue in
             if newValue == .key {
+                let toggleUtilityAreaTitle = String(localized: "status-bar.toggle-utility-area", defaultValue: "Toggle Utility Area", comment: "Command to toggle utility area")
                 CommandManager.shared.addCommand(
-                    name: "Toggle Utility Area",
-                    title: "Toggle Utility Area",
+                    name: toggleUtilityAreaTitle,
+                    title: toggleUtilityAreaTitle,
                     id: "open.drawer",
                     command: { [weak utilityAreaViewModel] in utilityAreaViewModel?.togglePanel() }
                 )
             }
         }
         .onAppear {
+            let toggleUtilityAreaTitle = String(localized: "status-bar.toggle-utility-area", defaultValue: "Toggle Utility Area", comment: "Command to toggle utility area")
             CommandManager.shared.addCommand(
-                name: "Toggle Utility Area",
-                title: "Toggle Utility Area",
+                name: toggleUtilityAreaTitle,
+                title: toggleUtilityAreaTitle,
                 id: "open.drawer",
                 command: { [weak utilityAreaViewModel] in utilityAreaViewModel?.togglePanel() }
             )
