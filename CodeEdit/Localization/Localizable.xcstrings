@@ -2,186 +2,6 @@
   "version": "1.0",
   "sourceLanguage": "en",
   "strings": {
-    "": {},
-    " (less secure)": {},
-    "%@ (Create)": {},
-    "%@ %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "%1$@ %2$@"
-          }
-        }
-      }
-    },
-    "%@ × %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "%1$@ × %2$@"
-          }
-        }
-      }
-    },
-    "%@ personal access tokens must have these scopes set:": {},
-    "%lld": {},
-    "1. Open the attached sample project": {},
-    "2. type #import and wait for autocompletion to begin": {},
-    "A GitHub account is required to submit feedback.": {},
-    "Account": {},
-    "Action Button": {},
-    "Active Scheme": {},
-    "Active Task": {},
-    "Activity Viewer": {},
-    "Add": {},
-    "Add a language server": {},
-    "Add Account": {},
-    "menu.add-account.ellipsis": {},
-    "Add and remove files automatically": {},
-    "Add Existing Remote...": {},
-    "Add File": {},
-    "Add Folder": {},
-    "Add Folder or File": {},
-    "Add Notification": {},
-    "Add Remote": {},
-    "Add Task...": {},
-    "admin:public _key": {},
-    "All uncommited changes will be preserved on the renamed branch.": {},
-    "Always use dark terminal appearance": {},
-    "Application Support": {},
-    "Applied globally to all repositories on your Mac. [Learn more...](https://git-scm.com/docs/git-config)": {},
-    "Apply": {},
-    "Apply and Delete": {},
-    "Apply stash after operation": {},
-    "Apply Stashed Changes...": {},
-    "Applying the stashed changes will restore modifications to files in your local repository.": {},
-    "Are you sure you want to delete the account “%@”?": {},
-    "Are you sure you want to delete the theme “%@”?": {},
-    "Are you sure you want to remove this language server? This action cannot be undone.": {},
-    "Author": {},
-    "Author Email": {},
-    "Author Name": {},
-    "Autocomplete braces": {},
-    "Automatically change theme based on system appearance": {},
-    "Automatically insert closing braces (\"}\")": {},
-    "Back up your files, collaborate with others, and tag your releases. [Learn more...](https://developer.apple.com/documentation/xcode/source-control-management)": {},
-    "Background": {},
-    "Bar": {},
-    "Bash": {},
-    "Basic Information": {},
-    "Blink Cursor": {},
-    "Block": {},
-    "Bold": {},
-    "Bordered": {},
-    "Bracket Pair Highlight": {},
-    "Branch": {},
-    "Bundled themes must be duplicated to make changes.": {},
-    "Cancel": {},
-    "Cancel Cloning": {},
-    "Cannot contain spaces, backslashes, or other symbols": {},
-    "Cannot Discard Changes": {},
-    "Cannot preview image": {},
-    "Cannot retrieve URL to the file you opened.": {},
-    "Cannot Stage Changes": {},
-    "Cannot Stash Changes": {},
-    "Cannot Unstage Changes": {},
-    "Character used to render carriage returns (Microsoft-style line endings)": {},
-    "Character used to render line feeds (\\n)": {},
-    "Character used to render line separators": {},
-    "Character used to render paragraph separators": {},
-    "Character used to render spaces": {},
-    "Character used to render tabs": {},
-    "Check Out %@...": {},
-    "Checkout": {},
-    "Checkout branch": {},
-    "Cherry-Pick %@...": {},
-    "Choose": {},
-    "menu.choose.ellipsis": {},
-    "Clear Output": {},
-    "Clone": {},
-    "Clone a Repository": {},
-    "Clone Using": {},
-    "Close": {},
-    "Close All": {},
-    "Close Other Tabs": {},
-    "Close Overlay": {},
-    "Close Tab": {},
-    "Close Tabs to the Right": {},
-    "Close this Editor": {},
-    "CodeEdit is fetching changes and updating the status of files in the local repository.": {},
-    "CodeEdit supports integrating with common shells such as Bash and Zsh. This enables features like terminal title detection.": {},
-    "Commit Details": {},
-    "Comparison view": {},
-    "Configure...": {},
-    "Confirm Passphrase": {},
-    "Confirm Step": {},
-    "Continue": {},
-    "Copy Commit Message": {},
-    "Copy Identifier": {},
-    "Copy Path": {},
-    "Copy Relative Path": {},
-    "Copy System Information to Clipboard": {},
-    "Could not find file": {
-      "comment": "Could not find file"
-    },
-    "Create": {},
-    "Create a new branch": {},
-    "Create a new Theme": {},
-    "Create a Password on %@": {},
-    "Create a Token on %@": {},
-    "Create New...": {},
-    "Create SSH key": {},
-    "Create Tasks": {},
-    "Dark": {},
-    "Debug Log": {},
-    "Default": {},
-    "Default - Detected": {},
-    "Default branch name": {},
-    "Default: %@": {},
-    "Delay 5s": {},
-    "Delete": {},
-    "Delete Account...": {},
-    "Delete Theme": {},
-    "menu.delete.ellipsis": {},
-    "Deleting this account will remove it from CodeEdit.": {},
-    "Description": {},
-    "Details...": {},
-    "Disabled": {},
-    "Discard": {},
-    "Discard All Changes...": {},
-    "Dismiss": {},
-    "Do you want to apply stashed changes?": {},
-    "Do you want to delete the branch “%@”?": {},
-    "Do you want to delete the remote “%@”?": {},
-    "Do you want to delete the stash “%@”?": {},
-    "Do you want to discard all uncommitted, local changes?": {},
-    "Do you want to switch to “%@”?": {},
-    "Docker": {},
-    "Docker Compose": {},
-    "Done": {},
-    "Duplicate": {},
-    "Duplicate this theme to make changes.": {},
-    "menu.duplicate.ellipsis": {},
-    "Edit": {},
-    "Editor Overscroll": {},
-    "Email %@...": {},
-    "Emoji": {},
-    "Enable type-over completion": {},
-    "Enter a git repository URL:": {},
-    "Environment Variables": {},
-    "Error Log": {},
-    "Error Occurred": {},
-    "Example:": {},
-    "Example: CodeEdit crashes when the autocomplete popup appears on screen.": {},
-    "Example: CodeEdit crashes when using autocomplete": {},
-    "Example: I expected autocomplete to show me a list of headers.": {},
-    "Example: The autocomplete window flickered on screen and CodeEdit crashed. See attached crashlog.": {},
-    "Exclude": {},
-    "Export All Custom Themes...": {},
-    "Export...": {},
-    "Extensions": {},
     "extensions.count-selected": {
       "comment": "CodeEdit/Features/Extensions/ExtensionManagerWindow.swift",
       "extractionState": "manual",
@@ -272,19 +92,15 @@
         }
       }
     },
-    "Failed to get document": {
-      "comment": "Failed to get document"
-    },
-    "Failed to submit feedback": {},
-    "Feedback submitted": {},
-    "Fetch and refresh server status automatically": {},
-    "Fetching changes for “%@”...": {},
-    "Fetching changes...": {},
     "file_management.batch_delete.confirmation_message": {
       "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete the %d selected items?"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -303,6 +119,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Estás seguro de que quieres eliminar los %d elementos seleccionados?"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -327,6 +147,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d items will be deleted immediately. You cannot undo this action."
+          },
           "variations": {
             "plural": {
               "one": {
@@ -345,6 +169,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d elementos se eliminarán de inmediato. No puedes deshacer esta acción."
+          },
           "variations": {
             "plural": {
               "one": {
@@ -360,6 +188,42 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "file-management.cancel-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "file-management.delete-button": {
+      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
           }
         }
       }
@@ -414,42 +278,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ copia%@"
-          }
-        }
-      }
-    },
-    "file-management.cancel-button": {
-      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
-          }
-        }
-      }
-    },
-    "file-management.delete-button": {
-      "comment": "CodeEdit/Features/CEWorkspace/Models/CEWorkspaceFileManager+FileManagement.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar"
           }
         }
       }
@@ -616,259 +444,6 @@
         }
       }
     },
-    "Filter Changes Navigator": {},
-    "find_navigator.error_occurred": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "An Error Occurred"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocurrió un error"
-          }
-        }
-      }
-    },
-    "find_navigator.excluding_folders": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Excluding folders"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Excluyendo carpetas"
-          }
-        }
-      }
-    },
-    "find_navigator.no_results": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No Results"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin resultados"
-          }
-        }
-      }
-    },
-    "find_navigator.no_results_for_query": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No Results for \"%@\" in Project"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin resultados para \"%@\" en el proyecto"
-          }
-        }
-      }
-    },
-    "find_navigator.only_in_folders": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Only in folders"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Solo en carpetas"
-          }
-        }
-      }
-    },
-    "find_navigator.replaced": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Replaced"
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reemplazado"
-          }
-        }
-      }
-    },
-    "find_navigator.replaced_success_message": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Successfully replaced terms across %d file"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Successfully replaced terms across %d files"
-                }
-              }
-            }
-          }
-        },
-        "es-419": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Términos reemplazados exitosamente en %d archivo"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Términos reemplazados exitosamente en %d archivos"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "find_navigator.results_summary": {
-      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@results@ in %#@files@"
-          },
-          "substitutions": {
-            "files": {
-              "argNum": 2,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d file"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d files"
-                    }
-                  }
-                }
-              }
-            },
-            "results": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d result"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d results"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "es-419": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@results@ en %#@files@"
-          },
-          "substitutions": {
-            "files": {
-              "argNum": 2,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d archivo"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d archivos"
-                    }
-                  }
-                }
-              }
-            },
-            "results": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d resultado"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d resultados"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "find-and-replace.all-files-failed": {
       "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+FindAndReplace.swift",
       "extractionState": "manual",
@@ -995,6 +570,42 @@
         }
       }
     },
+    "find_navigator.error_occurred": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Error Occurred"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocurrió un error"
+          }
+        }
+      }
+    },
+    "find_navigator.excluding_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluding folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluyendo carpetas"
+          }
+        }
+      }
+    },
     "find-navigator.filter-field": {
       "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorToolbarBottom.swift",
       "extractionState": "manual",
@@ -1085,6 +696,60 @@
         }
       }
     },
+    "find_navigator.no_results": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados"
+          }
+        }
+      }
+    },
+    "find_navigator.no_results_for_query": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results for \"%@\" in Project"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados para \"%@\" en el proyecto"
+          }
+        }
+      }
+    },
+    "find_navigator.only_in_folders": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only in folders"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo en carpetas"
+          }
+        }
+      }
+    },
     "find-navigator.open-editors-only": {
       "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorForm.swift",
       "extractionState": "manual",
@@ -1157,6 +822,74 @@
         }
       }
     },
+    "find_navigator.replaced": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replaced"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazado"
+          }
+        }
+      }
+    },
+    "find_navigator.replaced_success_message": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully replaced terms across %d files"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Successfully replaced terms across %d file"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Successfully replaced terms across %d files"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Términos reemplazados correctamente en %d archivos"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Términos reemplazados exitosamente en %d archivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Términos reemplazados exitosamente en %d archivos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "find-navigator.replacing": {
       "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
       "extractionState": "manual",
@@ -1171,6 +904,108 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reemplazando"
+          }
+        }
+      }
+    },
+    "find_navigator.results_summary": {
+      "comment": "CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ in %#@files@"
+          },
+          "substitutions": {
+            "results": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d result"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d results"
+                    }
+                  }
+                }
+              }
+            },
+            "files": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@results@ en %#@files@"
+          },
+          "substitutions": {
+            "results": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d resultado"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d resultados"
+                    }
+                  }
+                }
+              }
+            },
+            "files": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivos"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -1247,12 +1082,6 @@
         }
       }
     },
-    "Flash": {},
-    "Focus this Editor": {},
-    "Font Size": {},
-    "Force": {},
-    "From": {},
-    "General": {},
     "general_settings.preview_lines.one_line": {
       "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/Models/GeneralSettings.swift",
       "extractionState": "manual",
@@ -1397,53 +1226,6 @@
         }
       }
     },
-    "Git": {},
-    "Git Configuration": {},
-    "Git configuration is stored in \"~/.gitconfig\".": {},
-    "Git Repository URL": {},
-    "History Editor Help": {},
-    "Homepage": {},
-    "HTTPS": {},
-    "https://git.example.com": {},
-    "Icon Color": {},
-    "Icon Type": {},
-    "Identity and Type": {},
-    "Ignored file patterns are stored in \"%@\".": {},
-    "Ignored Files": {},
-    "Image": {},
-    "Implementation Needed": {},
-    "Import or Export Custom Themes": {},
-    "Import Theme...": {},
-    "Import...": {},
-    "Include Tags": {},
-    "Include upstream changes": {},
-    "Indent": {},
-    "Indent using": {},
-    "Indent Width": {},
-    "Info Log": {},
-    "Initialize": {},
-    "inspector": {},
-    "Install": {},
-    "Install Method": {},
-    "Install using %@": {},
-    "Installer": {},
-    "Installing Package": {},
-    "Invisible Characters": {},
-    "Italic": {},
-    "Keep Open": {},
-    "Key Type": {},
-    "Kill Terminal": {},
-    "Kill Terminals": {},
-    "Large": {},
-    "Letter Spacing": {},
-    "Light": {},
-    "Line Height": {},
-    "Loading History": {},
-    "Local Revision on Left Side": {},
-    "Local Revision on Right Side": {},
-    "Location": {},
-    "LSP Binaries": {},
-    "Medium": {},
     "menu.about-codeedit": {
       "comment": "CodeEdit/Features/WindowCommands/MainCommands.swift",
       "extractionState": "manual",
@@ -2704,92 +2486,6 @@
         }
       }
     },
-    "Message (optional)": {},
-    "MIT License": {},
-    "My Mac": {},
-    "Name": {},
-    "Navigate back": {},
-    "Navigate forward": {},
-    "Navigation Style": {},
-    "navigator": {},
-    "New Branch from \"%@\"...": {},
-    "New Branch from %@...": {},
-    "New Branch...": {},
-    "New Terminal": {},
-    "New Terminal With Profile": {},
-    "No accounts": {},
-    "No environment variables": {},
-    "No Extensions": {},
-    "No GitHub Account": {},
-    "No Language Servers": {},
-    "No matching options": {},
-    "No Open Terminals": {},
-    "No output": {},
-    "No Selected Output Source": {},
-    "No Selection": {},
-    "No tasks": {},
-    "No Tasks are Running": {},
-    "No warning characters": {},
-    "None": {},
-    "Notifications": {},
-    "OK": {},
-    "Okay": {},
-    "Open in Editor...": {},
-    "Open in New Window": {},
-    "Open in Place": {},
-    "Open in Tabs": {},
-    "Open the active scheme menu": {},
-    "Open the active task menu": {},
-    "Opening %@...": {},
-    "Other fonts...": {},
-    "Output Source": {},
-    "Output Utility": {},
-    "Package": {},
-    "Passphrase": {},
-    "Patterns for files and folders that Git should ignore and not track. Applied globally to all repositories on your Mac. [Learn more...](https://git-scm.com/docs/gitignore)": {},
-    "Personal Access Token": {},
-    "Please describe the issue:": {},
-    "Please list the steps you took to reproduce the issue:": {},
-    "Please provide a descriptive title for your feedback:": {},
-    "Prefer Indent Using": {},
-    "Prefer to rebase when pulling": {},
-    "Pull": {},
-    "Pull remote changes from": {},
-    "Pulling changes...": {},
-    "Push": {},
-    "Push local changes to": {},
-    "Pushing changes...": {},
-    "Random": {},
-    "Rebase local changes onto upstream changes": {},
-    "Reformat at Column": {},
-    "Refresh local status automatically": {},
-    "Remote": {},
-    "Remote Name": {},
-    "Removal Failed": {},
-    "Remove": {},
-    "Remove %@?": {},
-    "Rename": {},
-    "Rename \"%@\"...": {},
-    "git.rename-branch-lowercase": {},
-    "menu.rename-branch.ellipsis": {},
-    "menu.rename.ellipsis": {},
-    "repo": {},
-    "Reset the terminal": {},
-    "Restore Defaults": {},
-    "Resume Task": {},
-    "Retry": {},
-    "Reveal in Project Navigator": {},
-    "Run Task": {},
-    "Save": {},
-    "Scroll down to the bottom": {},
-    "Search": {},
-    "Select a branch to checkout": {},
-    "Select an option to preview": {},
-    "Select Down": {},
-    "Select files to commit automatically": {},
-    "Select Up": {},
-    "Server": {},
-    "Settings": {},
     "settings.general.after-last-window-closed": {
       "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
@@ -3362,6 +3058,42 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tamaño del navegador de proyecto"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size.extra-large": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra Large"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra grande"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size.extra-small": {
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra Small"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra pequeño"
           }
         }
       }
@@ -4014,34 +3746,6 @@
         }
       }
     },
-    "Shell": {},
-    "Shell Integration": {},
-    "Show Code Folding Ribbon": {},
-    "Show files with matching name": {},
-    "Show Gutter": {},
-    "Show in Finder": {},
-    "Show Internal Development Inspector": {},
-    "Show Invisible Characters": {},
-    "Show Less": {},
-    "Show Line Endings": {},
-    "Show merge commits in per-file log": {},
-    "Show Minimap": {},
-    "Show More": {},
-    "Show only files with source-control status": {},
-    "Show only recent files": {},
-    "Show Reformatting Guide": {},
-    "Show source control changes": {},
-    "Show Spaces": {},
-    "Show Tabs": {},
-    "Show Warning Characters": {},
-    "Shows a vertical guide at the reformat column.": {},
-    "Sign In": {},
-    "Sign in to %@": {},
-    "Small": {},
-    "Sort by Date": {},
-    "Sort by Name": {},
-    "Source Control": {},
-    "Source control navigator": {},
     "source-control.add-remote": {
       "comment": "CodeEdit/Features/NavigatorArea/SourceControlNavigator/Changes/Views/SourceControlNavigatorNoRemotesView.swift",
       "extractionState": "manual",
@@ -4510,25 +4214,56 @@
         }
       }
     },
-    "indentation.spaces-lowercase": {},
-    "Spaces": {},
-    "Specify the absolute path to your LSP binary and its associated language.": {},
-    "Specify the language and the absolute path to the language server binary.": {},
-    "Split Down": {},
-    "Split Horizontally": {},
-    "Split Left": {},
-    "Split Right": {},
-    "Split Up": {},
-    "Split Vertically": {},
-    "SSH": {},
-    "SSH Key": {},
-    "Start": {},
-    "Start selected task": {},
-    "Stash": {},
-    "Stash and Pull": {},
-    "Stash and Switch": {},
-    "Stash Changes": {},
-    "menu.stash-changes.ellipsis": {},
+    "status-bar.characters-count": {
+      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d characters"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d character"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d characters"
+                }
+              }
+            }
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d caracteres"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d carácter"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%d caracteres"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "status-bar.char-location-length": {
       "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
       "extractionState": "manual",
@@ -4561,48 +4296,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Car: %d Long: 0"
-          }
-        }
-      }
-    },
-    "status-bar.characters-count": {
-      "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%d character"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%d characters"
-                }
-              }
-            }
-          }
-        },
-        "es-419": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%d carácter"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%d caracteres"
-                }
-              }
-            }
           }
         }
       }
@@ -4684,6 +4377,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d lines"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4702,6 +4399,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d líneas"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4744,6 +4445,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected ranges"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4762,6 +4467,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d rangos seleccionados"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4889,79 +4598,6 @@
         }
       }
     },
-    "Step": {},
-    "Sticky": {},
-    "Stop": {},
-    "Stop selected task": {},
-    "Stop Task": {},
-    "Submit": {},
-    "Successfully Installed": {},
-    "Suspend Task": {},
-    "Switch": {},
-    "menu.switch.ellipsis": {},
-    "Symbol": {},
-    "System Default": {},
-    "System Font": {},
-    "Tab": {},
-    "Tab Bar": {},
-    "Tab Width": {},
-    "Tabs": {},
-    "Tag %@...": {},
-    "Target": {},
-    "Task": {},
-    "Task Command": {},
-    "Task Name": {},
-    "Tasks": {},
-    "Terminal Cursor Style": {},
-    "Terminal Tab": {},
-    "Terminals": {},
-    "Text": {},
-    "Text Editing": {},
-    "Text Settings": {},
-    "The branch will be removed from the repository. You can’t undo this action.": {},
-    "The code folding ribbon lets you fold regions of code. When the gutter is disabled, the folding ribbon is disabled.": {},
-    "The column at which text should be reformatted.": {},
-    "The gutter displays line numbers and code folding regions.": {},
-    "The local repository has uncommitted changes.": {},
-    "The minimap gives you a high-level summary of your source code, with controls to quickly navigate your document.": {},
-    "The number of spaces to insert when the tab key is pressed.": {},
-    "The remote will be removed from the repository. You can’t undo this action.": {},
-    "The stash will be removed from the repository. You can’t undo this action.": {},
-    "The visual width of tab characters": {},
-    "The visual width of tabs.": {},
-    "Themes": {},
-    "There are no uncommitted changes in the local repository for this project.": {},
-    "This action cannot be undone.": {},
-    "This git client is currently not supported.": {},
-    "Title": {},
-    "To": {},
-    "Toggle whitespace symbols CodeEdit will render with replacement characters.": {},
-    "Tokens": {},
-    "Try committing or discarding the changes.": {},
-    "Type": {},
-    "Unable to add account “%@”": {},
-    "Underline": {},
-    "Unfocus this Editor": {},
-    "Use \"Option\" key as \"Meta\"": {},
-    "Use Custom Color": {},
-    "Use Login Shell": {},
-    "Use System Cursor": {},
-    "Use text editor font": {},
-    "Use theme background ": {},
-    "user": {},
-    "Username": {},
-    "Utility Area": {},
-    "Version %@%@ (%@)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "Version %1$@%2$@ (%3$@)"
-          }
-        }
-      }
-    },
-    "View on %@...": {},
     "view_commands.toggle_inspector": {
       "comment": "CodeEdit/Features/WindowCommands/ViewCommands.swift",
       "extractionState": "manual",
@@ -5286,22 +4922,6 @@
         }
       }
     },
-    "Warning Characters": {},
-    "Warning Log": {},
-    "Warning: Disabling integration disables features such as terminal title detection.": {},
-    "Warning: Duplicate this theme to make changes.": {},
-    "Warning: Language server installation is experimental. Use at your own risk.": {},
-    "What actually happened?": {},
-    "What did you expect to happen?": {},
-    "What type of feedback are you reporting?": {},
-    "Whether or not to use a login shell when starting a terminal session. By default, a login shell is used used similar to Terminal.app.": {},
-    "Which area are you seeing an issue with?": {},
-    "Widths": {},
-    "working": {},
-    "Working Directory": {},
-    "Workspace": {},
-    "workspace area": {},
-    "Workspace Name": {},
     "workspace_document.find.decode_error": {
       "comment": "CodeEdit/Features/Documents/WorkspaceDocument/WorkspaceDocument+Find.swift",
       "extractionState": "manual",
@@ -5406,35 +5026,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Indexando | Procesando archivos"
-          }
-        }
-      }
-    },
-    "editor.wrap-lines-lowercase": {},
-    "Wrap Lines": {},
-    "Wrap lines to editor width": {},
-    "write:discussion": {},
-    "Zsh": {},
-    "settings.general.project-navigator-size.extra-small": {
-      "comment": "Extra small project navigator size option",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Extra Small"
-          }
-        }
-      }
-    },
-    "settings.general.project-navigator-size.extra-large": {
-      "comment": "Extra large project navigator size option",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Extra Large"
           }
         }
       }
