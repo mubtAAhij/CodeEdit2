@@ -38,7 +38,7 @@
     "Add": {},
     "Add a language server": {},
     "Add Account": {},
-    "accounts.add-account-ellipsis": {
+    "add-account.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -108,7 +108,7 @@
     "Checkout branch": {},
     "Cherry-Pick %@...": {},
     "Choose": {},
-    "dialog.choose-ellipsis": {
+    "choose.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -164,7 +164,7 @@
     "Delete": {},
     "Delete Account...": {},
     "Delete Theme": {},
-    "menu.delete-ellipsis": {
+    "delete.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -193,7 +193,7 @@
     "Done": {},
     "Duplicate": {},
     "Duplicate this theme to make changes.": {},
-    "menu.duplicate-ellipsis": {
+    "duplicate.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -2810,7 +2810,7 @@
     "Remove %@?": {},
     "Rename": {},
     "Rename \"%@\"...": {},
-    "git.rename-branch": {
+    "rename.branch.action": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -2821,7 +2821,7 @@
         }
       }
     },
-    "git.rename-branch-ellipsis": {
+    "rename.branch.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -2832,7 +2832,7 @@
         }
       }
     },
-    "menu.rename-ellipsis": {
+    "rename.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -4580,7 +4580,7 @@
         }
       }
     },
-    "editor.indentation.spaces-lowercase": {
+    "spaces.lowercase": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -4608,7 +4608,7 @@
     "Stash and Pull": {},
     "Stash and Switch": {},
     "Stash Changes": {},
-    "git.stash-changes-ellipsis": {
+    "stash-changes.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -4988,7 +4988,7 @@
     "Successfully Installed": {},
     "Suspend Task": {},
     "Switch": {},
-    "git.switch-ellipsis": {
+    "switch.menu-item": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -5510,7 +5510,7 @@
         }
       }
     },
-    "editor.wrap-lines-lowercase": {
+    "wrap-lines.lowercase": {
       "extractionState": "manual",
       "localizations": {
         "en": {
