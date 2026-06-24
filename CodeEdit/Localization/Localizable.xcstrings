@@ -1,7 +1,7 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "": {},
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
     " (less secure)": {},
     "%@ (Create)": {},
     "%@ %@": {
@@ -36,8 +36,8 @@
     "Activity Viewer": {},
     "Add": {},
     "Add a language server": {},
-    "accounts.add-account.plain": {},
-    "accounts.add-account.with-ellipsis": {},
+    "Add Account": {},
+    "accounts.add-account": {},
     "Add and remove files automatically": {},
     "Add Existing Remote...": {},
     "Add File": {},
@@ -96,8 +96,8 @@
     "Checkout": {},
     "Checkout branch": {},
     "Cherry-Pick %@...": {},
-    "file-picker.choose.plain": {},
-    "file-picker.choose.with-ellipsis": {},
+    "Choose": {},
+    "action.choose": {},
     "Clear Output": {},
     "Clone": {},
     "Clone a Repository": {},
@@ -140,10 +140,10 @@
     "Default branch name": {},
     "Default: %@": {},
     "Delay 5s": {},
-    "menu.delete.plain": {},
+    "Delete": {},
     "Delete Account...": {},
     "Delete Theme": {},
-    "menu.delete.with-ellipsis": {},
+    "action.delete": {},
     "Deleting this account will remove it from CodeEdit.": {},
     "Description": {},
     "Details...": {},
@@ -160,9 +160,9 @@
     "Docker": {},
     "Docker Compose": {},
     "Done": {},
-    "menu.duplicate.plain": {},
+    "Duplicate": {},
     "Duplicate this theme to make changes.": {},
-    "menu.duplicate.with-ellipsis": {},
+    "action.duplicate": {},
     "Edit": {},
     "Editor Overscroll": {},
     "Email %@...": {},
@@ -2767,11 +2767,11 @@
     "Removal Failed": {},
     "Remove": {},
     "Remove %@?": {},
-    "menu.rename.plain": {},
+    "Rename": {},
     "Rename \"%@\"...": {},
-    "source-control.rename-branch.lowercase": {},
-    "source-control.rename-branch.with-ellipsis": {},
-    "menu.rename.with-ellipsis": {},
+    "git.rename-branch": {},
+    "Rename Branch...": {},
+    "action.rename": {},
     "repo": {},
     "Reset the terminal": {},
     "Restore Defaults": {},
@@ -4509,8 +4509,8 @@
         }
       }
     },
-    "text-editing.indentation.spaces.lowercase": {},
-    "text-editing.indentation.spaces.capitalized": {},
+    "indentation.spaces": {},
+    "Spaces": {},
     "Specify the absolute path to your LSP binary and its associated language.": {},
     "Specify the language and the absolute path to the language server binary.": {},
     "Split Down": {},
@@ -4526,8 +4526,8 @@
     "Stash": {},
     "Stash and Pull": {},
     "Stash and Switch": {},
-    "source-control.stash-changes.plain": {},
-    "source-control.stash-changes.with-ellipsis": {},
+    "Stash Changes": {},
+    "git.stash-changes": {},
     "status-bar.char-location-length": {
       "comment": "CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarCursorPositionLabel.swift",
       "extractionState": "manual",
@@ -4896,8 +4896,8 @@
     "Submit": {},
     "Successfully Installed": {},
     "Suspend Task": {},
-    "source-control.switch.plain": {},
-    "source-control.switch.with-ellipsis": {},
+    "Switch": {},
+    "action.switch": {},
     "Symbol": {},
     "System Default": {},
     "System Font": {},
@@ -5409,8 +5409,8 @@
         }
       }
     },
-    "text-editing.wrap-lines.lowercase": {},
-    "text-editing.wrap-lines.capitalized": {},
+    "editor.wrap-lines": {},
+    "Wrap Lines": {},
     "Wrap lines to editor width": {},
     "write:discussion": {},
     "Zsh": {},
@@ -5438,6 +5438,5 @@
         }
       }
     }
-  },
-  "version" : "1.0"
+  }
 }
