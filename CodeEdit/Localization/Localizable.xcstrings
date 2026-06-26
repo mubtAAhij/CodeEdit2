@@ -284,6 +284,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete the %d selected items?"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -302,6 +306,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Estás seguro de que quieres eliminar los %d elementos seleccionados?"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -326,6 +334,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d items will be deleted immediately. You cannot undo this action."
+          },
           "variations": {
             "plural": {
               "one": {
@@ -344,6 +356,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d elementos se eliminarán de inmediato. No puedes deshacer esta acción."
+          },
           "variations": {
             "plural": {
               "one": {
@@ -729,6 +745,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully replaced terms across %d files"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -747,6 +767,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Términos reemplazados correctamente en %d archivos"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -776,26 +800,6 @@
             "value": "%#@results@ in %#@files@"
           },
           "substitutions": {
-            "files": {
-              "argNum": 2,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d file"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d files"
-                    }
-                  }
-                }
-              }
-            },
             "results": {
               "argNum": 1,
               "formatSpecifier": "lld",
@@ -815,6 +819,26 @@
                   }
                 }
               }
+            },
+            "files": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d files"
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -824,26 +848,6 @@
             "value": "%#@results@ en %#@files@"
           },
           "substitutions": {
-            "files": {
-              "argNum": 2,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d archivo"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%d archivos"
-                    }
-                  }
-                }
-              }
-            },
             "results": {
               "argNum": 1,
               "formatSpecifier": "lld",
@@ -859,6 +863,26 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%d resultados"
+                    }
+                  }
+                }
+              }
+            },
+            "files": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%d archivos"
                     }
                   }
                 }
@@ -4569,6 +4593,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d characters"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4587,6 +4615,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d caracteres"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4683,6 +4715,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d lines"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4701,6 +4737,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d líneas"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4743,6 +4783,10 @@
       "extractionState": "manual",
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d selected ranges"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -4761,6 +4805,10 @@
           }
         },
         "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d rangos seleccionados"
+          },
           "variations": {
             "plural": {
               "one": {
@@ -5415,7 +5463,7 @@
     "write:discussion": {},
     "Zsh": {},
     "settings.general.project-navigator-size.extra-small": {
-      "comment": "Extra small project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -5423,17 +5471,29 @@
             "state": "translated",
             "value": "Extra Small"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra pequeño"
+          }
         }
       }
     },
     "settings.general.project-navigator-size.extra-large": {
-      "comment": "Extra large project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Extra Large"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra grande"
           }
         }
       }
