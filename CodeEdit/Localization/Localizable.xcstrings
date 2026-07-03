@@ -2,6 +2,7 @@
   "version": "1.0",
   "sourceLanguage": "en",
   "strings": {
+    "": {},
     " (less secure)": {},
     "%@ (Create)": {},
     "%@ %@": {
@@ -5514,7 +5515,7 @@
     "write:discussion": {},
     "Zsh": {},
     "settings.general.project-navigator-size.extra-small": {
-      "comment": "Extra small project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -5532,7 +5533,7 @@
       }
     },
     "settings.general.project-navigator-size.extra-large": {
-      "comment": "Extra large project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
