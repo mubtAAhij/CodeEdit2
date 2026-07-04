@@ -5415,7 +5415,7 @@
     "write:discussion": {},
     "Zsh": {},
     "settings.general.project-navigator-size.extra-small": {
-      "comment": "Extra small project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -5423,17 +5423,29 @@
             "state": "translated",
             "value": "Extra Small"
           }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra pequeño"
+          }
         }
       }
     },
     "settings.general.project-navigator-size.extra-large": {
-      "comment": "Extra large project navigator size option",
+      "comment": "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Extra Large"
+          }
+        },
+        "es-419": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra grande"
           }
         }
       }
