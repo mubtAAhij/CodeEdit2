@@ -6280,6 +6280,43 @@
     "Zsh" : {
 
     }
-  },
+  
+    "settings.general.project-navigator-size.extra-large" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extra Large"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extra grande"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size.extra-small" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extra Small"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extra pequeño"
+          }
+        }
+      }
+    }
+  ,},
   "version" : "1.0"
 }
