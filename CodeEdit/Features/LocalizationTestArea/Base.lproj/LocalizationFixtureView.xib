@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <objects>
+        <customView id="fixture-root-view">
+            <subviews>
+                <textField id="fixture-header" title="XIB Localization Fixture"/>
+                <textField id="fixture-description" title="This view contains static labels for localization testing."/>
+                <button id="fixture-primary-action" title="Apply Localization"/>
+                <button id="fixture-secondary-action" title="Review Differences"/>
+                <textField id="fixture-footer" title="Last run: Not started"/>
+            </subviews>
+        </customView>
+    </objects>
+</document>
