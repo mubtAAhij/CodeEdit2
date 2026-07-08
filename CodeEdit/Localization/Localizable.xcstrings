@@ -6325,6 +6325,12 @@
             "state" : "translated",
             "value" : "Very Huge"
           }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muy enorme"
+          }
         }
       }
     },
@@ -6336,6 +6342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Very Tiny"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muy pequeño"
           }
         }
       }
