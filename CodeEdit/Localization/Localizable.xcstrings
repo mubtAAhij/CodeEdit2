@@ -6315,6 +6315,30 @@
           }
         }
       }
+    },
+    "settings.general.project-navigator-size.very-huge" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Very Huge"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size.very-tiny" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Very Tiny"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
