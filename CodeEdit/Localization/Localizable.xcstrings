@@ -6279,6 +6279,42 @@
     },
     "Zsh" : {
 
+    },
+    "settings.general.project-navigator-size.huge" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huge"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enorme"
+          }
+        }
+      }
+    },
+    "settings.general.project-navigator-size.tiny" : {
+      "comment" : "CodeEdit/Features/Settings/Pages/GeneralSettings/GeneralSettingsView.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiny"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pequeño"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
