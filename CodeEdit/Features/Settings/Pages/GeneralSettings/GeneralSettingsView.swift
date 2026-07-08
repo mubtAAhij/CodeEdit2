@@ -206,7 +206,6 @@ private extension GeneralSettingsView {
             Text(String(localized: "settings.general.project-navigator-size.large", defaultValue: "Large", comment: "Large project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.large)
             Text("Huge")
-              
         }
     }
 
