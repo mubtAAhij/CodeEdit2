@@ -198,6 +198,7 @@ private extension GeneralSettingsView {
 
     var projectNavigatorSize: some View {
         Picker(String(localized: "settings.general.project-navigator-size", defaultValue: "Project Navigator Size", comment: "Project Navigator Size section title"), selection: $settings.projectNavigatorSize) {
+            Text("Very Tiny")
             Text(String(localized: "settings.general.project-navigator-size.tiny", defaultValue: "Tiny", comment: "Tiny project navigator size option"))
             Text(String(localized: "settings.general.project-navigator-size.small", defaultValue: "Small", comment: "Small project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.small)
@@ -206,6 +207,7 @@ private extension GeneralSettingsView {
             Text(String(localized: "settings.general.project-navigator-size.large", defaultValue: "Large", comment: "Large project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.large)
             Text(String(localized: "settings.general.project-navigator-size.huge", defaultValue: "Huge", comment: "Huge project navigator size option"))
+            Text("Very Huge")
         }
     }
 
