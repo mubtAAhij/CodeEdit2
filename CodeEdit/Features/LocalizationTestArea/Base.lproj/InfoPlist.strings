@@ -1,6 +1,0 @@
-"CFBundleDisplayName" = "CodeEdit Localization Lab";
-"CFBundleName" = "Localization Lab";
-"NSCameraUsageDescription" = "Allow camera access to attach screenshots to bug reports.";
-"NSPhotoLibraryUsageDescription" = "Allow photo library access to import project thumbnails.";
-"NSMicrophoneUsageDescription" = "Allow microphone access for voice coding commands.";
-"NSContactsUsageDescription" = "Allow contacts access to share workspace invites.";
