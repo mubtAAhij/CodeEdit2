@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <scenes>
+        <scene sceneID="scene-localization-fixture">
+            <objects>
+                <viewController id="vc-localization-fixture" sceneMemberID="viewController">
+                    <view key="view" id="view-localization-fixture">
+                        <subviews>
+                            <textField id="title-label" title="Localization Fixture Storyboard"/>
+                            <button id="confirm-button" title="Confirm Changes"/>
+                            <button id="discard-button" title="Discard Changes"/>
+                            <textField id="status-label" title="Status: Waiting for translation pipeline"/>
+                            <textField id="hint-label" title="Tip: Trigger a PR run to verify storyboard extraction"/>
+                        </subviews>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</document>

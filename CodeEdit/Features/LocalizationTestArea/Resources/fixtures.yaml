@@ -1,0 +1,11 @@
+metadata:
+  title: Localization Fixture Config
+  description: This file exists to test YAML localization extraction.
+steps:
+  - name: Start run
+    label: Start Localization
+  - name: Validate output
+    label: Validate Generated Files
+messages:
+  success: Localization run completed successfully.
+  warning: Some strings are still pending translation.

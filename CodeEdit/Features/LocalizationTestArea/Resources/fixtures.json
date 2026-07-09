@@ -1,0 +1,16 @@
+{
+  "screens": {
+    "welcome": {
+      "title": "Welcome to Localization Fixtures",
+      "subtitle": "Run the pipeline and verify every output format."
+    },
+    "summary": {
+      "title": "Translation Summary",
+      "emptyState": "No translations have been generated yet."
+    }
+  },
+  "errors": {
+    "network": "Unable to reach translation service.",
+    "merge": "Could not merge translated content into target branch."
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>CodeEdit Localization Lab</string>
+	<key>CFBundleName</key>
+	<string>Localization Lab</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow camera access to attach screenshots to bug reports.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow photo library access to import project thumbnails.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow microphone access for voice coding commands.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow contacts access to share workspace invites.</string>
+</dict>
+</plist>

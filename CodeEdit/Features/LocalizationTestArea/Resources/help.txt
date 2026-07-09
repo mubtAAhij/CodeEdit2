@@ -1,0 +1,6 @@
+Localization fixture checklist:
+1. Verify Swift strings were extracted.
+2. Verify Interface Builder strings were extracted.
+3. Verify Info.plist usage descriptions were extracted.
+4. Verify string table and plural entries were localized.
+5. Verify generated locale files keep stable formatting.
