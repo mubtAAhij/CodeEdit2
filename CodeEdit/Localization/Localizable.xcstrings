@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "sourceLanguage": "en",
+  "strings": {
+    "localization-test.page-title": {
+      "comment": "Title of the localization test page",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization Feature Test Area"
+          }
+        }
+      }
+    },
+    "localization-test.page-description": {
+      "comment": "Description of the localization test page purpose",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use this page to verify multi-format localization extraction and apply flows."
+          }
+        }
+      }
+    },
+    "localization-test.username-field": {
+      "comment": "Username text field placeholder",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Username"
+          }
+        }
+      }
+    },
+    "localization-test.email-field": {
+      "comment": "Email address text field placeholder",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email Address"
+          }
+        }
+      }
+    },
+    "localization-test.save-button": {
+      "comment": "Save settings button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save Settings"
+          }
+        }
+      }
+    },
+    "localization-test.reset-button": {
+      "comment": "Reset to defaults button",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset to Defaults"
+          }
+        }
+      }
+    },
+    "localization-test.sync-status": {
+      "comment": "Sync connection status message",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync status: Connected"
+          }
+        }
+      }
+    },
+    "localization-test.backup-success": {
+      "comment": "Backup completion success message",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last backup completed successfully"
+          }
+        }
+      }
+    },
+    "localization-test.recent-projects": {
+      "comment": "Count of recent projects found",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Found %d recent projects"
+          },
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Found %d recent project"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Found %d recent projects"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "localization-test.updates-available": {
+      "comment": "Update availability notification",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New updates are available"
+          }
+        }
+      }
+    },
+    "localization-test.extensions-error": {
+      "comment": "Extension loading error message",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to load extensions. Please try again."
+          }
+        }
+      }
+    },
+    "localization-test.quick-tip-label": {
+      "comment": "Label for quick tip section",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick tip:"
+          }
+        }
+      }
+    },
+    "localization-test.quick-tip-text": {
+      "comment": "Quick tip about command palette shortcut",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Press Command+Shift+P to open the command palette."
+          }
+        }
+      }
+    },
+    "localization-test.delete-label": {
+      "comment": "Delete action label",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "localization-test.delete-confirmation": {
+      "comment": "Workspace deletion confirmation message",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to permanently remove this workspace?"
+          }
+        }
+      }
+    }
+  }
+}
