@@ -5415,119 +5415,193 @@
     "Wrap lines to editor width": {},
     "write:discussion": {},
     "Zsh": {},
-    "localization-test.title": {
-      "comment": "Title of the localization test page",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Localization Feature Test Area"
+    "localization-test.title" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Feature Test Area"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Área de prueba de funciones de localización"
           }
         }
       }
     },
-    "localization-test.description": {
-      "comment": "Description of the localization test page purpose",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Use this page to verify multi-format localization extraction and apply flows."
+    "localization-test.description" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this page to verify multi-format localization extraction and apply flows."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa esta página para verificar los flujos de extracción y aplicación de localización multiformato."
           }
         }
       }
     },
-    "localization-test.username-field": {
-      "comment": "Username text field placeholder",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Username"
+    "localization-test.username-field" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de usuario"
           }
         }
       }
     },
-    "localization-test.email-field": {
-      "comment": "Email address text field placeholder",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email Address"
+    "localization-test.email-field" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email Address"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico"
           }
         }
       }
     },
-    "localization-test.save-button": {
-      "comment": "Button to save settings",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save Settings"
+    "localization-test.save-button" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Settings"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar configuración"
           }
         }
       }
     },
-    "localization-test.reset-button": {
-      "comment": "Button to reset to default settings",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reset to Defaults"
+    "localization-test.reset-button" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset to Defaults"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer valores predeterminados"
           }
         }
       }
     },
-    "localization-test.sync-status": {
-      "comment": "Sync connection status message",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sync status: Connected"
+    "localization-test.sync-status" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync status: Connected"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de sincronización: Conectado"
           }
         }
       }
     },
-    "localization-test.backup-success": {
-      "comment": "Backup completion success message",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last backup completed successfully"
+    "localization-test.backup-success" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last backup completed successfully"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Último respaldo completado exitosamente"
           }
         }
       }
     },
-    "localization-test.project-count": {
-      "comment": "Number of recent projects found",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Found %d recent project"
+    "localization-test.project-count" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Found %d recent projects"
+          },
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Found %d recent project"
                 }
               },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Found %d recent projects"
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Found %d recent projects"
+                }
+              }
+            }
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se encontraron %d proyectos recientes"
+          },
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Se encontró %d proyecto reciente"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d proyectos recientes encontrados"
                 }
               }
             }
@@ -5535,74 +5609,110 @@
         }
       }
     },
-    "localization-test.updates-available": {
-      "comment": "Message indicating updates are available",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New updates are available"
+    "localization-test.updates-available" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New updates are available"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hay nuevas actualizaciones disponibles"
           }
         }
       }
     },
-    "localization-test.extensions-error": {
-      "comment": "Error message when extensions fail to load",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Failed to load extensions. Please try again."
+    "localization-test.extensions-error" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load extensions. Please try again."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al cargar las extensiones. Intenta de nuevo."
           }
         }
       }
     },
-    "localization-test.tip-label": {
-      "comment": "Label for quick tip section",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quick tip:"
+    "localization-test.tip-label" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick tip:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consejo rápido:"
           }
         }
       }
     },
-    "localization-test.tip-command-palette": {
-      "comment": "Tip about command palette keyboard shortcut",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Press Command+Shift+P to open the command palette."
+    "localization-test.tip-command-palette" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press Command+Shift+P to open the command palette."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presiona Command+Shift+P para abrir la paleta de comandos."
           }
         }
       }
     },
-    "localization-test.delete-label": {
-      "comment": "Delete action label",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete"
+    "localization-test.delete-label" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
           }
         }
       }
     },
-    "localization-test.delete-confirmation": {
-      "comment": "Confirmation message for workspace deletion",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Are you sure you want to permanently remove this workspace?"
+    "localization-test.delete-confirmation" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to permanently remove this workspace?"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar permanentemente este espacio de trabajo?"
           }
         }
       }
