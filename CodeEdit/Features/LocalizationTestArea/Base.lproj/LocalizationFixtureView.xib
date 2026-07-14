@@ -3,11 +3,11 @@
     <objects>
         <customView id="fixture-root-view">
             <subviews>
-                <textField id="fixture-header" title="XIB Localization Fixture"/>
-                <textField id="fixture-description" title="This view contains static labels for localization testing."/>
-                <button id="fixture-primary-action" title="Apply Localization"/>
-                <button id="fixture-secondary-action" title="Review Differences"/>
-                <textField id="fixture-footer" title="Last run: Not started"/>
+                <textField id="fixture-header" title=String(localized: "localization-fixture.xib.title", defaultValue: "XIB Localization Fixture", comment: "Title of the XIB localization fixture")/>
+                <textField id="fixture-description" title=String(localized: "localization-fixture.xib.description", defaultValue: "This view contains static labels for localization testing.", comment: "Description of XIB fixture purpose")/>
+                <button id="fixture-primary-action" title=String(localized: "localization-fixture.xib.apply-button", defaultValue: "Apply Localization", comment: "Button to apply localization in XIB fixture")/>
+                <button id="fixture-secondary-action" title=String(localized: "localization-fixture.xib.review-button", defaultValue: "Review Differences", comment: "Button to review localization differences")/>
+                <textField id="fixture-footer" title=String(localized: "localization-fixture.xib.last-run-status", defaultValue: "Last run: Not started", comment: "Status of last localization run")/>
             </subviews>
         </customView>
     </objects>
