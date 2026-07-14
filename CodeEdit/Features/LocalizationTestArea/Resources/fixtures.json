@@ -1,16 +1,16 @@
 {
-  "screens": {
-    "welcome": {
-      "title": "Welcome to Localization Fixtures",
-      "subtitle": "Run the pipeline and verify every output format."
+  String(localized: "localization-fixture.json.field.screens", defaultValue: "screens", comment: "JSON field name for screens section"): {
+    String(localized: "localization-fixture.json.field.welcome", defaultValue: "welcome", comment: "JSON field name for welcome screen"): {
+      "title": String(localized: "localization-fixture.json.welcome.title", defaultValue: "Welcome to Localization Fixtures", comment: "Welcome screen title in JSON fixture"),
+      "subtitle": String(localized: "localization-fixture.json.welcome.subtitle", defaultValue: "Run the pipeline and verify every output format.", comment: "Welcome screen subtitle in JSON fixture")
     },
-    "summary": {
-      "title": "Translation Summary",
-      "emptyState": "No translations have been generated yet."
+    String(localized: "localization-fixture.json.field.summary", defaultValue: "summary", comment: "JSON field name for summary screen"): {
+      "title": String(localized: "localization-fixture.json.summary.title", defaultValue: "Translation Summary", comment: "Summary screen title in JSON fixture"),
+      "emptyState": String(localized: "localization-fixture.json.summary.empty-state", defaultValue: "No translations have been generated yet.", comment: "Empty state message in JSON fixture")
     }
   },
-  "errors": {
-    "network": "Unable to reach translation service.",
-    "merge": "Could not merge translated content into target branch."
+  String(localized: "localization-fixture.json.field.errors", defaultValue: "errors", comment: "JSON field name for errors section"): {
+    "network": String(localized: "localization-fixture.json.errors.network", defaultValue: "Unable to reach translation service.", comment: "Network error message in JSON fixture"),
+    "merge": String(localized: "localization-fixture.json.errors.merge", defaultValue: "Could not merge translated content into target branch.", comment: "Merge error message in JSON fixture")
   }
 }
