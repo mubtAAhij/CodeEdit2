@@ -6,11 +6,11 @@
                 <viewController id="vc-localization-fixture" sceneMemberID="viewController">
                     <view key="view" id="view-localization-fixture">
                         <subviews>
-                            <textField id="title-label" title="Localization Fixture Storyboard"/>
-                            <button id="confirm-button" title="Confirm Changes"/>
-                            <button id="discard-button" title="Discard Changes"/>
-                            <textField id="status-label" title="Status: Waiting for translation pipeline"/>
-                            <textField id="hint-label" title="Tip: Trigger a PR run to verify storyboard extraction"/>
+                            <textField id="title-label" title=String(localized: "localization-fixture.storyboard.title", defaultValue: "Localization Fixture Storyboard", comment: "Title of the localization fixture storyboard")/>
+                            <button id="confirm-button" title=String(localized: "localization-fixture.storyboard.confirm-button", defaultValue: "Confirm Changes", comment: "Button to confirm changes in storyboard fixture")/>
+                            <button id="discard-button" title=String(localized: "localization-fixture.storyboard.discard-button", defaultValue: "Discard Changes", comment: "Button to discard changes in storyboard fixture")/>
+                            <textField id="status-label" title=String(localized: "localization-fixture.storyboard.status-waiting", defaultValue: "Status: Waiting for translation pipeline", comment: "Status message indicating waiting state")/>
+                            <textField id="hint-label" title=String(localized: "localization-fixture.storyboard.tip-pr-run", defaultValue: "Tip: Trigger a PR run to verify storyboard extraction", comment: "Tip for verifying storyboard extraction")/>
                         </subviews>
                     </view>
                 </viewController>

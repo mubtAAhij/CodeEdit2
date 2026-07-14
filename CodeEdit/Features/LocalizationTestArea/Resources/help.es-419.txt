@@ -1,0 +1,6 @@
+Lista de verificación de prueba de localización:
+1. Verifica que se extrajeron las cadenas de Swift.
+4. Verifica que la tabla de cadenas y las entradas plurales fueron localizadas.
+5. Verifica que los archivos de configuración regional generados mantengan un formato estable.
+2. Verifica que las cadenas de Interface Builder se hayan extraído.
+3. Verifica que se extrajeron las descripciones de uso de Info.plist.
