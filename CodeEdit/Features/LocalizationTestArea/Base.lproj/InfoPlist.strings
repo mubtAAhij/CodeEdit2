@@ -1,6 +1,6 @@
-"CFBundleDisplayName" = "CodeEdit Localization Lab";
-"CFBundleName" = "Localization Lab";
-"NSCameraUsageDescription" = "Allow camera access to attach screenshots to bug reports.";
-"NSPhotoLibraryUsageDescription" = "Allow photo library access to import project thumbnails.";
-"NSMicrophoneUsageDescription" = "Allow microphone access for voice coding commands.";
-"NSContactsUsageDescription" = "Allow contacts access to share workspace invites.";
+"CFBundleDisplayName" = String(localized: "localization-test-area.infoplist.display-name", defaultValue: "CodeEdit Localization Lab", comment: "App display name for localization test area");
+"CFBundleName" = String(localized: "localization-test-area.infoplist.bundle-name", defaultValue: "Localization Lab", comment: "Bundle name for localization test area");
+"NSCameraUsageDescription" = String(localized: "localization-test-area.infoplist.camera-usage", defaultValue: "Allow camera access to attach screenshots to bug reports.", comment: "Camera usage description");
+"NSPhotoLibraryUsageDescription" = String(localized: "localization-test-area.infoplist.photo-library-usage", defaultValue: "Allow photo library access to import project thumbnails.", comment: "Photo library usage description");
+"NSMicrophoneUsageDescription" = String(localized: "localization-test-area.infoplist.microphone-usage", defaultValue: "Allow microphone access for voice coding commands.", comment: "Microphone usage description");
+"NSContactsUsageDescription" = String(localized: "localization-test-area.infoplist.contacts-usage", defaultValue: "Allow contacts access to share workspace invites.", comment: "Contacts usage description");
