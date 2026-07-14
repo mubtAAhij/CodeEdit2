@@ -1,10 +1,10 @@
 /* General UI */
-"localization.test.title" = "Localization Fixture Panel";
-"localization.test.subtitle" = "Validate extraction and translation output.";
-"localization.test.button.run" = "Run Validation";
-"localization.test.button.cancel" = "Cancel Operation";
+"localization.test.title" = String(localized: "localization.test.title", defaultValue: "Localization Fixture Panel", comment: "Title for localization test fixture panel");
+"localization.test.subtitle" = String(localized: "localization.test.subtitle", defaultValue: "Validate extraction and translation output.", comment: "Subtitle describing test fixture purpose");
+"localization.test.button.run" = String(localized: "localization.test.button.run", defaultValue: "Run Validation", comment: "Button to run validation");
+"localization.test.button.cancel" = String(localized: "localization.test.button.cancel", defaultValue: "Cancel Operation", comment: "Button to cancel operation");
 
 /* Errors */
-"localization.test.error.network" = "A network error occurred while fetching translations.";
-"localization.test.error.timeout" = "The request timed out. Please retry in a moment.";
-"localization.test.error.permission" = "You do not have permission to perform this action.";
+"localization.test.error.network" = String(localized: "localization.test.error.network", defaultValue: "A network error occurred while fetching translations.", comment: "Network error message");
+"localization.test.error.timeout" = String(localized: "localization.test.error.timeout", defaultValue: "The request timed out. Please retry in a moment.", comment: "Timeout error message");
+"localization.test.error.permission" = String(localized: "localization.test.error.permission", defaultValue: "You do not have permission to perform this action.", comment: "Permission error message");
