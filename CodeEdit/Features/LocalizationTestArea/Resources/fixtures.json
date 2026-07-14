@@ -1,16 +1,16 @@
 {
-  "screens": {
-    "welcome": {
-      "title": "Welcome to Localization Fixtures",
-      "subtitle": "Run the pipeline and verify every output format."
+  String(localized: "localization-fixture.json.screens", defaultValue: "screens", comment: "JSON object key for screens collection"): {
+    String(localized: "localization-fixture.json.welcome", defaultValue: "welcome", comment: "JSON object key for welcome screen"): {
+      "title": String(localized: "localization-fixture.json.welcome.title", defaultValue: "Welcome to Localization Fixtures", comment: "Title displayed on the welcome screen in the localization fixture"),
+      "subtitle": String(localized: "localization-fixture.json.welcome.subtitle", defaultValue: "Run the pipeline and verify every output format.", comment: "Subtitle explaining the purpose of the localization fixture")
     },
-    "summary": {
-      "title": "Translation Summary",
-      "emptyState": "No translations have been generated yet."
+    String(localized: "localization-fixture.json.summary", defaultValue: "summary", comment: "JSON object key for summary screen"): {
+      "title": String(localized: "localization-fixture.json.summary.title", defaultValue: "Translation Summary", comment: "Title for the translation summary screen"),
+      "emptyState": String(localized: "localization-fixture.json.summary.empty-state", defaultValue: "No translations have been generated yet.", comment: "Empty state message when no translations exist")
     }
   },
-  "errors": {
-    "network": "Unable to reach translation service.",
-    "merge": "Could not merge translated content into target branch."
+  String(localized: "localization-fixture.json.errors", defaultValue: "errors", comment: "JSON object key for errors collection"): {
+    "network": String(localized: "localization-fixture.json.error.network", defaultValue: "Unable to reach translation service.", comment: "Error message when network request to translation service fails"),
+    "merge": String(localized: "localization-fixture.json.error.merge", defaultValue: "Could not merge translated content into target branch.", comment: "Error message when merge of translated content fails")
   }
 }
