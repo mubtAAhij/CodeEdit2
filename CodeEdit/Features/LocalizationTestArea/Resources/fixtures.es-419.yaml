@@ -1,0 +1,11 @@
+description: Este archivo existe para probar la extracción de localización de YAML.
+mensajes:
+metadatos:
+pasos:
+- name: Validar salida
+advertencia: Algunas cadenas aún están pendientes de traducción.
+title: Configuración de prueba de localización
+- name: Iniciar ejecución
+éxito: Ejecución de localización completada exitosamente.
+label: Validar archivos generados
+label: Iniciar localización

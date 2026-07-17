@@ -5415,182 +5415,2104 @@
     "Wrap lines to editor width": {},
     "write:discussion": {},
     "Zsh": {},
-    "localization-test.title": {
-      "comment": "Title of the localization test page",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Localization Feature Test Area"
+    "localization-test.title" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Feature Test Area"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Área de prueba de funciones de localización"
           }
         }
       }
     },
-    "localization-test.description": {
-      "comment": "Description of the test page purpose",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Use this page to verify multi-format localization extraction and apply flows."
+    "localization-test.description" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this page to verify multi-format localization extraction and apply flows."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa esta página para verificar los flujos de extracción y aplicación de localización multiformato."
           }
         }
       }
     },
-    "localization-test.username-field": {
-      "comment": "Username text field placeholder",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Username"
+    "localization-test.username-field" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de usuario"
           }
         }
       }
     },
-    "localization-test.email-field": {
-      "comment": "Email address text field placeholder",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email Address"
+    "localization-test.email-field" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email Address"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico"
           }
         }
       }
     },
-    "localization-test.save-button": {
-      "comment": "Button to save settings",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save Settings"
+    "localization-test.save-button" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Settings"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar configuración"
           }
         }
       }
     },
-    "localization-test.reset-button": {
-      "comment": "Button to reset settings to defaults",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reset to Defaults"
+    "localization-test.reset-button" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset to Defaults"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer valores predeterminados"
           }
         }
       }
     },
-    "localization-test.sync-status": {
-      "comment": "Status message showing sync connection",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sync status: Connected"
+    "localization-test.sync-status" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync status: Connected"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de sincronización: Conectado"
           }
         }
       }
     },
-    "localization-test.backup-success": {
-      "comment": "Message indicating backup completed",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Last backup completed successfully"
+    "localization-test.backup-success" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last backup completed successfully"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Último respaldo completado exitosamente"
           }
         }
       }
     },
-    "localization-test.projects-found": {
-      "comment": "Message showing count of recent projects",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Found %d recent projects"
+    "localization-test.projects-found" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Found %d recent projects"
+          },
+          "substitutions" : {
+            "projects" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "Found %d recent project"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "Found %d recent projects"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se encontraron %d proyectos recientes"
+          },
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d proyectos recientes encontrados"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Se encontró %d proyecto reciente"
+                }
+              }
+            }
+          },
+          "substitutions" : {
+            "projects" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "Se encontró %d proyecto reciente"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%d proyectos recientes encontrados"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "localization-test.updates-available": {
-      "comment": "Message indicating updates are available",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New updates are available"
+    "localization-test.updates-available" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New updates are available"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hay nuevas actualizaciones disponibles"
           }
         }
       }
     },
-    "localization-test.extensions-error": {
-      "comment": "Error message for failed extension loading",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Failed to load extensions. Please try again."
+    "localization-test.extensions-error" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load extensions. Please try again."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al cargar las extensiones. Intenta de nuevo."
           }
         }
       }
     },
-    "localization-test.quick-tip-label": {
-      "comment": "Label introducing a quick tip",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quick tip:"
+    "localization-test.quick-tip-label" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick tip:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consejo rápido:"
           }
         }
       }
     },
-    "localization-test.command-palette-tip": {
-      "comment": "Tip about opening command palette",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Press Command+Shift+P to open the command palette."
+    "localization-test.command-palette-tip" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press Command+Shift+P to open the command palette."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presiona Command+Shift+P para abrir la paleta de comandos."
           }
         }
       }
     },
-    "localization-test.delete-action": {
-      "comment": "Delete action label",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete"
+    "localization-test.delete-action" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
           }
         }
       }
     },
-    "localization-test.delete-confirmation": {
-      "comment": "Confirmation message for workspace deletion",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Are you sure you want to permanently remove this workspace?"
+    "localization-test.delete-confirmation" : {
+      "comment" : "CodeEdit/Features/LocalizationTestArea/LocalizationFeatureTestPage.swift",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to permanently remove this workspace?"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar permanentemente este espacio de trabajo?"
+          }
+        }
+      }
+    },
+    "CFBundleDisplayName" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CodeEdit Localization Lab"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laboratorio de Localización de CodeEdit"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Lab"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laboratorio de localización"
+          }
+        }
+      }
+    },
+    "InfoPlist.CFBundleDisplayName" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CodeEdit Localization Lab"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laboratorio de Localización de CodeEdit"
+          }
+        }
+      }
+    },
+    "InfoPlist.CFBundleName" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Lab"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laboratorio de localización"
+          }
+        }
+      }
+    },
+    "InfoPlist.NSCameraUsageDescription" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow camera access to attach screenshots to bug reports."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la cámara para adjuntar capturas de pantalla a los reportes de errores."
+          }
+        }
+      }
+    },
+    "InfoPlist.NSContactsUsageDescription" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow contacts access to share workspace invites."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a tus contactos para compartir invitaciones del espacio de trabajo."
+          }
+        }
+      }
+    },
+    "InfoPlist.NSMicrophoneUsageDescription" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow microphone access for voice coding commands."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso al micrófono para comandos de voz de programación."
+          }
+        }
+      }
+    },
+    "InfoPlist.NSPhotoLibraryUsageDescription" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Info.plist",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow photo library access to import project thumbnails."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la fototeca para importar miniaturas de proyectos."
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow camera access to attach screenshots to bug reports."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la cámara para adjuntar capturas de pantalla a los reportes de errores."
+          }
+        }
+      }
+    },
+    "NSContactsUsageDescription" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow contacts access to share workspace invites."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a los contactos para compartir invitaciones al espacio de trabajo."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow microphone access for voice coding commands."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso al micrófono para comandos de voz de codificación."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/InfoPlist.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow photo library access to import project thumbnails."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la fototeca para importar miniaturas de proyectos."
+          }
+        }
+      }
+    },
+    "localization.test.button.cancel" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel Operation"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar operación"
+          }
+        }
+      }
+    },
+    "localization.test.button.run" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Run Validation"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ejecutar validación"
+          }
+        }
+      }
+    },
+    "localization.test.error.network" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A network error occurred while fetching translations."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocurrió un error de red al obtener traducciones."
+          }
+        }
+      }
+    },
+    "localization.test.error.permission" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You do not have permission to perform this action."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tienes permiso para realizar esta acción."
+          }
+        }
+      }
+    },
+    "localization.test.error.timeout" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The request timed out. Please retry in a moment."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La solicitud agotó el tiempo de espera. Reintenta en un momento."
+          }
+        }
+      }
+    },
+    "localization.test.files.processed" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.stringsdict",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d files processed"
+          },
+          "substitutions" : {
+            "files" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%d file"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%d files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d archivos procesados"
+          },
+          "substitutions" : {
+            "files" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%d archivo"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%d archivos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "localization.test.subtitle" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Validate extraction and translation output."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valida la extracción y salida de traducción."
+          }
+        }
+      }
+    },
+    "localization.test.title" : {
+      "comment" : "/tmp/E455640A-8805-4992-AE92-3DA1AAF51DBA/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.strings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Fixture Panel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panel de prueba de localización"
+          }
+        }
+      }
+    },
+    "localization.test.warnings.count" : {
+      "comment" : "/tmp/D528E633-D352-4E7C-963E-70DF5DE73730/CodeEdit/Features/LocalizationTestArea/Base.lproj/Localizable.stringsdict",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d warnings remaining"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d advertencias restantes"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line11.swift-swiftui-literals" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.swift` (SwiftUI literals)"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.swift` (literales de SwiftUI)"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line12.info-plist-usage-descriptions-and-b" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `Info.plist` (usage descriptions and bundle display strings)"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `Info.plist` (descripciones de uso y cadenas de visualización del bundle)"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line13.strings" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.strings`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.strings`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line14.stringsdict" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.stringsdict`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.stringsdict`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line15.storyboard" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.storyboard`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.storyboard`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line16.xib" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.xib`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.xib`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line17.md" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.md`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.md`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line18.txt" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.txt`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.txt`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line19.html" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.html`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.html`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line20.json" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.json`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.json`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line21.yaml" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.yaml`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `.yaml`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line23.use-this-area-to-validate" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this area to validate:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa esta área para validar:"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line25.1-extraction-coverage-by-source-type" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. extraction coverage by source type"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. cobertura de extracción por tipo de fuente"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line26.2-apply-behavior-by-source-type" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. apply behavior by source type"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. aplicar comportamiento por tipo de fuente"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line27.3-merge-check-run-queue-behavior-in-pr" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. merge/check-run/queue behavior in PR flows"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. comportamiento de merge/check-run/queue en flujos de PR"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line3.this-folder-is-a-fixture-set-for-testing" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This folder is a fixture set for testing Quetzal multi-format localization."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta carpeta es un conjunto de fixtures para probar la localización multiformato de Quetzal."
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line5.suggested-target-directory-for-pipeline" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggested target directory for pipeline tests:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Directorio de destino sugerido para las pruebas del pipeline:"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line7.codeedit-features-localizationtestare" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `CodeEdit/Features/LocalizationTestArea`"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- `CodeEdit/Features/LocalizationTestArea`"
+          }
+        }
+      }
+    },
+    "resource.codeedit.features.localizationtestarea.readme-md.line9.included-file-types" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/README.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Included file types:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipos de archivo incluidos:"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line12.errors" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"errors\" : {"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"errores\" : {"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line13.network-unable-to-reach-translation" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"network\" : \"Unable to reach translation service.\","
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"network\" : \"No se pudo conectar al servicio de traducción.\","
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line14.merge-could-not-merge-translated-con" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"merge\" : \"Could not merge translated content into target branch.\""
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"merge\" : \"No se pudo fusionar el contenido traducido en la rama de destino.\""
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line2.screens" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"screens\" : {"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"pantallas\" : {"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line3.welcome" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"welcome\" : {"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"welcome\" : {"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line4.title-welcome-to-localization-fixtur" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"title\" : \"Welcome to Localization Fixtures\","
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"title\" : \"Bienvenido a las pruebas de localización\","
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line5.subtitle-run-the-pipeline-and-verify" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"subtitle\" : \"Run the pipeline and verify every output format.\""
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"subtitle\" : \"Ejecuta el pipeline y verifica cada formato de salida.\""
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line7.summary" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"summary\" : {"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"summary\" : {"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line8.title-translation-summary" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"title\" : \"Translation Summary\","
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"title\" : \"Resumen de Traducción\","
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-json.line9.emptystate-no-translations-have-been" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.json",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"emptyState\" : \"No translations have been generated yet.\""
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"emptyState\" : \"No se han generado traducciones aún.\""
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line1.metadata" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "metadata:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "metadatos:"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line10.success-localization-run-completed-succ" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "success: Localization run completed successfully."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "éxito: Ejecución de localización completada exitosamente."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line11.warning-some-strings-are-still-pending" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "warning: Some strings are still pending translation."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "advertencia: Algunas cadenas aún están pendientes de traducción."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line2.title-localization-fixture-config" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "title: Localization Fixture Config"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "title: Configuración de prueba de localización"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line3.description-this-file-exists-to-test-ya" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "description: This file exists to test YAML localization extraction."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "description: Este archivo existe para probar la extracción de localización de YAML."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line4.steps" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "steps:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pasos:"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line5.name-start-run" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- name: Start run"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- name: Iniciar ejecución"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line6.label-start-localization" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "label: Start Localization"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "label: Iniciar localización"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line7.name-validate-output" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- name: Validate output"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- name: Validar salida"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line8.label-validate-generated-files" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "label: Validate Generated Files"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "label: Validar archivos generados"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.fixtures-yaml.line9.messages" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/fixtures.yaml",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "messages:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mensajes:"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line1.localization-fixture-checklist" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization fixture checklist:"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista de verificación de prueba de localización:"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line2.1-verify-swift-strings-were-extracted" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Verify Swift strings were extracted."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Verifica que se extrajeron las cadenas de Swift."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line3.2-verify-interface-builder-strings-were" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. Verify Interface Builder strings were extracted."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. Verifica que se extrajeron las cadenas de Interface Builder."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line4.3-verify-info-plist-usage-descriptions" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. Verify Info.plist usage descriptions were extracted."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. Verifica que se extrajeron las descripciones de uso de Info.plist."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line5.4-verify-string-table-and-plural-entrie" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4. Verify string table and plural entries were localized."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4. Verifica que la tabla de cadenas y las entradas plurales fueron localizadas."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.help-txt.line6.5-verify-generated-locale-files-keep-st" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/help.txt",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5. Verify generated locale files keep stable formatting."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5. Verifica que los archivos de configuración regional generados mantengan un formato estable."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line1.doctype-html" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<!doctype html>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<!doctype html>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line10.button-start-translation-run-button" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<button>Start Translation Run</button>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<button>Iniciar ejecución de traducción</button>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line11.button-show-merge-summary-button" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<button>Show Merge Summary</button>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<button>Mostrar resumen de merge</button>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line12.p-status-awaiting-pipeline-execution" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>Status: Awaiting pipeline execution.</p>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>Estado: Esperando la ejecución del pipeline.</p>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line13.body" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</body>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</body>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line14.html" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</html>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</html>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line2.html-lang-en" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<html lang=\"en\">"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<html lang=\"es\">"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line3.head" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<head>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<head>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line4.meta-charset-utf-8" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<meta charset=\"utf-8\">"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<meta charset=\"utf-8\">"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line5.title-localization-fixture-page-title" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<title>Localization Fixture Page</title>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<title>Página de prueba de localización</title>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line6.head" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</head>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "</head>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line7.body" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<body>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<body>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line8.h1-localization-fixture-dashboard-h1" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<h1>Localization Fixture Dashboard</h1>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<h1>Tablero de prueba de localización</h1>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localization-page-html.line9.p-review-translation-quality-before-shi" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/localization-page.html",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>Review translation quality before shipping updates.</p>"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>Revisa la calidad de la traducción antes de publicar actualizaciones.</p>"
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localizationnotes-md.line3.welcome-to-the-localization-fixture-area" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/LocalizationNotes.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the localization fixture area."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenido al área de prueba de localización."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localizationnotes-md.line5.ensure-every-visible-sentence-is-trans" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/LocalizationNotes.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Ensure every visible sentence is translated."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Asegúrate de que cada oración visible esté traducida."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localizationnotes-md.line6.keep-command-labels-concise" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/LocalizationNotes.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Keep command labels concise."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Mantén las etiquetas de comandos concisas."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localizationnotes-md.line7.validate-placeholders-like-d-and" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/LocalizationNotes.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Validate placeholders like `%d` and `%@`."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Valida los marcadores de posición como `%d` y `%@`."
+          }
+        }
+      }
+    },
+    "resource.features.localizationtestarea.resources.localizationnotes-md.line9.next-step-run-the-quetzal-pr-localizati" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Resources/LocalizationNotes.md",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next step: Run the Quetzal PR localization flow and inspect generated locale files."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente paso: Ejecuta el flujo de localización de PR de Quetzal e inspecciona los archivos de configuración regional generados."
+          }
+        }
+      }
+    },
+    "storyboard.localizationfixture.title.line10" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixture.storyboard",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm Changes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmar cambios"
+          }
+        }
+      }
+    },
+    "storyboard.localizationfixture.title.line11" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixture.storyboard",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard Changes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descartar cambios"
+          }
+        }
+      }
+    },
+    "storyboard.localizationfixture.title.line12" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixture.storyboard",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status: Waiting for translation pipeline"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado: Esperando el pipeline de traducción"
+          }
+        }
+      }
+    },
+    "storyboard.localizationfixture.title.line13" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixture.storyboard",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip: Trigger a PR run to verify storyboard extraction"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consejo: Inicia una ejecución de PR para verificar la extracción del storyboard"
+          }
+        }
+      }
+    },
+    "storyboard.localizationfixture.title.line9" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixture.storyboard",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization Fixture Storyboard"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storyboard de prueba de localización"
+          }
+        }
+      }
+    },
+    "xib.localizationfixtureview.title.line10" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixtureView.xib",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last run: Not started"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Última ejecución: No iniciada"
+          }
+        }
+      }
+    },
+    "xib.localizationfixtureview.title.line6" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixtureView.xib",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XIB Localization Fixture"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fixture de localización XIB"
+          }
+        }
+      }
+    },
+    "xib.localizationfixtureview.title.line7" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixtureView.xib",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This view contains static labels for localization testing."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta vista contiene etiquetas estáticas para pruebas de localización."
+          }
+        }
+      }
+    },
+    "xib.localizationfixtureview.title.line8" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixtureView.xib",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply Localization"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar localización"
+          }
+        }
+      }
+    },
+    "xib.localizationfixtureview.title.line9" : {
+      "comment" : "/tmp/8759BE32-2407-441E-A452-F15B29B151A3/CodeEdit/Features/LocalizationTestArea/Base.lproj/LocalizationFixtureView.xib",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review Differences"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisar diferencias"
           }
         }
       }
