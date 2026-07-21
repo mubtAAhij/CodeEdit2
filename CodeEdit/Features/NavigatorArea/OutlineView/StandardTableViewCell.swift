@@ -110,10 +110,7 @@ class StandardTableViewCell: NSTableCellView {
         super.resizeSubviews(withOldSize: oldSize)
         guard let imageView, textField != nil, secondaryLabel != nil else {
             assertionFailure(
-                "Missing child view:"
-                + " imageView \(imageView == nil)"
-                + ", textField: \(textField == nil)"
-                + ", label: \(secondaryLabel == nil)"
+                String(format: String(localized: "standard-table-view-cell.missing-child-view", defaultValue: "Missing child view: imageView %d, textField: %d, label: %d", comment: "Assertion message for missing child views in table cell"), imageView == nil ? 1 : 0, textField == nil ? 1 : 0, secondaryLabel == nil ? 1 : 0)
             )
             return
         }
