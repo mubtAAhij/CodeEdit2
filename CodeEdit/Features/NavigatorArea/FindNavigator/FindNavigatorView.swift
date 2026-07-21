@@ -32,7 +32,7 @@ struct FindNavigatorView: View {
 
             if findNavigatorStatus == .found {
                 HStack(alignment: .center) {
-                    Text(String(format: String(localized: "find_navigator.results_summary", defaultValue: "%#@results@ in %#@files@", comment: "Summary of search results"), self.searchResultCount, self.foundFilesCount))
+                    Text(String(format: String(localized: "find-navigator.results-summary", defaultValue: "%#@results@ in %#@files@", comment: "Summary of search results"), self.searchResultCount, self.foundFilesCount))
                         .font(.system(size: 10))
                 }
 
@@ -65,8 +65,8 @@ struct FindNavigatorView: View {
             case .found:
                 if self.searchResultCount == 0 {
                     CEContentUnavailableView(
-                        String(localized: "find_navigator.no_results", defaultValue: "No Results", comment: "Title when no search results found"),
-                        description: String(format: String(localized: "find_navigator.no_results_for_query", defaultValue: "No Results for \"%@\" in Project", comment: "Description when no results found for query"), state.searchQuery),
+                        String(localized: "find-navigator.no-results", defaultValue: "No Results", comment: "Title when no search results found"),
+                        description: String(format: String(localized: "find-navigator.no-results-for-query", defaultValue: "No Results for \"%@\" in Project", comment: "Description when no results found for query"), state.searchQuery),
                         systemImage: "exclamationmark.magnifyingglass"
                     )
                 } else {
@@ -74,14 +74,14 @@ struct FindNavigatorView: View {
                 }
             case .replaced(let updatedFiles):
                 CEContentUnavailableView(
-                    String(localized: "find_navigator.replaced", defaultValue: "Replaced", comment: "Title after successful replace operation"),
-                    description: String(format: String(localized: "find_navigator.replaced_success_message", defaultValue: "Successfully replaced terms across %d files", comment: "Success message after replacing"), updatedFiles),
+                    String(localized: "find-navigator.replaced", defaultValue: "Replaced", comment: "Title after successful replace operation"),
+                    description: String(format: String(localized: "find-navigator.replaced-success-message", defaultValue: "Successfully replaced terms across %d files", comment: "Success message after replacing"), updatedFiles),
                     systemImage: "checkmark.circle.fill"
                 )
             case .failed(let errorMessage):
                 CEContentUnavailableView(
-                    String(localized: "find_navigator.error_occurred", defaultValue: "An Error Occurred", comment: "Error title"),
-                    description: "\(errorMessage)",
+                    String(localized: "find-navigator.error-occurred", defaultValue: "An Error Occurred", comment: "Error title"),
+                    description: String(format: String(localized: "find-navigator.error-message", defaultValue: "%@", comment: "Error description message"), errorMessage),
                     systemImage: "xmark.octagon.fill"
                 )
             }

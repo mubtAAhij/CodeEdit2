@@ -19,21 +19,56 @@ struct SettingsPage: Hashable, Equatable, Identifiable {
 
     /// An enum of all the settings pages
     enum Name: String {
-        case general = "General"
-        case accounts = "Accounts"
-        case behavior = "Behaviors"
-        case navigation = "Navigation"
-        case theme = "Themes"
-        case textEditing = "Text Editing"
-        case terminal = "Terminal"
-        case search = "Search"
-        case keybindings = "Key Bindings"
-        case sourceControl = "Source Control"
-        case components = "Components"
-        case location = "Locations"
-        case advanced = "Advanced"
-        case languageServers = "Language Servers"
-        case developer = "Developer"
+        case general = "general"
+        case accounts = "accounts"
+        case behavior = "behavior"
+        case navigation = "navigation"
+        case theme = "theme"
+        case textEditing = "textEditing"
+        case terminal = "terminal"
+        case search = "search"
+        case keybindings = "keybindings"
+        case sourceControl = "sourceControl"
+        case components = "components"
+        case location = "location"
+        case advanced = "advanced"
+        case languageServers = "languageServers"
+        case developer = "developer"
+
+        var displayName: String {
+            switch self {
+            case .general:
+                return String(localized: "settings.page.general", defaultValue: "General", comment: "General settings page name")
+            case .accounts:
+                return String(localized: "settings.page.accounts", defaultValue: "Accounts", comment: "Accounts settings page name")
+            case .behavior:
+                return String(localized: "settings.page.behaviors", defaultValue: "Behaviors", comment: "Behaviors settings page name")
+            case .navigation:
+                return String(localized: "settings.page.navigation", defaultValue: "Navigation", comment: "Navigation settings page name")
+            case .theme:
+                return String(localized: "settings.page.themes", defaultValue: "Themes", comment: "Themes settings page name")
+            case .textEditing:
+                return String(localized: "settings.page.text-editing", defaultValue: "Text Editing", comment: "Text editing settings page name")
+            case .terminal:
+                return String(localized: "settings.page.terminal", defaultValue: "Terminal", comment: "Terminal settings page name")
+            case .search:
+                return String(localized: "settings.page.search", defaultValue: "Search", comment: "Search settings page name")
+            case .keybindings:
+                return String(localized: "settings.page.key-bindings", defaultValue: "Key Bindings", comment: "Key bindings settings page name")
+            case .sourceControl:
+                return String(localized: "settings.page.source-control", defaultValue: "Source Control", comment: "Source control settings page name")
+            case .components:
+                return String(localized: "settings.page.components", defaultValue: "Components", comment: "Components settings page name")
+            case .location:
+                return String(localized: "settings.page.locations", defaultValue: "Locations", comment: "Locations settings page name")
+            case .advanced:
+                return String(localized: "settings.page.advanced", defaultValue: "Advanced", comment: "Advanced settings page name")
+            case .languageServers:
+                return String(localized: "settings.page.language-servers", defaultValue: "Language Servers", comment: "Language servers settings page name")
+            case .developer:
+                return String(localized: "settings.page.developer", defaultValue: "Developer", comment: "Developer settings page name")
+            }
+        }
     }
 
     let id: UUID = UUID()
@@ -43,7 +78,7 @@ struct SettingsPage: Hashable, Equatable, Identifiable {
     let isSetting: Bool
     let settingName: String
     var nameString: LocalizedStringKey {
-        LocalizedStringKey(name.rawValue)
+        LocalizedStringKey(name.displayName)
     }
     let icon: IconResource?
 

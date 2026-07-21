@@ -131,7 +131,7 @@ struct CommitListItemView: View {
                     }
                 }
 
-                Text("\(commit.message) \(commit.body)")
+                Text(String(format: String(localized: "commit-list-item.message-body", defaultValue: "%@ %@", comment: "Commit message and body"), commit.message, commit.body))
                     .font(.system(size: 11))
                     .lineLimit(2)
             }
@@ -156,17 +156,17 @@ struct CommitListItemView: View {
         .contentShape(Rectangle())
         .contextMenu {
             Group {
-                Button("Copy Commit Message") {
+                Button(String(localized: "commit-list-item.copy-message", defaultValue: "Copy Commit Message", comment: "Context menu item to copy commit message")) {
                     let pasteboard = NSPasteboard.general
                     pasteboard.clearContents()
                     pasteboard.setString(commit.message, forType: .string)
                 }
-                Button("Copy Identifier") {
+                Button(String(localized: "commit-list-item.copy-identifier", defaultValue: "Copy Identifier", comment: "Context menu item to copy commit identifier")) {
                     let pasteboard = NSPasteboard.general
                     pasteboard.clearContents()
                     pasteboard.setString(commit.commitHash, forType: .string)
                 }
-                Button("Email \(commit.author)...") {
+                Button(String(format: String(localized: "commit-list-item.email-author", defaultValue: "Email %@...", comment: "Context menu item to email commit author"), commit.author)) {
                     let service = NSSharingService(named: NSSharingService.Name.composeEmail)
                     service?.recipients = [commit.authorEmail]
                     service?.perform(withItems: [])
@@ -174,26 +174,26 @@ struct CommitListItemView: View {
                 Divider()
             }
             Group {
-                Button("Tag \(commit.hash)...") {}
+                Button(String(format: String(localized: "commit-list-item.tag-commit", defaultValue: "Tag %@...", comment: "Context menu item to tag a commit"), commit.hash)) {}
                     .disabled(true) // TODO: Implementation Needed
-                Button("New Branch from \(commit.hash)...") {}
+                Button(String(format: String(localized: "commit-list-item.new-branch", defaultValue: "New Branch from %@...", comment: "Context menu item to create new branch from commit"), commit.hash)) {}
                     .disabled(true) // TODO: Implementation Needed
-                Button("Cherry-Pick \(commit.hash)...") {}
+                Button(String(format: String(localized: "commit-list-item.cherry-pick", defaultValue: "Cherry-Pick %@...", comment: "Context menu item to cherry-pick a commit"), commit.hash)) {}
                     .disabled(true) // TODO: Implementation Needed
             }
             Group {
                 Divider()
                 if let commitRemoteURL = commit.commitBaseURL?.absoluteString {
-                    Button("View on \(commit.remoteString)...") {
+                    Button(String(format: String(localized: "commit-list-item.view-on-remote", defaultValue: "View on %@...", comment: "Context menu item to view commit on remote"), commit.remoteString)) {
                         let commitURL = "\(commitRemoteURL)/\(commit.commitHash)"
                         openCommit(URL(string: commitURL)!)
                     }
                     Divider()
                 }
-                Button("Check Out \(commit.hash)...") {}
+                Button(String(format: String(localized: "commit-list-item.checkout", defaultValue: "Check Out %@...", comment: "Context menu item to checkout a commit"), commit.hash)) {}
                     .disabled(true) // TODO: Implementation Needed
                 Divider()
-                Button("History Editor Help") {}
+                Button(String(localized: "commit-list-item.history-help", defaultValue: "History Editor Help", comment: "Context menu item for history editor help")) {}
                     .disabled(true) // TODO: Implementation Needed
             }
         }

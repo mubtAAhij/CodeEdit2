@@ -19,28 +19,28 @@ struct DeveloperSettingsView: View {
     var body: some View {
         SettingsForm {
             Section {
-                Toggle("Show Internal Development Inspector", isOn: $showInternalDevelopmentInspector)
+                Toggle(String(localized: "developer.settings.show-internal-inspector", defaultValue: "Show Internal Development Inspector", comment: "Toggle to show internal development inspector"), isOn: $showInternalDevelopmentInspector)
             }
 
             Section {
                 KeyValueTable(
                     items: $lspBinaries,
                     validKeys: LanguageIdentifier.allCases.map { $0.rawValue },
-                    keyColumnName: "Language",
-                    valueColumnName: "Language Server Path",
-                    newItemInstruction: "Add a language server"
+                    keyColumnName: String(localized: "developer.settings.lsp.column-language", defaultValue: "Language", comment: "Column header for language in LSP binaries table"),
+                    valueColumnName: String(localized: "developer.settings.lsp.column-path", defaultValue: "Language Server Path", comment: "Column header for language server path in LSP binaries table"),
+                    newItemInstruction: String(localized: "developer.settings.lsp.new-item-instruction", defaultValue: "Add a language server", comment: "Instruction for adding a new language server")
                 ) {
-                    Text("Add a language server")
+                    Text(String(localized: "developer.settings.lsp.add-server", defaultValue: "Add a language server", comment: "Title for adding a language server"))
                     Text(
-                        "Specify the absolute path to your LSP binary and its associated language."
+                        String(localized: "developer.settings.lsp.add-server-description", defaultValue: "Specify the absolute path to your LSP binary and its associated language.", comment: "Description for adding a language server")
                     )
                 } actionBarTrailing: {
                     EmptyView()
                 }
                 .frame(minHeight: 96)
             } header: {
-                Text("LSP Binaries")
-                Text("Specify the language and the absolute path to the language server binary.")
+                Text(String(localized: "developer.settings.lsp.section-title", defaultValue: "LSP Binaries", comment: "Section title for LSP binaries settings"))
+                Text(String(localized: "developer.settings.lsp.section-description", defaultValue: "Specify the language and the absolute path to the language server binary.", comment: "Section description for LSP binaries settings"))
             }
         }
     }
