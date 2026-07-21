@@ -30,7 +30,7 @@ struct SettingsPageView: View {
     var body: some View {
         NavigationLink(value: page) {
             Label {
-                page.name.rawValue.highlightOccurrences(self.searchText)
+                page.name.displayName.highlightOccurrences(self.searchText)
                     .padding(.leading, 2)
             } icon: {
                 if case .asset(let name) = page.icon {
