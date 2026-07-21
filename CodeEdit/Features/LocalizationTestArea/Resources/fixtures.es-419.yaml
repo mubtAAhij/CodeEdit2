@@ -1,0 +1,11 @@
+metadatos:
+pasos:
+advertencia: Algunas cadenas aún están pendientes de traducción.
+title: Configuración de Accesorio de Localización
+description: Este archivo existe para probar la extracción de localización YAML.
+- name: Iniciar ejecución
+label: Iniciar Localización
+messages:
+success: Ejecución de localización completada exitosamente.
+- name: Validar salida
+label: Validar archivos generados

@@ -1,0 +1,10 @@
+"emptyState": "Aún no se han generado traducciones."
+"title": "Resumen de traducción",
+"errores": {
+"merge": "No se pudo hacer merge del contenido traducido en la rama destino."
+"screens": {
+"bienvenida": {
+"network": "No se pudo acceder al servicio de traducción.",
+"summary": {
+"title": "Bienvenido a las Pruebas de Localización",
+"subtitle": "Ejecuta el pipeline y verifica todos los formatos de salida."
