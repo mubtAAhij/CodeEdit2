@@ -231,7 +231,7 @@ private extension GeneralSettingsView {
 
     // TODO: Implement reset for Don't Ask Me warnings Button and remove disabled modifier
     var dialogWarnings: some View {
-        LabeledContent(String(localized: "settings.general.dialog-warnings", defaultValue: "Dialog Warnings", comment: "Dialog Warnings section title")) {
+        LabeledContent("Warnings from Dialog") {
             Button(action: {
             }, label: {
                 Text(String(localized: "settings.general.dialog-warnings.reset", defaultValue: "Reset \"Don't Ask Me\" Warnings", comment: "Reset warnings button label"))
