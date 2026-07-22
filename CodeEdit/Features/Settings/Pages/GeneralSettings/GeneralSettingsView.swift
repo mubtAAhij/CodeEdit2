@@ -198,12 +198,16 @@ private extension GeneralSettingsView {
 
     var projectNavigatorSize: some View {
         Picker(String(localized: "settings.general.project-navigator-size", defaultValue: "Project Navigator Size", comment: "Project Navigator Size section title"), selection: $settings.projectNavigatorSize) {
+            Text(String(localized: "settings.general.project-navigator-size.tiny", defaultValue: "Tiny", comment: "Tiny project navigator size option"))
+            Text(String(localized: "settings.general.project-navigator-size.very-small", defaultValue: "Very Small", comment: "Very Small project navigator size option"))
             Text(String(localized: "settings.general.project-navigator-size.small", defaultValue: "Small", comment: "Small project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.small)
             Text(String(localized: "settings.general.project-navigator-size.medium", defaultValue: "Medium", comment: "Medium project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.medium)
             Text(String(localized: "settings.general.project-navigator-size.large", defaultValue: "Large", comment: "Large project navigator size option"))
                 .tag(SettingsData.ProjectNavigatorSize.large)
+            Text(String(localized: "settings.general.project-navigator-size.very-large", defaultValue: "Very Large", comment: "Very Large project navigator size option"))
+            Text(String(localized: "settings.general.project-navigator-size.huge", defaultValue: "Huge", comment: "Huge project navigator size option"))
         }
     }
 
@@ -227,7 +231,7 @@ private extension GeneralSettingsView {
 
     // TODO: Implement reset for Don't Ask Me warnings Button and remove disabled modifier
     var dialogWarnings: some View {
-        LabeledContent(String(localized: "settings.general.dialog-warnings", defaultValue: "Dialog Warnings", comment: "Dialog Warnings section title")) {
+        LabeledContent("Warnings from Dialog") {
             Button(action: {
             }, label: {
                 Text(String(localized: "settings.general.dialog-warnings.reset", defaultValue: "Reset \"Don't Ask Me\" Warnings", comment: "Reset warnings button label"))
